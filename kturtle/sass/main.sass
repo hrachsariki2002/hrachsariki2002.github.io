@@ -354,8 +354,6 @@ body
 		top: 50px
 		bottom: 50px
 	transition: all .5s ease
-	&.animated
-		opacity: 1
 	ul
 		list-style-type: none
 		text-align: center
@@ -366,6 +364,7 @@ body
 			border: 1px solid #ececec
 			cursor: pointer
 			margin: 5px 0
+			transition: all .5s ease
 			&.active
 				background-color: $accent-color
 				a
@@ -379,6 +378,10 @@ body
 			a
 				text-decoration: none
 				font-family: "HelveticaNeueMedium", sans-serif
+			&:hover
+				background-color: lighten($accent-color, 5%)
+				a
+					color: #fff
 
 .main-footer
 	padding: 25px 0
@@ -609,10 +612,11 @@ body
 		font-size: 20px
 		font-family: "HelveticaNeueMedium", sans-serif
 		transition: all .5s ease
+		outline: none
 		&:hover
-			background-color: lighten($accent-color, 45%)
+			background-color: lighten($accent-color, 8%)
 		&:focus
-			background-color: darken($accent-color, 45%)
+			background-color: darken($accent-color, 15%)
 	.button-wrap
 		text-align: center
 		color:	#fcfcfc

@@ -5,17 +5,17 @@
 
 	<meta charset="utf-8">
 
-	<title>Title</title>
+	<title>K-turtle</title>
 	<meta name="description" content="">
 
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
 	<meta property="og:image" content="path/to/image.jpg">
-	<link rel="shortcut icon" href="img/favicon/favicon.ico" type="image/x-icon">
-	<link rel="apple-touch-icon" href="img/favicon/apple-touch-icon.png">
-	<link rel="apple-touch-icon" sizes="72x72" href="img/favicon/apple-touch-icon-72x72.png">
-	<link rel="apple-touch-icon" sizes="114x114" href="img/favicon/apple-touch-icon-114x114.png">
+	<link rel="shortcut icon" href="img/favicon/turtle.ico" type="image/x-icon">
+	<link rel="apple-touch-icon" href="img/favicon/57x57apple.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="img/favicon/72x72apple.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="img/favicon/114x114apple.png">
 
 	<!-- Chrome, Firefox OS and Opera -->
 	<meta name="theme-color" content="#000">
@@ -25,25 +25,35 @@
 	<meta name="apple-mobile-web-app-status-bar-style" content="#000">
 
 	<style>body { opacity: 0; overflow-x: hidden; height: 100%; } html { background-color: #fff; height: 100%; }
-		.loader {
-			position: absolute;
-			top: 0;
-			left: 0;
-			width: 100%;
-			height: 100%;
-			background-color: #fff;
-			z-index: 99999999999999999;
-		}
+		#preloader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #edebe7;
+  /* change if the mask should have another color then white */
+  z-index: 99;
+  /* makes sure it stays on top */
+}
 
-		.loader img {
-			position: absolute;
-			top: 50%;
-			left: 50%;
-			transform: translate(-50%, -50%);
-			display: inline-block;
-			text-align: center;
-		}</style>
-
+#status {
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  left: 50%;
+  /* centers the loading animation horizontally one the screen */
+  top: 50%;
+  /* centers the loading animation vertically one the screen */
+  background-image: url(img/preloader.gif);
+  /* path to your loading animation */
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin: -100px 0 0 -100px;
+  /* is width and height divided by two */
+}
+	</style>
 </head>
 
 <body class="isblog">
@@ -383,8 +393,8 @@
 						<ul>
 							<li class="disabled"><a href="#"><<</a></li>
 							<li class="disabled"><a href="#"><</a></li>
-							<li class="active"><a href="#">1</a></li>
-							<li><a href="#">2</a></li>
+							<li class="active"><a href="blog.html">1</a></li>
+							<li><a href="blog2.html">2</a></li>
 							<li><a href="#">3</a></li>
 							<li><a href="#">4</a></li>
 							<li><a href="#">></a></li>
@@ -439,10 +449,8 @@
 	</footer>
 
 
-<div class="loader" id="loader">
-
-	<img src="img/preloader.gif">
-
+<div id="preloader">
+  <div id="status">&nbsp;</div>
 </div>
 
 
