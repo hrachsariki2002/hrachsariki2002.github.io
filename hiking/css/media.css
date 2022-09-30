@@ -1,0 +1,534 @@
+@media (min-width: 1400px) and (max-width: 2000px) {
+  .header h1 {
+    margin-top: 30px;
+    font-size: 50px;
+  }
+  .header h4 {
+    padding: 15px 0 10px 100px;
+    font-size: 16px;
+  }
+  .header p {
+    padding-bottom: 50px;
+    font-size: 15px;
+  }
+  .header .header-button {
+    font-size: 15px;
+    margin: 0 0 28px 100px;
+  }
+}
+@media (min-width: 1201px) and (max-width: 1400px) {
+  .header h1 {
+    margin-top: 30px;
+    font-size: 50px;
+  }
+  .header h4 {
+    padding: 15px 0 10px 100px;
+    font-size: 16px;
+  }
+  .header p {
+    padding-bottom: 50px;
+    font-size: 15px;
+  }
+  .header .header-button {
+    font-size: 15px;
+    margin: 0 0 28px 100px;
+  }
+}
+@media (min-width: 993px) and (max-width: 1200px) {
+  .header h1 {
+    margin-top: 30px;
+    font-size: 50px;
+  }
+  .header h4 {
+    padding: 15px 0 10px 100px;
+    font-size: 16px;
+  }
+  .header p {
+    padding-bottom: 50px;
+    font-size: 15px;
+    padding-right: 500px;
+  }
+  .header .header-button {
+    font-size: 15px;
+    margin: 0 0 28px 100px;
+  }
+  .posts {
+    padding: 30px 0 20px 0;
+  }
+  .posts .thumbnail-box .thumbnail {
+    height: 250px;
+  }
+  .posts .content {
+    padding: 20px 10px;
+  }
+  .posts p {
+    margin-bottom: 15px;
+  }
+  .promo .promo-info {
+    padding: 125px 25px 120px 45px;
+    height: 675px;
+  }
+  .promo .promo-info h1 {
+    font-size: 35px;
+  }
+  .promo .promo-info p {
+    font-size: 20px;
+    padding: 35px 0;
+  }
+  .promo .promo-info a {
+    font-size: 17px;
+  }
+  .promo .banner {
+    height: 675px;
+  }
+  .hiker {
+    text-align: center;
+    padding: 270px 70px;
+  }
+  .hiker h1 {
+    color: #deb37e;
+    font-size: 55px;
+  }
+  .hiker h1 span {
+    font-size: 45px;
+  }
+  .info {
+    padding: 50px 0;
+  }
+  .info #info-carousel {
+    margin-top: 100px;
+  }
+  .contactus {
+    padding: 220px 250px;
+  }
+  .contactus p {
+    padding: 20px 0 30px 0;
+    font-size: 18px;
+  }
+  .contactus .subscription-form {
+    padding: 0 50px;
+  }
+  .contactus .subscription-form input {
+    padding: 10px 20px;
+    font-size: 16px;
+  }
+  .contactus .subscription-form .subscribe {
+    padding: 7px 20px;
+    font-size: 21px;
+    right: 50px;
+  }
+}
+@media (min-width: 769px) and (max-width: 992px) {
+  .header h1 {
+    margin-top: 30px;
+    font-size: 50px;
+  }
+  .header h4 {
+    padding: 15px 0 10px 100px;
+    font-size: 16px;
+  }
+  .header p {
+    padding-bottom: 50px;
+    font-size: 15px;
+    padding-right: 300px;
+  }
+  .header .header-button {
+    font-size: 15px;
+    margin: 0 0 28px 100px;
+  }
+  .posts {
+    padding: 40px 0 30px 0;
+  }
+  .posts .thumbnail-box .thumbnail {
+    height: 200px;
+  }
+  .posts .thumbnail-box .content {
+    padding: 15px 10px;
+  }
+  .posts .thumbnail-box .content h4 {
+    font-size: 17px;
+  }
+  .posts .thumbnail-box .content p {
+    font-size: 15px;
+  }
+  .posts .thumbnail-box .content a {
+    font-size: 15px;
+  }
+  .posts h1 {
+    font-size: 30px;
+  }
+  .posts p {
+    margin-bottom: 30px;
+    font-size: 16px;
+  }
+  .promo .promo-info {
+    padding: 100px 25px 70px 40px;
+    height: 650px;
+  }
+  .promo .promo-info h1 {
+    font-size: 35px;
+  }
+  .promo .promo-info p {
+    font-size: 20px;
+    padding: 35px 0;
+  }
+  .promo .promo-info a {
+    font-size: 17px;
+  }
+  .promo .banner {
+    height: 650px;
+  }
+  .hiking {
+    padding: 300px 130px;
+    background-size: cover;
+  }
+  .hiker {
+    text-align: center;
+    padding: 270px 70px;
+  }
+  .hiker h1 {
+    color: #deb37e;
+    font-size: 55px;
+  }
+  .hiker h1 span {
+    font-size: 45px;
+  }
+  .info {
+    padding: 50px 0 100px 0;
+  }
+  .info #info-carousel {
+    margin-top: 70px;
+  }
+  .contactus {
+    padding: 200px 150px;
+  }
+  .contactus p {
+    padding: 20px 0 30px 0;
+    font-size: 18px;
+  }
+  .contactus .subscription-form {
+    padding: 0 50px;
+  }
+  .contactus .subscription-form input {
+    padding: 10px 20px;
+    font-size: 16px;
+  }
+  .contactus .subscription-form .subscribe {
+    padding: 7px 20px;
+    font-size: 21px;
+    right: 50px;
+  }
+  .footer p {
+    font-size: 15px;
+  }
+  .footer .social-media {
+    padding: 5px 7px;
+    font-size: 20px;
+    margin-right: 5px;
+  }
+  .footer ul li {
+    padding: 7px 0;
+  }
+  .footer ul li a {
+    font-size: 15px;
+  }
+}
+@media (min-width: 577px) and (max-width: 768px) {
+  .header {
+    background-image: url("../img/background-test-new.png");
+  }
+  .header .uppershowcase {
+    padding: 15px 50px 0 50px;
+  }
+  .header h1 {
+    margin-top: 15px;
+    font-size: 40px;
+  }
+  .header h4 {
+    padding: 10px 0 10px 100px;
+    font-size: 16px;
+  }
+  .header p {
+    padding-bottom: 50px;
+    font-size: 14px;
+    padding-right: 300px;
+  }
+  .header .header-button {
+    font-size: 15px;
+    margin: 0 0 20px 100px;
+  }
+  .header .logo img {
+    height: 65px;
+  }
+  .header .nav {
+    display: none;
+  }
+  .header .nav li a {
+    font-size: 14px;
+  }
+  .header .hamburger {
+    display: block;
+  }
+  .posts {
+    padding: 0 0 50px 0;
+  }
+  .posts .thumbnail-box {
+    margin: 15px 0;
+  }
+  .posts .thumbnail-box .thumbnail {
+    height: 400px;
+  }
+  .posts p {
+    margin-bottom: 15px;
+  }
+  .promo .promo-info {
+    padding: 50px 25px 50px 40px;
+    height: 500px;
+  }
+  .promo .promo-info h1 {
+    font-size: 25px;
+  }
+  .promo .promo-info p {
+    font-size: 17px;
+    padding: 20px 0;
+  }
+  .promo .promo-info a {
+    font-size: 15px;
+  }
+  .promo .banner {
+    height: 500px;
+  }
+  .hiking {
+    padding: 270px 50px;
+    background-size: cover;
+  }
+  .hiker {
+    text-align: center;
+    padding: 250px 70px;
+  }
+  .hiker h1 {
+    color: #deb37e;
+    font-size: 55px;
+  }
+  .hiker h1 span {
+    font-size: 45px;
+  }
+  .info {
+    padding: 50px 15px 100px 15px;
+    text-align: center;
+  }
+  .info .info-box {
+    transition-property: transform, box-shadow;
+    transition-duration: 0.7s;
+    margin: 15px 0;
+  }
+  .info .info-box:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 0px 7px #deb37e;
+  }
+  .info .info-box p {
+    padding: 15px 0 20px 0;
+  }
+  .info #info-carousel {
+    margin-top: 55px;
+  }
+  .info #info-carousel.owl-drag .owl-item {
+    padding: 0;
+  }
+  .contactus {
+    padding: 220px 70px;
+  }
+  .contactus p {
+    padding: 20px 0 30px 0;
+    font-size: 18px;
+  }
+  .contactus .subscription-form {
+    padding: 0 30px;
+  }
+  .contactus .subscription-form input {
+    padding: 10px 20px;
+    font-size: 16px;
+  }
+  .contactus .subscription-form .subscribe {
+    padding: 10px 20px;
+    font-size: 17px;
+    right: 30px;
+  }
+  .footer {
+    padding: 250px 0 100px 0;
+    background-size: cover;
+  }
+  .footer p {
+    font-size: 15px;
+  }
+  .footer .social-media {
+    padding: 3px 8px;
+    font-size: 20px;
+    display: inline-block;
+    margin-bottom: 30px;
+  }
+  .footer ul {
+    padding: 10px 0 0 0;
+  }
+  .footer ul li {
+    padding: 7px 10px 7px 0;
+    display: inline-block;
+  }
+  .footer ul li a {
+    font-size: 15px;
+  }
+}
+@media (min-width: 0px) and (max-width: 576px) {
+  .header {
+    background-image: url("../img/background-test-new.png");
+  }
+  .header .uppershowcase {
+    padding: 15px 50px 0 50px;
+  }
+  .header h1 {
+    margin-top: 15px;
+    font-size: 40px;
+  }
+  .header h4 {
+    padding: 10px 0 10px 100px;
+    font-size: 16px;
+  }
+  .header p {
+    padding-bottom: 50px;
+    font-size: 14px;
+    padding-right: 300px;
+  }
+  .header .header-button {
+    font-size: 15px;
+    margin: 0 0 20px 100px;
+  }
+  .header .logo img {
+    height: 65px;
+  }
+  .header .nav {
+    display: none;
+  }
+  .header .nav li a {
+    font-size: 14px;
+  }
+  .header .hamburger {
+    display: block;
+  }
+  .posts {
+    padding: 0 40px 50px 40px;
+  }
+  .posts .thumbnail-box {
+    margin: 15px 0;
+  }
+  .posts .thumbnail-box .thumbnail {
+    height: 400px;
+  }
+  .posts h1 {
+    font-size: 35px;
+  }
+  .posts p {
+    margin-bottom: 15px;
+    font-size: 17px;
+  }
+  .promo .promo-info {
+    padding: 40px 25px 30px 40px;
+    height: 470px;
+  }
+  .promo .promo-info h1 {
+    font-size: 25px;
+  }
+  .promo .promo-info p {
+    font-size: 17px;
+    padding: 10px 0;
+  }
+  .promo .promo-info a {
+    font-size: 15px;
+  }
+  .promo .banner {
+    height: 470px;
+  }
+  .hiking {
+    padding: 250px 30px;
+    background-size: cover;
+  }
+  .hiker {
+    text-align: center;
+    background-image: url("../img/hiker-new.jpg");
+    padding: 250px 70px;
+  }
+  .hiker h1 {
+    color: #deb37e;
+    font-size: 55px;
+  }
+  .hiker h1 span {
+    font-size: 45px;
+  }
+  .info {
+    padding: 50px 15px;
+    text-align: center;
+  }
+  .info .info-box {
+    transition-property: transform, box-shadow;
+    transition-duration: 0.7s;
+    margin: 15px 0;
+  }
+  .info .info-box:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 0px 7px #deb37e;
+  }
+  .info .info-box p {
+    padding: 15px 0 20px 0;
+  }
+  .info #info-carousel {
+    margin-top: 55px;
+  }
+  .info #info-carousel.owl-drag .owl-item {
+    padding: 0 15px;
+    width: 100%;
+  }
+  .info #info-carousel.owl-drag .owl-item p {
+    font-size: 15px;
+  }
+  .contactus {
+    padding: 200px 70px;
+  }
+  .contactus p {
+    padding: 20px 0 30px 0;
+    font-size: 18px;
+  }
+  .contactus .subscription-form {
+    padding: 0;
+  }
+  .contactus .subscription-form input {
+    padding: 10px 20px;
+    font-size: 16px;
+  }
+  .contactus .subscription-form .subscribe {
+    padding: 10px 20px;
+    font-size: 17px;
+    right: 0;
+  }
+  .footer {
+    padding: 250px 0 100px 0;
+    background-size: cover;
+  }
+  .footer p {
+    font-size: 15px;
+  }
+  .footer .social-media {
+    padding: 3px 8px;
+    font-size: 20px;
+    display: inline-block;
+    margin-bottom: 30px;
+  }
+  .footer ul {
+    padding: 10px 0 0 0;
+  }
+  .footer ul li {
+    padding: 7px 10px 7px 0;
+    display: inline-block;
+  }
+  .footer ul li a {
+    font-size: 15px;
+  }
+}
