@@ -1,0 +1,123 @@
+---
+title: "pulpulak_report_code"
+author: "Hrach Khachatryan"
+date: "2023-11-21"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+```{r}
+library(ggplot2)
+library(dplyr)
+library(openxlsx)
+
+```
+
+Importing the data and filtering it to get only the information for pulpulaks located in Kentron district of Yerevan.
+
+```{r}
+collected_data <- read.csv("collected_data.csv")
+filtered_data <- collected_data %>% filter(District == 'Kentron')
+
+```
+
+
+Getting the absolute numbers of: \
+1. Pulpulaks with valve \
+2. Pulpulaks with no valve  \
+3. Pulpulaks with a broken valve  
+4. Total number of pulpulaks 
+
+Here are the categories that pulpulaks have been split into based on the existence of valve:
+
+```{r}
+unique(filtered_data$Type)
+```
+
+The categories with several values in them will be removed for data consistency. These represent just a couple of pulpulaks and would not make much of a difference if we get them removed.
+
+```{r}
+filtered_data <- filtered_data %>% filter(Type == "no valve" | Type == "with a broken valve" | Type == "with valve" )
+```
+
+Getting the absolute numbers per category:
+```{r}
+with_valve = nrow(filtered_data[filtered_data$Type == "with valve",])
+no_valve = nrow(filtered_data[filtered_data$Type == "no valve",])
+broken_valve = nrow(filtered_data[filtered_data$Type == "with a broken valve",])
+```
+
+Number of pulpulaks with a valve: `r with_valve` \
+Number of pulpulaks with no valve: `r no_valve` \
+Number of pulpulaks with broken valve: `r broken_valve` \
+
+Now, let's draw some graphs to look at the proportion and distribution per categories.
+First we will draw a barplot:
+```{r}
+ggplot() + geom_bar(data = filtered_data, aes(x = Type, fill = Type)) +
+  labs(title = "Number of pulpulaks per valve category",
+       x = "Type of pulpulak per valve installation",
+       y = "Number of pulpulaks per each category",
+       fill = "Valve type")
+```
+
+
+Now let's look at the barplot in another form for proportion comparison:
+```{r}
+ggplot(data = filtered_data, aes(x = factor(1), fill = Type)) + geom_bar() +
+  labs(title = "Proportion of pulpulaks per valve category",
+       x = "",
+       y = "Number of pulpulaks per each category",
+       fill = "Valve type") +
+  theme(axis.text.x = element_blank(),
+        axis.ticks.x = element_blank())
+```
+Let's get to the amount of water lost in Yerevan per day and per year and compare it with other forms of water usage. We will obviously exclude the pulpulaks with valves since they are not wasting water.
+
+```{r}
+unique(filtered_data$Flow.rate..L.min.)
+continous_flow_data <- filtered_data %>% filter( (Type == "no valve" | Type == "with a broken valve") & Flow.rate..L.min. != "no flow/broken" & Flow.rate..L.min. != "Not working " & Flow.rate..L.min. !=  "Not working")
+```
+
+Exporting the data into excel for further manual refining:
+```{r}
+write.xlsx(continous_flow_data, "output_file.xlsx")
+
+```
+
+Importing the manually refined data:
+```{r}
+refined_data <- read.csv("refined_data.csv")
+```
+
+Let's get the numbers for water wastage:
+```{r}
+per_minute_total = sum(refined_data$Flow.rate..L.min.)
+per_day_total = per_minute_total * 60 * 25
+per_year_total = per_day_total * 365
+```
+
+Here is the total amount of water wasted in Yerevan: \
+1. Per minute: `r per_minute_total` \
+2. Per day : `r per_day_total` \
+3. Per year: `r per_year_total` \
+
+The wasted water in Yerevan per day is roughly equivalent to the per capita water usage of about 2,902,824 people in New York City per day. 
+
+The wasted water in Yerevan per day is roughly equivalent to the per capita water usage of about 5,186,218 people in Tokyo per day. 
+
+The wasted water in Yerevan per day is equivalent to about 0.0015% of the daily water usage in the entire United States. 
+
+The wasted water in Yerevan per day is equivalent to about 0.00003% of China's annual water usage per day. 
+
+The wasted water in Yerevan per year is roughly equivalent to the per capita water usage of about 1,059,178 people in New York City. 
+
+The wasted water in Yerevan per year is roughly equivalent to the per capita water usage of about 1,891,455 people in Tokyo. 
+
+United States: The total water usage in the United States is around 3,800 billion gallons per day (approximately 14,384,000,000,000 liters per day). The wasted water in Yerevan per year is equivalent to about 0.0014% of the daily water usage in the entire United States. 
+
+China: China's total water usage is around 554 billion cubic meters per year (approximately 554,000,000,000,000 liters per year). The wasted water in Yerevan per year is equivalent to about 0.00003% of China's annual water usage. 

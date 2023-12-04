@@ -1,0 +1,988 @@
+0,File name,Date,District,Street name,Type,Flow rate (L/min),Secondary purpose?,Year fountain was constructed (if stated),Entry made by:
+1,NM_1.JPG,10/01/2023,Nork-Marash,Sero Khanzadyan,with valve,-,  No secondary purpose,Unknown,Alla Basentsyan
+2,AJ_42.JPG,10/30/2023,Ajapnyak,Silikian,no valve,1.4, memorial,Unknown,Karo Kishishian
+3,AJ_87.JPG,10/30/2023,Ajapnyak,kvartal upper garden,no valve,2.4, memorial,unknown,Karo Kishishian
+4,AJ_25.JPG,10/15/2023,Ajapnyak,Halabyan,with valve,,"""For our heros"" inscription ",Unknown,Karo Kishishian
+5,AJ_6.JPG,10/01/2023,Ajapnyak,Bashinjaghyan,no valve,4.2,Artistic memorial,2021,Greg
+6,AJ_6.JPG,10/01/2023,Ajapnyak,Bashinjaghyan,no valve,4.2,Artistic memorial,2021,Greg
+7,AJ_19.JPG,10/15/2023,Ajapnyak,Tumo dog park,with a broken valve,1.5,dog pulpulak,Unknown,Karo Kishishian
+8,SG_107JPG,11/1/2023,Shengavit,Bagratunyanc Avenue,no valve,0.75,filling local pool,unknown,Tamara Manukyan 
+9,SG_67JPG,11/1/2023,Shengavit,Chekhov Street 1,no valve,0.68,filling local pool,unknown,Tamara Manukyan 
+10,KN_83.JPG,10/29/2023,Kentron,Ghazar Parpetsi Street,no valve,3.4,Gardening,2020,Lilit Ivanyan
+11,KN_86.JPG,10/29/2023,Kentron,Pushkin Street,no valve,2.8,Gardening,Unknown,Lilit Ivanyan
+12,AJ_8.JPG,10/01/2023,Ajapnyak,Bashinjaghyan,with a broken valve,1.8,Irrigates nearby garden,,Greg
+13,AJ_8.JPG,10/01/2023,Ajapnyak,Bashinjaghyan,with a broken valve,1.8,Irrigates nearby garden,Unknown,Greg
+14,AJ_33.JPG,10/30/2023,Ajapnyak,Bashinjaghyan 1st Back Str.,valve,Depends how much you open the valve,Irrigates nearby plants,Unknown,Greg Akopyan
+15,AJ_44.JPG,10/30/2023,Ajapnyak,silikian 3rd street,no valve,2.017,Irrigates nearby plants,Unknown,Karo Kishishian
+16,AJ_59.JPG,10/30/2023,Ajapnyak,lukashin street,no valve,2.4,Irrigates nearby plants,unknown ,Karo Kishishian
+17,AJ_60.JPG,10/30/2023,Ajapnyak,lukashin street,no valve,1.79,Irrigates nearby plants,unknown ,Karo Kishishian
+18,AJ_61.JPG,10/30/2023,Ajapnyak,grigor zohrab street,no valve,2,Irrigates nearby plants,unknown ,Karo Kishishian
+19,AJ_64.JPG,10/30/2023,Ajapnyak,grigor hasratyan street,no valve,3.4,Irrigates nearby plants,1992,Karo Kishishian
+20,AJ_78.JPG,10/30/2023,Ajapnyak,margaryan street,no valve,3,Irrigates nearby plants,unknown,Karo Kishishian
+21,AJ_81.JPG,10/30/2023,Ajapnyak,margaryan street,no valve,4,Irrigates nearby plants,unknown,Karo Kishishian
+22,AJ_84.JPG,10/30/2023,Ajapnyak,margaryan street,no valve,6,Irrigates nearby plants,unknown,Karo Kishishian
+23,AJ_89.JPG,10/30/2023,Ajapnyak,kvartal upper garden,no valve,4.3,irrigates nearby plants,unknown,Karo Kishishian
+24,ER_128.JPG,10/26/23,Erebuni,Sasuntsi Davit Street,no valve,2.72,Irrigation,Unknown,Hrayr Muradyan
+25,ER_31.jpg,10/11/2023,Erebuni,Khaghagh Don St,no valve,3.75,Irrigation,Unknown,Hrayr Muradyan
+26,ER_37.jpg,10/11/2023,Erebuni,Khaghagh Don St,no valve,2.72,Irrigation,Unknown,Hrayr Muradyan
+27,ER_53.jpg,10/15/2023,Erebuni,Varlam Avanesov St ,no valve,6.66,Irrigation,Unknown,Elen Khachatryan
+28,ER_69.jpg,10/15/2023,Erebuni,Ayvazovski St,no valve,4.85,Irrigation,Unknown,Elen Khachatryan
+29,SG_77JPG,11/1/2023,Shengavit,Shevchenko Street,no valve,1.88,irrigation ,unknown,Tamara Manukyan 
+30,SG_13JPG,11/1/2023,Shengavit,Taronts 3rd Lane,no valve,0.28,kids sized pulpulak,unknown,Tamara Manukyan 
+31,AJ_20.JPG,10/15/2023,Ajapnyak,Tumo park,no valve,2.73,kids sized pulpulak ,Unknown,Karo Kishishian
+32,AJ_26.JPG,10/15/2023,Ajapnyak,Halabyan,no valve,very weak,memorial,Unknown,Karo Kishishian
+33,AJ_28.JPG,10/15/2023,Ajapnyak,Halabyan,no valve,9,memorial,Unknown,Karo Kishishian
+34,AJ_43.JPG,10/30/2023,Ajapnyak,silikian 2nd street,no valve,1.3,memorial,Unknown,Karo Kishishian
+35,AJ_50.JPG,10/30/2023,Ajapnyak,silikian 13th street,no valve,3.14,memorial,unknown ,Karo Kishishian
+36,AJ_51.JPG,10/30/2023,Ajapnyak,silikian 7th street,no valve,2.3,memorial,unknown ,Karo Kishishian
+37,AJ_52.JPG,10/30/2023,Ajapnyak,silikian 7th street,no valve,1.4,memorial,unknown ,Karo Kishishian
+38,AJ_54.JPG,10/30/2023,Ajapnyak,lukashin 2nd street,no valve,not working,memorial,unknown ,Karo Kishishian
+39,AJ_55.JPG,10/30/2023,Ajapnyak,lukashin 2nd street,no valve,not working,memorial,unknown ,Karo Kishishian
+40,AJ_56.JPG,10/30/2023,Ajapnyak,lukashin street,no valve,not working,memorial,unknown ,Karo Kishishian
+41,AJ_57.JPG,10/30/2023,Ajapnyak,lukashin street,no valve,2.7,memorial,unknown ,Karo Kishishian
+42,AJ_63.JPG,10/30/2023,Ajapnyak,martirosyan street,no valve,1.63,memorial,unknown ,Karo Kishishian
+43,AJ_65.JPG,10/30/2023,Ajapnyak,vshtuni street,no valve,2,memorial,unknown,Karo Kishishian
+44,AJ_67.JPG,10/30/2023,Ajapnyak,vshtuni street,no valve,2,memorial,unknown,Karo Kishishian
+45,AJ_69.JPG,10/30/2023,Ajapnyak,sisakyan street,no valve,2.4,memorial,unknown,Karo Kishishian
+46,AJ_71.JPG,10/30/2023,Ajapnyak,hakobiants street,no valve,2.5,memorial,unknown,Karo Kishishian
+47,AJ_76.JPG,10/30/2023,Ajapnyak,parseghov street,no valve,2.023,memorial,unknown,Karo Kishishian
+48,AJ_79.JPG,10/30/2023,Ajapnyak,margaryan street,no valve,2.7,memorial,unknown,Karo Kishishian
+49,AJ_86.JPG,10/30/2023,Ajapnyak,kvartal upper garden,no valve,2.7,memorial,unknown,Karo Kishishian
+50,AJ_88.JPG,10/30/2023,Ajapnyak,kvartal upper garden,no valve,1.6,memorial,unknown,Karo Kishishian
+51,SG_18JPG,11/1/2023,Shengavit,Taronts 3rd Lane,no valve,0.29,memorial ,unknown,Tamara Manukyan 
+52,SG_53JPG,11/1/2023,Shengavit,Arshakunyanc Street 75/1,no valve,0.64,memorial ,unknown,Tamara Manukyan 
+53,KN_38.JPG,10/8/2023,Kentron,Mesrop Mashtots Avenue,no valve,3.75L/min,Memorial fountain,Unknown,Hrach Khachatryan
+54,AJ_1.JPG,10/01/2023,Ajapnyak,Bashinjaghyan,no valve,3,No secondary purpose,Unknown,Greg
+55,AJ_10.JPG,10/01/2023,Ajapnyak,Leningradyan,no valve,3.75,No secondary purpose,Unknown,Greg
+56,AJ_11.JPG,10/01/2023,Ajapnyak,Hasmik St,with valve,3,No secondary purpose,Unknown,Greg
+57,AJ_12.JPG,10/01/2023,Ajapnyak,Kh. Khachatryan St,no valve,Not working,No secondary purpose,Unknown,Greg
+58,AJ_13.JPG,10/01/2023,Ajapnyak,Kh. Khachatryan St,no valve,2.5,No secondary purpose,Unknown,Greg
+59,AJ_14.JPG,10/01/2023,Ajapnyak,Kh. Khachatryan St,no valve,1.2,No secondary purpose,Unknown,Greg
+60,AJ_15.JPG,10/01/2023,Ajapnyak,Janibekian St,no valve,3,No secondary purpose,Unknown,Greg
+61,AJ_16.JPG,10/01/2023,Ajapnyak,Halabyan St,no valve,3.75,No secondary purpose,Unknown,Greg
+62,AJ_17.JPG,10/01/2023,Ajapnyak,Bashinjaghyan,no valve,Not working,No secondary purpose,Unknown,Greg
+63,AJ_18.jpg,10/15/2023,Ajapnyak,Tumo park,with a broken valve,3.4,No secondary purpose,Unknown,Karo Kishishian
+64,AJ_2.JPG,10/01/2023,Ajapnyak,Bashinjaghyan ,no valve,Not working,No secondary purpose,Unknown,Greg
+65,AJ_21.JPG,10/15/2023,Ajapnyak,Tumo park,no valve,8.4,No secondary purpose,Unknown,Karo Kishishian
+66,AJ_22.JPG,10/15/2023,Ajapnyak,Halabyan,no valve,1.36,No secondary purpose,Unknown,Karo Kishishian
+67,AJ_23.JPG,10/15/2023,Ajapnyak,Halabyan,no valve,2,No secondary purpose,Unknown,Karo Kishishian
+68,AJ_24.JPG,10/15/2023,Ajapnyak,Halabyan,no valve,2.6,No secondary purpose,Unknown,Karo Kishishian
+69,AJ_27.JPG,10/15/2023,Ajapnyak,Halabyan,with valve,,No secondary purpose,Unknown,Karo Kishishian
+70,AJ_29.JPG,10/15/2023,Ajapnyak,Halabyan,no valve,6,No secondary purpose,Unknown,Karo Kishishian
+71,AJ_3.JPG,10/01/2023,Ajapnyak,Bashinjaghyan,no valve,Not working,No secondary purpose,Unknown,Greg
+72,AJ_30.JPG,10/15/2023,Ajapnyak,Halabyan,no valve,3.17,No secondary purpose,Unknown,Karo Kishishian
+73,AJ_31.JPG,10/15/2023,Ajapnyak,Halabyan,no valve,2.2,No secondary purpose,Unknown,Karo Kishishian
+74,AJ_32.JPG,10/15/2023,Ajapnyak,Halabyan,no valve,4,No secondary purpose,Unknown,Karo Kishishian
+75,AJ_34.JPG,10/30/2023,Ajapnyak,Bashinjaghyan 1st Back Str.,no valve,3.7,No secondary purpose,Unknown,Greg Akopyan
+76,AJ_35.JPG,10/30/2023,Ajapnyak,Bashinjaghyan 1st Back Str.,no valve,4.1,No secondary purpose,Unknown,Greg Akopyan
+77,AJ_36.JPG,10/30/2023,Ajapnyak,Bashinjaghyan 1st Back Str.,no valve,4.5,No secondary purpose,Unknown,Greg Akopyan
+78,AJ_37.JPG,10/30/2023,Ajapnyak,Bashinjaghyan 1st Back Str.,valve,3.8,No secondary purpose,Unknown,Greg Akopyan
+79,AJ_38.JPG,10/30/2023,Ajapnyak,Bashinjaghyan 1st Back Str.,no valve,2.5,No secondary purpose,Unknown,Greg Akopyan
+80,AJ_39.JPG,10/30/2023,Ajapnyak,Silikian new highway,no valve,3.17,No secondary purpose,Unknown,Karo Kishishian
+81,AJ_4.JPG,10/01/2023,Ajapnyak,Bashinjaghyan,no valve,3.5,No secondary purpose,2020,Greg
+82,AJ_40.JPG,10/30/2023,Ajapnyak,Silikian 1st street,no valve,2.1,No secondary purpose,Unknown,Karo Kishishian
+83,AJ_41.JPG,10/30/2023,Ajapnyak,Silikian 4th street,valve,N/A,No secondary purpose,Unknown,Karo Kishishian
+84,AJ_45.JPG,10/30/2023,Ajapnyak,silikian 3rd street,no valve,1.269,No secondary purpose,1980's,Karo Kishishian
+85,AJ_46.JPG,10/30/2023,Ajapnyak,silikian,no valve,2.2,No secondary purpose,1977,Karo Kishishian
+86,AJ_47.JPG,10/30/2023,Ajapnyak,silikian,no valve,2.7,No secondary purpose,1977,Karo Kishishian
+87,AJ_48.JPG,10/30/2023,Ajapnyak,silikian 5th street,no valve,not working ,No secondary purpose,unknown ,Karo Kishishian
+88,AJ_49.JPG,10/30/2023,Ajapnyak,silikian 5th street,no valve,2.4,No secondary purpose,unknown ,Karo Kishishian
+89,AJ_5.JPG,10/01/2023,Ajapnyak,Bashinjaghyan,no valve,2.5,No secondary purpose,Unknown,Greg
+90,AJ_53.JPG,10/30/2023,Ajapnyak,silikian 7th street,no valve,not working,No secondary purpose,unknown ,Karo Kishishian
+91,AJ_58.JPG,10/30/2023,Ajapnyak,lukashin street,no valve,2.6,No secondary purpose,unknown ,Karo Kishishian
+92,AJ_62.JPG,10/30/2023,Ajapnyak,mirakyan street park,no valve,3.1,No secondary purpose,unknown ,Karo Kishishian
+93,AJ_66.JPG,10/30/2023,Ajapnyak,vshtuni street,no valve,3,No secondary purpose,unknown,Karo Kishishian
+94,AJ_68.JPG,10/30/2023,Ajapnyak,sisakyan street,semi-working valve,,No secondary purpose,unknown,Karo Kishishian
+95,AJ_7.JPG,10/01/2023,Ajapnyak,Bashinjaghyan,no valve,3.75,No secondary purpose,Unknown,Greg
+96,AJ_70.JPG,10/30/2023,Ajapnyak,hakobiants street,no valve,not working,No secondary purpose,unknown,Karo Kishishian
+97,AJ_72.JPG,10/30/2023,Ajapnyak,hakobiants street,no valve,3.5,No secondary purpose,unknown,Karo Kishishian
+98,AJ_73.JPG,10/30/2023,Ajapnyak,varduhi varderesyan street,no valve,3.06,No secondary purpose,unknown,Karo Kishishian
+99,AJ_74.JPG,10/30/2023,Ajapnyak,janibekyan street,no valve,4.13,No secondary purpose,unknown,Karo Kishishian
+100,AJ_75.JPG,10/30/2023,Ajapnyak,karapetyan street,no valve,1.93,No secondary purpose,unknown,Karo Kishishian
+101,AJ_77.JPG,10/30/2023,Ajapnyak,bashinjaghyan street,no valve,3.835,No secondary purpose,unknown,Karo Kishishian
+102,AJ_80.JPG,10/30/2023,Ajapnyak,margaryan street,broken valve,0.3,No secondary purpose,unknown,Karo Kishishian
+103,AJ_82.JPG,10/30/2023,Ajapnyak,margaryan street,no valve,not working,No secondary purpose,unknown,Karo Kishishian
+104,AJ_83.JPG,10/30/2023,Ajapnyak,margaryan street,no valve,4,No secondary purpose,unknown,Karo Kishishian
+105,AJ_85.JPG,10/30/2023,Ajapnyak,bashinjaghyan street,no valve,4,No secondary purpose,unknown,Karo Kishishian
+106,AJ_9.JPG,10/01/2023,Ajapnyak,Leningradyan/Hasmik St,no valve,2.5,No secondary purpose,Unknown,Greg
+107,AJ_90.JPG,10/30/2023,Ajapnyak,kvartal upper garden,no valve,3,No secondary purpose,unknown,Karo Kishishian
+108,AR_10.JPG,9/30/2023,Arabkir,Kievyan Street,no valve,7.2,No secondary purpose,Unknown,Inga Avetisyan
+109,AR_100.JPG,10/27/2023,Arabkir,Aram Khachatryan Street,no valve,3.46,No secondary purpose,Unknown,Inga Avetisyan
+110,AR_101.JPG,10/27/2023,Arabkir,Barbyus Street,with valve,,No secondary purpose,Unknown,Inga Avetisyan
+111,AR_102.JPG,10/27/2023,Arabkir,Kievyan Street,with valve,,No secondary purpose,Unknown,Inga Avetisyan
+112,AR_103.JPG,10/27/2023,Arabkir,Kievyan Street,with valve,,No secondary purpose,Unknown,Inga Avetisyan
+113,AR_104.JPG,10/27/2023,Arabkir,Kievyan Street 1st Lane,with valve,,No secondary purpose,Unknown,Inga Avetisyan
+114,AR_105.JPG,10/27/2023,Arabkir,Sevastopolian Street,no valve,Not working,No secondary purpose,Unknown,Inga Avetisyan
+115,AR_106.JPG,10/27/2023,Arabkir,Sevastopolian Street,no valve,Not working,No secondary purpose,Unknown,Inga Avetisyan
+116,AR_107.JPG,10/27/2023,Arabkir,Kievyan Street,no valve,2.51,No secondary purpose,Unknown,Inga Avetisyan
+117,AR_108.JPG,10/27/2023,Arabkir,Kievyan Street,no valve,3.9,No secondary purpose,Unknown,Inga Avetisyan
+118,AR_109.JPG,10/27/2023,Arabkir,Kievyan Street,no valve,4.51,No secondary purpose,Unknown,Inga Avetisyan
+119,AR_11.JPG,9/30/2023,Arabkir,Kievyan Street,no valve,Not working,No secondary purpose,Unknown,Inga Avetisyan
+120,AR_110.JPG,10/27/2023,Arabkir,Yerznkian Street,no valve,Not working,No secondary purpose,Unknown,Inga Avetisyan
+121,AR_111.JPG,10/27/2023,Arabkir,Marshal Baghramyan Street,no valve,Not working,No secondary purpose,Unknown,Inga Avetisyan
+122,AR_112.JPG,10/27/2023,Arabkir,Aygedzor Street,no valve,8.16,No secondary purpose,Unknown,Inga Avetisyan
+123,AR_113.JPG,10/27/2023,Arabkir,Marshal Baghramyan Street,no valve,Not working,No secondary purpose,Unknown,Inga Avetisyan
+124,AR_114.JPG,10/27/2023,Arabkir,Marshal Baghramyan Street,no valve,Not working,No secondary purpose,Unknown,Inga Avetisyan
+125,AR_115.JPG,10/27/2023,Arabkir,Aygedzor Street,no valve,7.74,No secondary purpose,Unknown,Inga Avetisyan
+126,AR_116.JPG,10/27/2023,Arabkir,Proshyan Street,no valve,5.39,No secondary purpose,Unknown,Inga Avetisyan
+127,AR_117.JPG,10/27/2023,Arabkir,Marshal Baghramyan Street,with valve,,No secondary purpose,Unknown,Inga Avetisyan
+128,AR_118.JPG,10/27/2023,Arabkir,Hakob Hakobyan Street,with valve,,No secondary purpose,Unknown,Inga Avetisyan
+129,AR_119.JPG,10/27/2023,Arabkir,Hakob Hakobyan Street,no valve,Not working,No secondary purpose,Unknown,Inga Avetisyan
+130,AR_12.JPG,9/30/2023,Arabkir,Kievyan Street,no valve,2.7,No secondary purpose,Unknown,Inga Avetisyan
+131,AR_120.JPG,10/27/2023,Arabkir,Aram Khachatryan Street,no valve,Not working,No secondary purpose,Unknown,Inga Avetisyan
+132,AR_121.JPG,10/27/2023,Arabkir,Hakob Hakobyan Street,no valve,4.78,No secondary purpose,Unknown,Inga Avetisyan
+133,AR_122.JPG,10/27/2023,Arabkir,Komitas Avenue,no valve,4.64,No secondary purpose,Unknown,Inga Avetisyan
+134,AR_123.JPG,10/27/2023,Arabkir,Komitas Avenue,no valve,3.9,No secondary purpose,Unknown,Inga Avetisyan
+135,AR_124.JPG,10/27/2023,Arabkir,Komitas Avenue,no valve,7.4,No secondary purpose,Unknown,Inga Avetisyan
+136,AR_125.JPG,10/27/2023,Arabkir,Aram Khachatryan Street,with valve,,No secondary purpose,Unknown,Inga Avetisyan
+137,AR_13.JPG,9/30/2023,Arabkir,Hrachya Kochar Street,with valve,,No secondary purpose,Unknown,Inga Avetisyan
+138,AR_14.JPG,9/30/2023,Arabkir,Hrachya Kochar Street,with valve,,No secondary purpose,Unknown,Inga Avetisyan
+139,AR_15.JPG,9/30/2023,Arabkir,Hrachya Kochar Street,no valve,5.7,No secondary purpose,Unknown,Inga Avetisyan
+140,AR_16.JPG,9/30/2023,Arabkir,Hrachya Kochar Street,no valve,3,No secondary purpose,Unknown,Inga Avetisyan
+141,AR_17.JPG,9/30/2023,Arabkir,Hrachya Kochar Street,no valve,10.5,No secondary purpose,Unknown,Inga Avetisyan
+142,AR_18.JPG,9/30/2023,Arabkir,Vagharshyan Street,no valve,4.3,No secondary purpose,Unknown,Inga Avetisyan
+143,AR_19.JPG,9/30/2023,Arabkir,Aghbyur Serob Street,no valve,6,No secondary purpose,Unknown,Inga Avetisyan
+144,AR_2.JPG,9/30/2023,Arabkir,Sose 2nd Lane,no valve,4,No secondary purpose,Unknown,Inga Avetisyan
+145,AR_20.JPG,9/30/2023,Arabkir,Vagharshyan Street,no valve,3.5,No secondary purpose,Unknown,Inga Avetisyan
+146,AR_21.JPG,10/7/2023,Arabkir,Sose Street,no valve,10,No secondary purpose,Unknown,Inga Avetisyan
+147,AR_22.JPG,10/7/2023,Arabkir,Sose Street,no valve,4.8,No secondary purpose,2020,Inga Avetisyan
+148,AR_23.JPG,10/7/2023,Arabkir,Gyulbenkyan Street,no valve,3,No secondary purpose,Unknown,Inga Avetisyan
+149,AR_24.JPG,10/7/2023,Arabkir,Aram Khachatryan Street,no valve,2.7,No secondary purpose,Unknown,Inga Avetisyan
+150,AR_25.JPG,10/7/2023,Arabkir,Aram Khachatryan Street,no valve,0.85,No secondary purpose,Unknown,Inga Avetisyan
+151,AR_26.JPG,10/7/2023,Arabkir,Aram Khachatryan Street,with a broken valve,4.8,No secondary purpose,Unknown,Inga Avetisyan
+152,AR_27.JPG,10/7/2023,Arabkir,Aram Khachatryan Street,no valve,4.83,No secondary purpose,Unknown,Inga Avetisyan
+153,AR_28.JPG,10/7/2023,Arabkir,Aram Khachatryan Street,no valve,3.9,No secondary purpose,Unknown,Inga Avetisyan
+154,AR_29.JPG,10/7/2023,Arabkir,Vagharshyan Street,no valve,3,No secondary purpose,Unknown,Inga Avetisyan
+155,AR_3.JPG,9/30/2023,Arabkir,Orbeli brothers,no valve,4,No secondary purpose,2010,Inga Avetisyan
+156,AR_30.JPG,10/7/2023,Arabkir,Komitas Avenue,with valve,,No secondary purpose,Unknown,Inga Avetisyan
+157,AR_31.JPG,10/7/2023,Arabkir,Komitas Avenue,no valve,2.2,No secondary purpose,Unknown,Inga Avetisyan
+158,AR_32.JPG,10/7/2023,Arabkir,Vagharshyan Street,no valve,3,No secondary purpose,Unknown,Inga Avetisyan
+159,AR_33.JPG,10/7/2023,Arabkir,Komitas Avenue,no valve,7.7,No secondary purpose,Unknown,Inga Avetisyan
+160,AR_34.JPG,10/7/2023,Arabkir,Hrachya Kochar Street,no valve,2.85,No secondary purpose,Unknown,Inga Avetisyan
+161,AR_35.JPG,10/7/2023,Arabkir,Hrachya Kochar Street,no valve,Not working,No secondary purpose,Unknown,Inga Avetisyan
+162,AR_36.JPG,10/22/2023,Arabkir,Gulakyan Street,with valve,,No secondary purpose,Unknown,Inga Avetisyan
+163,AR_37.JPG,10/22/2023,Arabkir,Nikoghayos Tigranyan Street,with valve,,No secondary purpose,Unknown,Inga Avetisyan
+164,AR_38.JPG,10/22/2023,Arabkir,Mamikonyants Street,no valve,4.3,No secondary purpose,2016,Inga Avetisyan
+165,AR_39.JPG,10/22/2023,Arabkir,Mamikonyants Street,no valve,2.8,No secondary purpose,Unknown,Inga Avetisyan
+166,AR_4.JPG,9/30/2023,Arabkir,Orbeli brothers,no valve,9,No secondary purpose,Unknown,Inga Avetisyan
+167,AR_40.JPG,10/22/2023,Arabkir,Mamikonyants Street,no valve,4.3,No secondary purpose,Unknown,Inga Avetisyan
+168,AR_41.JPG,10/22/2023,Arabkir,Mamikonyants Street,with valve,,No secondary purpose,Unknown,Inga Avetisyan
+169,AR_42.JPG,10/22/2023,Arabkir,Mamikonyants Street,no valve,2.15,No secondary purpose,Unknown,Inga Avetisyan
+170,AR_43.JPG,10/22/2023,Arabkir,Mamikonyants Street,no valve,1.7,No secondary purpose,Unknown,Inga Avetisyan
+171,AR_44.JPG,10/22/2023,Arabkir,Shahsuvaryan Street,with valve,,No secondary purpose,2020,Inga Avetisyan
+172,AR_45.JPG,10/22/2023,Arabkir,Shahsuvaryan Street,no valve,4,No secondary purpose,Unknown,Inga Avetisyan
+173,AR_46.JPG,10/22/2023,Arabkir,Shirvanzade Street,with valve,,No secondary purpose,Unknown,Inga Avetisyan
+174,AR_47.JPG,10/22/2023,Arabkir,Shirvanzade Street,with valve,,No secondary purpose,Unknown,Inga Avetisyan
+175,AR_48.JPG,10/22/2023,Arabkir,Azatutyan Avenue,no valve,Not working,No secondary purpose,Unknown,Inga Avetisyan
+176,AR_49.JPG,10/22/2023,Arabkir,Shirvanzade Street,no valve,Not working,No secondary purpose,Unknown,Inga Avetisyan
+177,AR_5.JPG,9/30/2023,Arabkir,Yerznkian,no valve,3.6,No secondary purpose,Unknown,Inga Avetisyan
+178,AR_50.JPG,10/22/2023,Arabkir,Mamikonyants Street,no valve,3.9,No secondary purpose,Unknown,Inga Avetisyan
+179,AR_51.JPG,10/22/2023,Arabkir,Nikoghayos Tigranyan Street,no valve,2.4,No secondary purpose,Unknown,Inga Avetisyan
+180,AR_52.JPG,10/22/2023,Arabkir,Nikoghayos Tigranyan Street,with valve,,No secondary purpose,Unknown,Inga Avetisyan
+181,AR_53.JPG,10/22/2023,Arabkir,Nikoghayos Tigranyan Street,with valve,,No secondary purpose,Unknown,Inga Avetisyan
+182,AR_54.JPG,10/22/2023,Arabkir,Nikoghayos Tigranyan Street,with valve,,No secondary purpose,Unknown,Inga Avetisyan
+183,AR_55.JPG,10/22/2023,Arabkir,Nikoghayos Tigranyan Street,no valve,3.82,No secondary purpose,Unknown,Inga Avetisyan
+184,AR_56.JPG,10/22/2023,Arabkir,Nikoghayos Tigranyan Street,no valve,5.1,No secondary purpose,Unknown,Inga Avetisyan
+185,AR_57.JPG,10/22/2023,Arabkir,Komitas Avenue,no valve,5.12,No secondary purpose,Unknown,Inga Avetisyan
+186,AR_58.JPG,10/22/2023,Arabkir,Vratsakan Street,no valve,Not working,No secondary purpose,Unknown,Inga Avetisyan
+187,AR_59.JPG,10/22/2023,Arabkir,Nairi Zaryan Street,no valve,Not working,No secondary purpose,Unknown,Inga Avetisyan
+188,AR_6.JPG,9/30/2023,Arabkir,Orbeli brothers,with valve,,No secondary purpose,Unknown,Inga Avetisyan
+189,AR_60.JPG,10/22/2023,Arabkir,Hovsep Emin Street,no valve,Not working,No secondary purpose,Unknown,Inga Avetisyan
+190,AR_61.JPG,10/22/2023,Arabkir,Vahram Papazyan street,no valve,2,No secondary purpose,Unknown,Inga Avetisyan
+191,AR_62.JPG,10/22/2023,Arabkir,Hamo Sahyan,no valve,"2.4, 3.78, 3.64",No secondary purpose,Unknown,Inga Avetisyan
+192,AR_63.JPG,10/22/2023,Arabkir,Vahram Papazyan street,no valve,Not working,No secondary purpose,Unknown,Inga Avetisyan
+193,AR_64.JPG,10/22/2023,Arabkir,Hovsep Emin Street,with valve,,No secondary purpose,Unknown,Inga Avetisyan
+194,AR_65.JPG,10/22/2023,Arabkir,Vahram Papazyan street,no valve,2.55,No secondary purpose,Unknown,Inga Avetisyan
+195,AR_66.JPG,10/26/2023,Arabkir,Avet Avetisyan Street,no valve,4.5,No secondary purpose,Unknown,Inga Avetisyan
+196,AR_67.JPG,10/26/2023,Arabkir,Sundukyan Street,no valve,1.2,No secondary purpose,2020,Inga Avetisyan
+197,AR_68.JPG,10/26/2023,Arabkir,Sundukyan Street,no valve,2.33,No secondary purpose,Unknown,Inga Avetisyan
+198,AR_69.JPG,10/26/2023,Arabkir,Hrachya Kochar Street,no valve,3,No secondary purpose,Unknown,Inga Avetisyan
+199,AR_7.JPG,9/30/2023,Arabkir,Kievyan 1st Lane,no valve,7,No secondary purpose,Unknown,Inga Avetisyan
+200,AR_70.JPG,10/26/2023,Arabkir,Hrachya Kochar Street,no valve,4.7,No secondary purpose,Unknown,Inga Avetisyan
+201,AR_71.JPG,10/26/2023,Arabkir,Hrachya Kochar Street,no valve,4.3,No secondary purpose,Unknown,Inga Avetisyan
+202,AR_72.JPG,10/26/2023,Arabkir,Grigor Artsrunu Street,no valve,Not working,No secondary purpose,Unknown,Inga Avetisyan
+203,AR_73.JPG,10/26/2023,Arabkir,Grigor Artsrunu Street,no valve,1.2,No secondary purpose,Unknown,Inga Avetisyan
+204,AR_74.JPG,10/26/2023,Arabkir,Vagharsh Vagharshyan Street,no valve,8.8,No secondary purpose,Unknown,Inga Avetisyan
+205,AR_75.JPG,10/26/2023,Arabkir,Komitas Avenue,no valve,Very low,No secondary purpose,Unknown,Inga Avetisyan
+206,AR_76.JPG,10/26/2023,Arabkir,Komitas Avenue,with valve,,No secondary purpose,Unknown,Inga Avetisyan
+207,AR_77.JPG,10/26/2023,Arabkir,Hrachya Kochar Street,no valve,Not working,No secondary purpose,Unknown,Inga Avetisyan
+208,AR_78.JPG,10/26/2023,Arabkir,Hrachya Kochar Street,with valve,,No secondary purpose,Unknown,Inga Avetisyan
+209,AR_79.JPG,10/26/2023,Arabkir,Hrachya Kochar Street,with valve,,No secondary purpose,Unknown,Inga Avetisyan
+210,AR_8.JPG,9/30/2023,Arabkir,Kievyan Street,no valve,6.6,No secondary purpose,1986,Inga Avetisyan
+211,AR_80.JPG,10/26/2023,Arabkir,Sundukyan Street,no valve,5.38,No secondary purpose,Unknown,Inga Avetisyan
+212,AR_81.JPG,10/26/2023,Arabkir,Marshal Baghramyan Street,no valve,5.23,No secondary purpose,Unknown,Inga Avetisyan
+213,AR_82.JPG,10/26/2023,Arabkir,Sundukyan Street,no valve,5.7,No secondary purpose,Unknown,Inga Avetisyan
+214,AR_83.JPG,10/26/2023,Arabkir,Avet Avetisyan Street,no valve,4.5,No secondary purpose,Unknown,Inga Avetisyan
+215,AR_84.JPG,10/26/2023,Arabkir,Victor Hambardzumyan Street,with valve,,No secondary purpose,Unknown,Inga Avetisyan
+216,AR_85.JPG,10/26/2023,Arabkir,Victor Hambardzumyan Street,no valve,Not working,No secondary purpose,Unknown,Inga Avetisyan
+217,AR_86.JPG,10/26/2023,Arabkir,Hrachya Kochar Street,no valve,Not working,No secondary purpose,Unknown,Inga Avetisyan
+218,AR_87.JPG,10/26/2023,Arabkir,Riga Street,no valve,1.56,No secondary purpose,Unknown,Inga Avetisyan
+219,AR_88.JPG,10/26/2023,Arabkir,Grigor Artsrunu Street,no valve,"One not working, the other 4.38",No secondary purpose,Unknown,Inga Avetisyan
+220,AR_89.JPG,10/26/2023,Arabkir,Hrachya Kochar Street,no valve,1.84,No secondary purpose,Unknown,Inga Avetisyan
+221,AR_9.JPG,9/30/2023,Arabkir,Kievyan Street,no valve,4.5,No secondary purpose,Unknown,Inga Avetisyan
+222,AR_90.JPG,10/26/2023,Arabkir,Komitas Avenue,no valve,5.45,No secondary purpose,Unknown,Inga Avetisyan
+223,AR_91.JPG,10/26/2023,Arabkir,Aram Khachatryan Street,no valve,2.67,No secondary purpose,Unknown,Inga Avetisyan
+224,AR_92.JPG,10/26/2023,Arabkir,Aram Khachatryan Street,no valve,2.3,No secondary purpose,Unknown,Inga Avetisyan
+225,AR_93.JPG,10/26/2023,Arabkir,Aram Khachatryan Street,no valve,Not working,No secondary purpose,1994,Inga Avetisyan
+226,AR_94.JPG,10/26/2023,Arabkir,Komitas Avenue,no valve,4.6,No secondary purpose,Unknown,Inga Avetisyan
+227,AR_95.JPG,10/26/2023,Arabkir,Komitas Avenue,no valve,Not working,No secondary purpose,Unknown,Inga Avetisyan
+228,AR_96.JPG,10/26/2023,Arabkir,Vagharsh Vagharshyan Street,no valve,3.17,No secondary purpose,Unknown,Inga Avetisyan
+229,AR_97.JPG,10/27/2023,Arabkir,Vagharsh Vagharshyan Street,no valve,5.08,No secondary purpose,Unknown,Inga Avetisyan
+230,AR_98.JPG,10/27/2023,Arabkir,Vagharsh Vagharshyan Street,no valve,Not working,No secondary purpose,Unknown,Inga Avetisyan
+231,AR_99.JPG,10/27/2023,Arabkir,Vahram Papazyan street,no valve,3.75,No secondary purpose,Unknown,Inga Avetisyan
+232,AV_1.HEIF,10/02/2023,Avan,Tsarav Aghbyur Street,no valve,2.4,No secondary purpose,Unknown,Milena Baghdasaryan
+233,AV_2.HEIF,10/02/2023,Avan,Tsarav Aghbyur Street,no valve,1.6,No secondary purpose,Unknown,Milena Baghdasaryan
+234,AV_3.HEIF,10/02/2023,Avan,Tsarav Aghbyur Street,no valve,3.4,No secondary purpose,Unknown,Milena Baghdasaryan
+235,AV_4.HEIF,10/02/2023,Avan,Hrachya Acharyan,no valve,4,No secondary purpose,Unknown,Milena Baghdasaryan
+236,AV_5.HEIF,10/02/2023,Avan,Hrachya Acharyan,no valve,2.1,No secondary purpose,1994,Milena Baghdasaryan
+237,AV_6.JPG,10/14/2023,Avan,Marshal Babajanyan Street,no valve,3.2,No secondary purpose,Unknown,Milena Baghdasaryan
+238,AV_7.JPG,10/14/2023,Avan,Marshal Babajanyan Street,no valve,3.3,No secondary purpose,Unknown,Milena Baghdasaryan
+239,AV_8.JPG,10/14/2023,Avan,Marshal Babajanyan Street,no valve,3.4,No secondary purpose,Unknown,Milena Baghdasaryan
+240,AV_9.JPG,10/14/2023,Avan,Marshal Babajanyan Street,no valve,4.4,No secondary purpose,Unknown,Milena Baghdasaryan
+241,AV_10.JPG,10/14/2023,Avan,Almati street,no valve,3.6,No secondary purpose,Unknown,Milena Baghdasaryan
+242,AV_11.JPG,10/14/2023,Avan,Almati street,no valve,2.6,No secondary purpose,Unknown,Milena Baghdasaryan
+243,AV_12.JPG,10/14/2023,Avan,Almati street,no valve,1.7,No secondary purpose,Unknown,Milena Baghdasaryan
+245,AV_13.JPG,10/14/2023,Avan,Isahakyan District ,no valve,5.4,No secondary purpose,Unknown,Milena Baghdasaryan
+246,AV_14.JPG,10/14/2023,Avan,Marshal Khudyakov Street,no valve,3.6,No secondary purpose,Unknown,Milena Baghdasaryan
+247,AV_15.JPG,10/14/2023,Avan,Marshal Khudyakov Street,no valve,2,No secondary purpose,Unknown,Milena Baghdasaryan
+248,AV_16.JPG,10/14/2023,Avan,Sayat Nova Block,no valve,2.5,No secondary purpose,Unknown,Milena Baghdasaryan
+249,AV_17.JPG,10/14/2023,Avan,General Safaryan Street,no valve,4.5,No secondary purpose,Unknown,Milena Baghdasaryan
+250,AV_18.JPG,10/14/2023,Avan,Charents Block,no valve,2.1,No secondary purpose,Unknown,Milena Baghdasaryan
+251,AV_19.JPG,10/14/2023,Avan,Marshal Babajanyan Street,no valve,3.6,No secondary purpose,Unknown,Milena Baghdasaryan
+252,AV_20.JPG,10/14/2023,Avan,Marshal Babajanyan Street,no valve,2.7,No secondary purpose,Unknown,Milena Baghdasaryan
+253,AV_21.JPG,10/14/2023,Avan,Almati Street ,no valve,3.6,No secondary purpose,Unknown,Milena Baghdasaryan
+254,AV_22.JPG,10/14/2023,Avan,Marshal Babajanyan Street,no valve,3.3,No secondary purpose,Unknown,Milena Baghdasaryan
+255,AV_23.JPG,10/14/2023,Avan,Marshal Babajanyan Street,no valve,3,No secondary purpose,Unknown,Milena Baghdasaryan
+256,AV_24.JPG,10/14/2023,Avan,Narekatsi Block,no valve,4.6,No secondary purpose,Unknown,Milena Baghdasaryan
+257,AV_25.HEIC,10/14/2023,Avan,Hrachya Acharyan,no valve,3,No secondary purpose,Unknown,Milena Baghdasaryan
+258,AV_26.HEIC,10/14/2023,Avan,Hrachya Acharyan,no valve,2.4,No secondary purpose,Unknown,Milena Baghdasaryan
+259,AV_27.HEIC,10/14/2023,Avan,Tashgend Street 8,no valve,4,No secondary purpose,Unknown,Milena Baghdasaryan
+260,AV_28.HEIC,10/14/2023,Avan,Avan-Arinj ,no valve,4.3,No secondary purpose,Unknown,Milena Baghdasaryan
+261,AV_29.HEIC,10/14/2023,Avan,Avan-Arinj ,no valve,3.2,No secondary purpose,Unknown,Milena Baghdasaryan
+262,AV_3O.HEIC,10/14/2023,Avan,Avan-Arinj ,no valve,5.4,No secondary purpose,Unknown,Milena Baghdasaryan
+263,AV_31.HEIC,10/14/2023,Avan,Avan-Arinj ,no valve,3.6,No secondary purpose,Unknown,Milena Baghdasaryan
+264,AV_32.HEIC,10/14/2023,Avan,Avan-Arinj ,no valve,3.6,No secondary purpose,Unknown,Milena Baghdasaryan
+265,AV_33.HEIC,10/14/2023,Avan,Avan-Arinj ,no valve,5.5,No secondary purpose,Unknown,Milena Baghdasaryan
+268,AV_34.JPG,10/15/2023,Avan,Hovhannisyan Block ,no valve,4.6,no secondary purpose,Unknown,Milena Baghdasaryan
+269,AV_35.JPG,10/15/2023,Avan,Marshal Khudyakov Street,no valve,2.6,no secondary purpose,Unknown,Milena Baghdasaryan
+270,AV_36.JPG,10/15/2023,Avan,Duryan Block,no valve,1.8,no secondary purpose,Unknown,Milena Baghdasaryan
+271,AV_37.JPG,10/15/2023,Avan,Duryan Block,no valve,2.2,no secondary purpose,Unknown,Milena Baghdasaryan
+272,AV_38.JPG,10/15/2023,Avan,Duryan Block,no valve,3.3,no secondary purpose,Unknown,Milena Baghdasaryan
+273,AV_39.JPG,10/15/2023,Avan,Duryan Block,no valve,2.7,no secondary purpose,Unknown,Milena Baghdasaryan
+274,AV_40.JPG,10/15/2023,Avan,Duryan Block,no valve,3.4,no secondary purpose,Unknown,Milena Baghdasaryan
+275,AV_41.JPG,10/15/2023,Avan,Duryan Block,no valve,3.7,no secondary purpose,Unknown,Milena Baghdasaryan
+276,AV_42.JPEG,10/28/2023,Avan,Hrachya Acharyan,with valve,-,no secondary purpose,unknown,Milena Baghdasaryan
+277,AV_43.JPEG,10/28/2023,Avan,Hrachya Acharyan,no valve,3.2,no secondary purpose,unknown,Milena Baghdasaryan
+278,AV_44.JPEG,10/28/2023,Avan,Hrachya Acharyan,no valve,4.1,no secondary purpose,unknown,Milena Baghdasaryan
+278,AV_45.JPEG,10/28/2023,Avan,Almati Street,no valve,3.7,no secondary purpose,unknown,Milena Baghdasaryan
+279,AV_46.JPEG,10/28/2023,Avan,Isahakyan Block,no valve,2.2,no secondary purpose,unknown,Milena Baghdasaryan
+280,AV_47.JPEG,10/28/2023,Avan,Isahakyan Block ,no valve,3.6,no secondary purpose,unknown,Milena Baghdasaryan
+281,AV_48.JPEG,10/28/2023,Avan,Isahakyan Block,no valve,2.8,no secondary purpose,unknown,Milena Baghdasaryan
+282,AV_49.JPEG,10/28/2023,Avan,Marshal Khudyakov Street,no valve,1.7,no secondary purpose,unknown,Milena Baghdasaryan
+283,AV_50.JPEG,10/28/2023,Avan,Marshal Khudyakov Street,no valve,4.1,no secondary purpose,unknown,Milena Baghdasaryan
+284,AV_51.JPEG,10/28/2023,Avan,The Administrative District of Avan,no valve,3.5,no secondary purpose,unknown,Milena Baghdasaryan
+285,AV_52.JPEG,10/28/2023,Avan,Kouchak Block,no valve,3.6,no secondary purpose,unknown,Milena Baghdasaryan
+286,AV_53.JPEG,10/28/2023,Avan,Kouchak Block,no valve,4.2,no secondary purpose,unknown,Milena Baghdasaryan
+287,AV_54.JPEG,10/28/2023,Avan,Kouchak Block ,no valve,2.2,no secondary purpose,unknown,Milena Baghdasaryan
+288,AV_55.JPEG,10/28/2023,Avan,Narekatsi Block ,no valve,2.4,no secondary purpose,unknown,Milena Baghdasaryan
+289,AV_56.JPEG,10/28/2023,Avan,Narekatsi Block,no valve,4,no secondary purpose,unknown,Milena Baghdasaryan
+290,AV_57.JPEG,10/28/2023,Avan,Narekatsi Block ,no valve,1.7,no secondary purpose,unknown,Milena Baghdasaryan
+291,AV_58.JPEG,10/28/2023,Avan,Narekatsi Block ,no valve,4.2,no secondary purpose,unknown,Milena Baghdasaryan
+292,AV_59.JPEG,10/28/2023,Avan,Narekatsi Block ,no valve,2.2,no secondary purpose,unknown,Milena Baghdasaryan
+293,AV_60.JPEG,10/28/2023,Avan,Narekatsi Block,no valve,3.5,no secondary purpose,unknown,Milena Baghdasaryan
+294,AV_61.JPEG,10/28/2023,Avan,Narekatsi Block ,no valve,1.6,no secondary purpose,unknown,Milena Baghdasaryan
+295,AV_62.JPEG,10/28/2023,Avan,Narekatsi Block,no valve,Not working,no secondary purpose,unknown,Milena Baghdasaryan
+296,AV_63.JPEG,10/28/2023,Avan,Narekatsi Block ,with valve,-,no secondary purpose,unknown,Milena Baghdasaryan
+297,AV_64.JPEG,10/28/2023,Avan,Narekatsi Block Chapel of the Holy Mother of God,with valve,-,no secondary purpose,unknown,Milena Baghdasaryan
+298,AV_65.JPG,10/29/2023,Avan,General Safaryan Street near GPW,no valve,1.8,no secondary purpose,unknown,Milena Baghdasaryan
+299,AV_66.JPG,10/29/2023,Avan,Duryan Block,with valve,3,no secondary purpose,unknown,Milena Baghdasaryan
+300,AV_67.JPG,10/29/2023,Avan,Duryan Block,no valve,2.5,no secondary purpose,unknown,Milena Baghdasaryan
+301,AV_68.JPG,10/29/2023,Avan,Duryan Block,no valve,2.1,no secondary purpose,unknown,Milena Baghdasaryan
+302,AV_69.JPG,10/29/2023,Avan,Duryan Block,no valve,2.6,no secondary purpose,unknown,Milena Baghdasaryan
+303,AV_70.JPG,10/29/2023,Avan,Duryan Block,no valve,2,no secondary purpose,unknown,Milena Baghdasaryan
+304,AV_71.JPG,10/29/2023,Avan,Duryan Block,no valve,2.2,no secondary purpose,unknown,Milena Baghdasaryan
+305,AV_72.JPG,10/29/2023,Avan,Duryan Block,no valve,2,no secondary purpose,unknown,Milena Baghdasaryan
+306,AV_73.JPG,10/29/2023,Avan,Charents Block,no valve,2.6,no secondary purpose,unknown,Milena Baghdasaryan
+307,AV_74.JPG,10/29/2023,Avan,Charents Block,no valve,2,no secondary purpose,unknown,Milena Baghdasaryan
+308,AV_75.JPG,10/29/2023,Avan,Charents Block,no valve,2.1,no secondary purpose,unknown,Milena Baghdasaryan
+309,AV_76.JPG,10/29/2023,Avan,Charents Block,with valve,2.6,no secondary purpose,unknown,Milena Baghdasaryan
+310,AV_77.JPG,10/29/2023,Avan,Charents Block,with valve,2.3,no secondary purpose,unknown,Milena Baghdasaryan
+311,AV_78.JPG,10/29/2023,Avan,Duryan Block,no valve,2.2,no secondary purpose,unknown,Milena Baghdasaryan
+312,AV_79.JPG,10/29/2023,Avan,Duryan Block,no valve,3.2,no secondary purpose,unknown,Milena Baghdasaryan
+313,AV_80.JPG,10/29/2023,Avan,Narekatsi Block,no valve,2.1,no secondary purpose,unknown,Milena Baghdasaryan
+315,AV_81.JPG,10/29/2023,Avan,Narekatsi Block,no valve,4.6,no secondary purpose,unknown,Milena Baghdasaryan
+316,AV_82.JPG,10/29/2023,Avan,Narekatsi Block,no valve,2.8,no secondary purpose,unknown,Milena Baghdasaryan
+317,AV_83.JPG,10/29/2023,Avan,Narekatsi Block,no valve,2.4,no secondary purpose,unknown,Milena Baghdasaryan
+242,DS_1.jpg,10/2/2023,Davtashen,"Davitashen 4th block, 38",with valve,8.2,no secondary purpose,Unknown,Anahit Navoyan
+243,DS_10.jpg,10/15/2023,Davtashen,Davitashen 4th block,no valve,5.8,no secondary purpose,Unknown,Anahit Navoyan
+244,DS_11.jpg,10/15/2023,Davtashen,Davitashen 4th block,no valve,3.55,no secondary purpose,Unknown,Anahit Navoyan
+245,DS_12.jpg,10/15/2023,Davtashen,Davitashen 4th block,no valve,3.23,no secondary purpose,Unknown,Anahit Navoyan
+246,DS_13.jpg,10/15/2023,Davtashen,Davitashen 4th block,no valve,5.05,no secondary purpose,Unknown,Anahit Navoyan
+247,DS_14.jpg,10/15/2023,Davtashen,Davitashen 4th block,no valve,5.07,no secondary purpose,Unknown,Anahit Navoyan
+248,DS_15.jpg,10/15/2023,Davtashen,Davitashen 4th block,with a broken valve,3.41,no secondary purpose,Unknown,Anahit Navoyan
+249,DS_16.jpg,10/15/2023,Davtashen,Davitashen 4th block,no valve,6.17,no secondary purpose,Unknown,Anahit Navoyan
+250,DS_17.jpg,10/15/2023,Davtashen,Davitashen 4th block,no valve,4.29,no secondary purpose,Unknown,Anahit Navoyan
+251,DS_18.jpg,10/15/2023,Davtashen,Davitashen 4th block,with valve,26.67,No secondary purpose,Unknown,Anahit Navoyan
+252,DS_19.jpg,10/15/2023,Davtashen,Davitashen 4th block,no valve,4.38,No secondary purpose,Unknown,Anahit Navoyan
+253,DS_2.jpg,10/2/2023,Davtashen,"Davitashen 4th block, 4a",no valve,3.13,No secondary purpose,Unknown,Anahit Navoyan
+254,DS_20.jpg,10/15/2023,Davtashen,Davitashen 4th block,no valve,5.01,No secondary purpose,Unknown,Anahit Navoyan
+255,DS_21.jpg,10/15/2023,Davtashen,Davitashen 4th block,no valve,4.81,No secondary purpose,2012,Anahit Navoyan
+256,DS_22.jpg,10/15/2023,Davtashen,Davitashen 4th block,no valve,Not working,No secondary purpose,2005,Anahit Navoyan
+257,DS_23.jpg,10/15/2023,Davtashen,Davitashen 4th block,no valve,3.38,No secondary purpose,1994,Anahit Navoyan
+258,DS_24.jpg,10/15/2023,Davtashen,Davitashen 4th block,no valve,3.28,No secondary purpose,Unknown,Anahit Navoyan
+259,DS_25.jpg,10/15/2023,Davtashen,Davitashen 4th block,no valve,6.57,No secondary purpose,Unknown,Anahit Navoyan
+260,DS_26.jpg,10/15/2023,Davtashen,Davitashen 4th block,with a broken valve,8.17,No secondary purpose,1995,Anahit Navoyan
+261,DS_27.jpg,10/15/2023,Davtashen,Davitashen 4th block,no valve,3.72,No secondary purpose,Unknown,Anahit Navoyan
+262,DS_28.jpg,10/15/2023,Davtashen,Davitashen 4th block,no valve,2.31,No secondary purpose,Unknown,Anahit Navoyan
+263,DS_29.jpg,10/16/2023,Davtashen,"Davtashen 2nd block, Tigran Petrosyan",no valve,3.38,No secondary purpose,Unknown,Milena Hakobyan
+264,DS_3.jpg,10/2/2023,Davtashen,"Davitashen 4th block, 4a",no valve,4.29,No secondary purpose,Unknown,Anahit Navoyan
+265,DS_30.jpg,10/16/2023,Davtashen,Davtashen 2nd block,with a broken valve,5.26,No secondary purpose,Unknown,Milena Hakobyan
+266,DS_31.jpg,10/16/2023,Davtashen,Davtashen 2nd block,no valve,2.45,No secondary purpose,Unknown,Milena Hakobyan
+267,DS_32.jpg,10/16/2023,Davtashen,Davtashen 2nd block,no valve,4.43,No secondary purpose,Unknown,Milena Hakobyan
+268,DS_33.jpg,10/16/2023,Davtashen,Davtashen 2nd block,with a broken valve,3.23,No secondary purpose,Unknown,Milena Hakobyan
+269,DS_34.jpg,10/16/2023,Davtashen,Davtashen 2nd block,no valve,2.02,No secondary purpose,Unknown,Milena Hakobyan
+270,DS_35.jpg,10/16/2023,Davtashen,Davtashen 2nd block,no valve,3.21,No secondary purpose,2013,Milena Hakobyan
+271,DS_36.jpg,10/16/2023,Davtashen,Davtashen 2nd block,no valve,6.25,No secondary purpose,Unknown,Milena Hakobyan
+272,DS_37.jpg,10/16/2023,Davtashen,Davtashen 1st block,no valve,1.55,No secondary purpose,Unknown,Milena Hakobyan
+273,DS_38.jpg,10/16/2023,Davtashen,Davtashen 1st block,no valve,0.82,No secondary purpose,Unknown,Milena Hakobyan
+274,DS_39.jpg,10/16/2023,Davtashen,Davtashen 1st block,no valve,"1st head - 2.58, 2nd head - 2.38",No secondary purpose,Unknown,Milena Hakobyan
+275,DS_4.jpg,10/2/2023,Davtashen,"Davitashen 4th block, 4a",no valve,4.27,No secondary purpose,Unknown,Anahit Navoyan
+276,DS_40.jpg,10/16/2023,Davtashen,Davtashen 1st block,no valve,3.43,No secondary purpose,1990,Milena Hakobyan
+277,DS_41.jpg,10/16/2023,Davtashen,Davtashen 1st block,no valve,2.49,No secondary purpose,Unknown,Milena Hakobyan
+278,DS_42.jpg,10/16/2023,Davtashen,Davtashen 1st block,no valve,1.26,No secondary purpose,Unknown,Milena Hakobyan
+279,DS_43.jpg,10/29/2023,Davtashen,Davtashen 2nd block,no valve,2.62,No secondary purpose,Unknown,Milena Hakobyan
+280,DS_44.jpg,10/29/2023,Davtashen,Davtashen 2nd block,no valve,3.09,No secondary purpose,Unknown,Milena Hakobyan
+281,DS_45.jpg,10/29/2023,Davtashen,Davtashen 2nd block,no valve,3.25,No secondary purpose,Unknown,Milena Hakobyan
+282,DS_46.jpg,10/29/2023,Davtashen,Davtashen 2nd block,no valve,2.27,No secondary purpose,Unknown,Milena Hakobyan
+283,DS_47.jpg,10/29/2023,Davtashen,Davtashen 2nd block,no valve,3.6,No secondary purpose,Unknown,Milena Hakobyan
+284,DS_48.jpg,10/29/2023,Davtashen,Davtashen 2nd block,no valve,4.99,No secondary purpose,Unknown,Elen Balyan
+285,DS_49.jpg,10/29/2023,Davtashen,Davtashen 2nd block,no valve,Not working,No secondary purpose,Unknown,Elen Balyan
+286,DS_5.jpg,10/2/2023,Davtashen,"Davitashen 4th block, 4a",no valve,2.99,No secondary purpose,Unknown,Anahit Navoyan
+287,DS_50.jpg,10/29/2023,Davtashen,Davtashen 2nd block,no valve,4.3,No secondary purpose,Unknown,Elen Balyan
+288,DS_51.jpg,10/29/2023,Davtashen,Davtashen 1st block,no valve,3.68,No secondary purpose,Unknown,Elen Balyan
+289,DS_52.jpg,10/29/2023,Davtashen,Davtashen 1st block,no valve,5.12,No secondary purpose,Unknown,Elen Balyan
+290,DS_53.jpg,10/29/2023,Davtashen,Davtashen 1st block,no valve,1.75,No secondary purpose,Unknown,Elen Balyan
+291,DS_54.jpg,10/29/2023,Davtashen,Davtashen 1st block,no valve,6.19,No secondary purpose,Unknown,Elen Balyan
+292,DS_55.jpg,10/29/2023,Davtashen,Davtashen 1st block,no valve,2.82,No secondary purpose,Unknown,Elen Balyan
+293,DS_56.jpg,10/29/2023,Davtashen,Davtashen 1st block,no valve,5.26,No secondary purpose,Unknown,Elen Balyan
+294,DS_57.jpg,10/29/2023,Davtashen,Davtashen 1st block,no valve,2.93,No secondary purpose,Unknown,Elen Balyan
+295,DS_58.jpg,10/29/2023,Davtashen,Davtashen 1st block,no valve,2.67,No secondary purpose,Unknown,Elen Balyan
+296,DS_59.jpg,10/29/2023,Davtashen,Davtashen 1st block,no valve,5.17; the other head doesn't work,No secondary purpose,Unknown,Elen Balyan
+297,DS_6.jpg,10/15/2023,Davtashen,"Davitashen 4th block, 38",no valve,3.55,No secondary purpose,Unknown,Anahit Navoyan
+298,DS_60.jpg,10/29/2023,Davtashen,Davtashen 1st block,with valve,6.84,No secondary purpose,Unknown,Elen Balyan
+299,DS_61.jpg,10/29/2023,Davtashen,Davtashen 1st block,no valve,3.2,No secondary purpose,Unknown,Elen Balyan
+300,DS_62.jpg,10/29/2023,Davtashen,Davtashen 1st block,with a broken valve,4.03,No secondary purpose,Unknown,Elen Balyan
+301,DS_63.jpg,10/29/2023,Davtashen,Davtashen 1st block,with a broken valve,6.54,No secondary purpose,Unknown,Elen Balyan
+302,DS_64.jpg,10/29/2023,Davtashen,Davtashen 1st block,no valve,5.25,No secondary purpose,Unknown,Elen Balyan
+303,DS_65.jpg,10/29/2023,Davtashen,Davtashen 1st block,no valve,3.83,No secondary purpose,Unknown,Elen Balyan
+304,DS_66.jpg,10/29/2023,Davtashen,Davtashen 1st block,no valve,4.34,No secondary purpose,Unknown,Elen Balyan
+305,DS_67.jpg,10/29/2023,Davtashen,Davtashen 1st block,no valve,3.53; other 2 heads not working,No secondary purpose,Unknown,Elen Balyan
+306,DS_68.jpg,10/29/2023,Davtashen,Davtashen 1st block,no valve,5.19,No secondary purpose,1989,Elen Balyan
+307,DS_69.jpg,10/29/2023,Davtashen,Davtashen 4th block,no valve,5.48,No secondary purpose,Unknown,Anahit Navoyan
+308,DS_7.jpg,10/15/2023,Davtashen,"Davitashen, Anastas Mikoyan street",no valve,3.39,No secondary purpose,2020,Anahit Navoyan
+309,DS_70.jpg,10/29/2023,Davtashen,Davtashen 4th block,no valve,4.65,No secondary purpose,Unknown,Anahit Navoyan
+310,DS_71.jpg,10/29/2023,Davtashen,Davtashen 4th block,with valve,33.03,No secondary purpose,Unknown,Anahit Navoyan
+311,DS_72.jpg,10/29/2023,Davtashen,Davtashen 4th block,no valve,4.42,No secondary purpose,Unknown,Anahit Navoyan
+312,DS_73.jpg,10/29/2023,Davtashen,Davtashen 4th block,no valve,2.88,No secondary purpose,Unknown,Anahit Navoyan
+313,DS_74.jpg,10/29/2023,Davtashen,Davtashen 3rd block,no valve,1.94,No secondary purpose,Unknown,Anahit Navoyan
+314,DS_75.jpg,10/29/2023,Davtashen,Davtashen 3rd block,no valve,3.96,No secondary purpose,Unknown,Anahit Navoyan
+315,DS_76.jpg,10/29/2023,Davtashen,Davtashen 3rd block,no valve,2.25,No secondary purpose,Unknown,Anahit Navoyan
+316,DS_77.jpg,10/29/2023,Davtashen,Davtashen 3rd block,no valve,4.35,No secondary purpose,Unknown,Anahit Navoyan
+317,DS_78.jpg,10/29/2023,Davtashen,Davtashen 3rd block,no valve,3.75,No secondary purpose,Unknown,Anahit Navoyan
+318,DS_79.jpg,10/29/2023,Davtashen,Davtashen 3rd block,no valve,4.41,No secondary purpose,Unknown,Anahit Navoyan
+319,DS_8.jpg,10/15/2023,Davtashen,"Davitashen 4th block, 4a",no valve,7.72,No secondary purpose,Unknown,Anahit Navoyan
+320,DS_80.jpg,10/29/2023,Davtashen,Davtashen 3rd block,no valve,2.88,No secondary purpose,2020,Anahit Navoyan
+321,DS_81.jpg,10/29/2023,Davtashen,Davtashen 3rd block,no valve,2.25,No secondary purpose,Unknown,Anahit Navoyan
+322,DS_82.jpg,10/29/2023,Davtashen,Davtashen 3rd block,no valve,"two heads (1.75, 1.56)",No secondary purpose,Unknown,Anahit Navoyan
+323,DS_83.jpg,10/29/2023,Davtashen,Davtashen 3rd block,no valve,2.67,No secondary purpose,Unknown,Anahit Navoyan
+324,DS_84.jpg,10/29/2023,Davtashen,Davtashen 3rd block,no valve,3.22,No secondary purpose,Unknown,Anahit Navoyan
+325,DS_85.jpg,10/29/2023,Davtashen,Davtashen 3rd block,no valve,1.98,No secondary purpose,Unknown,Anahit Navoyan
+326,DS_86.jpg,10/29/2023,Davtashen,Davtashen 3rd block,no valve,5.78,No secondary purpose,Unknown,Anahit Navoyan
+327,DS_87.jpg,10/29/2023,Davtashen,Davtashen 3rd block,no valve,4.65,No secondary purpose,Unknown,Anahit Navoyan
+328,DS_88.jpg,10/29/2023,Davtashen,Davtashen 3rd block,no valve,3.99,No secondary purpose,Unknown,Anahit Navoyan
+329,DS_89.jpg,11/01/2023,Davtashen,Davtashen 1st block,no valve,5.6,No secondary purpose,Unknown,Milena Hakobyan
+330,DS_9.jpg,10/15/2023,Davtashen,"Davitashen 4th block, 4a",no valve,2.69,No secondary purpose,Unknown,Anahit Navoyan
+331,ER_1.jpg,10/01/2023,Erebuni,Artsakh Street,no valve,3.3,No secondary purpose,Unknown,Armine Papikyan
+332,ER_10.jpg,10/05/2023,Erebuni,Khaghagh Don St,no valve,4.61,No secondary purpose,Unknown,Hrayr Muradyan
+333,ER_100.JPG,10/22/23,Erebuni,Sari Tagh,no valve,Not Working,No secondary purpose,Unknown,Hrayr Muradyan
+334,ER_101.JPG,10/22/23,Erebuni,Sari Tagh,no valve,4,No secondary purpose,Unknown,Hrayr Muradyan
+335,ER_102.JPG,10/22/23,Erebuni,Sari Tagh,no valve,3.33,No secondary purpose,Unknown,Hrayr Muradyan
+336,ER_103.JPG,10/22/23,Erebuni,Sari Tagh,no valve,2.72,No secondary purpose,Unknown,Hrayr Muradyan
+337,ER_104.JPG,10/22/23,Erebuni,Sari Tagh,no valve,Not Working,No secondary purpose,Unknown,Hrayr Muradyan
+338,ER_105.JPG,10/22/23,Erebuni,Sari Tagh,no valve,3,No secondary purpose,Unknown,Hrayr Muradyan
+339,ER_106.JPG,10/22/23,Erebuni,Sari Tagh,no valve,Not Working,No secondary purpose,Unknown,Hrayr Muradyan
+340,ER_107.JPG,10/22/23,Erebuni,Sari Tagh,no valve,Not Working,No secondary purpose,Unknown,Hrayr Muradyan
+341,ER_108.JPG,10/22/23,Erebuni,Sari Tagh,no valve,3,No secondary purpose,Unknown,Hrayr Muradyan
+342,ER_109.JPG,10/22/23,Erebuni,Sari Tagh,no valve,2.4,No secondary purpose,Unknown,Hrayr Muradyan
+343,ER_11.jpg,10/05/2023,Erebuni,Khaghagh Don St,no valve,4,No secondary purpose,Unknown,Hrayr Muradyan
+344,ER_110.JPG,10/22/23,Erebuni,Sari Tagh,no valve,2.85,No secondary purpose,Unknown,Hrayr Muradyan
+345,ER_111.JPG,10/22/23,Erebuni,Sari Tagh,no valve,8.5,No secondary purpose,Unknown,Hrayr Muradyan
+346,ER_112.JPG,10/22/23,Erebuni,Sari Tagh,no valve,3.16,No secondary purpose,Unknown,Hrayr Muradyan
+347,ER_113.JPG,10/22/23,Erebuni,Sari Tagh,no valve,Not Working,No secondary purpose,Unknown,Hrayr Muradyan
+348,ER_114.JPG,10/22/23,Erebuni,Sari Tagh,no valve,3.53,No secondary purpose,Unknown,Hrayr Muradyan
+349,ER_115.JPG,10/22/23,Erebuni,Sari Tagh,no valve,Not Working,No secondary purpose,Unknown,Hrayr Muradyan
+350,ER_116.JPG,10/26/23,Erebuni,Sari Tagh,with valve,,No secondary purpose,Unknown,Hrayr Muradyan
+351,ER_117.JPG,10/26/23,Erebuni,Sari Tagh,no valve,Not Working,No secondary purpose,Unknown,Hrayr Muradyan
+352,ER_118.JPG,10/26/23,Erebuni,Glinka street,no valve,3,No secondary purpose,Unknown,Hrayr Muradyan
+353,ER_119.JPG,10/26/23,Erebuni,Sari Tagh,no valve,4.61,No secondary purpose,Unknown,Hrayr Muradyan
+354,ER_12.jpg,10/05/2023,Erebuni,Khaghagh Don St,no valve,Not working,No secondary purpose,Unknown,Hrayr Muradyan
+355,ER_120.JPG,10/26/23,Erebuni,Glinka street,no valve,Not Working,No secondary purpose,Unknown,Hrayr Muradyan
+356,ER_121.JPG,10/26/23,Erebuni,Michurin Street,with valve,,No secondary purpose,Unknown,Hrayr Muradyan
+357,ER_122.JPG,10/26/23,Erebuni,Michurin Street,no valve,3.33,No secondary purpose,Unknown,Hrayr Muradyan
+358,ER_123.JPG,10/26/23,Erebuni,Burnazyan Street,no valve,2.4,No secondary purpose,Unknown,Hrayr Muradyan
+359,ER_124.JPG,10/26/23,Erebuni,Lizinyan Street,with valve,,No secondary purpose,Unknown,Hrayr Muradyan
+360,ER_125.JPG,10/26/23,Erebuni,Sasuntsi Davit Street,no valve,3.53,No secondary purpose,Unknown,Hrayr Muradyan
+361,ER_126.JPG,10/26/23,Erebuni,Sasuntsi Davit Street,no valve,3.75,No secondary purpose,Unknown,Hrayr Muradyan
+362,ER_127.JPG,10/26/23,Erebuni,Sasuntsi Davit Street,no valve,3,No secondary purpose,Unknown,Hrayr Muradyan
+363,ER_129.JPG,10/26/23,Erebuni,Belinsky Street,no valve,3.53,No secondary purpose,Unknown,Hrayr Muradyan
+364,ER_13.jpg,10/05/2023,Erebuni,Khaghagh Don St,no valve,5.8,No secondary purpose,Unknown,Hrayr Muradyan
+365,ER_130.JPG,10/26/23,Erebuni,Movses Khorenaci Street,no valve,3.53,No secondary purpose,Unknown,Hrayr Muradyan
+366,ER_131.JPG,10/26/23,Erebuni,Sasuntsi Davit Street,no valve,2.22,No secondary purpose,Unknown,Hrayr Muradyan
+367,ER_132.JPG,10/26/23,Erebuni,Jack lv Kusto Street,no valve,Not Working,No secondary purpose,Unknown,Hrayr Muradyan
+368,ER_133.JPG,10/26/23,Erebuni,Vardavar Park,no valve,3.75,No secondary purpose,Unknown,Hrayr Muradyan
+369,ER_134.JPG,10/26/23,Erebuni,Vardavar Park,no valve,2.31,No secondary purpose,Unknown,Hrayr Muradyan
+370,ER_135.JPG,10/26/23,Erebuni,Sasuntsi Davit Street,no valve,7.5,No secondary purpose,Unknown,Hrayr Muradyan
+371,ER_136.JPG,10/26/23,Erebuni,Vardavar Park,no valve,5,No secondary purpose,Unknown,Hrayr Muradyan
+372,ER_137.JPG,10/26/23,Erebuni,Movses Khorenaci Street,no valve,6.66,No secondary purpose,Unknown,Hrayr Muradyan
+373,ER_138.JPG,10/26/23,Erebuni,Sari Tagh,no valve,1.2,No secondary purpose,Unknown,Elen Khachatryan
+374,ER_139.JPG,10/26/23,Erebuni,Sari Tagh,no valve,3,No secondary purpose,Unknown,Elen Khachatryan
+375,ER_14.jpg,10/05/2023,Erebuni,Khaghagh Don St,no valve,2.5,No secondary purpose,Unknown,Hrayr Muradyan
+376,ER_140.JPG,10/28/23,Erebuni,Nor Aresh 11th Street,no valve,2.4,No secondary purpose,Unknown,Elen Khachatryan
+377,ER_141.JPG,10/28/23,Erebuni,Nor Aresh 42nd Street,with valve,,No secondary purpose,Unknown,Elen Khachatryan
+378,ER_142.JPG,10/28/23,Erebuni,Nor Aresh 42nd Street,no valve,2.14,No secondary purpose,Unknown,Elen Khachatryan
+379,ER_143.JPG,10/28/23,Erebuni,Nor Aresh 42nd Street,no valve,2.4,No secondary purpose,Unknown,Elen Khachatryan
+380,ER_144.JPG,10/28/23,Erebuni,Nor Aresh 46th Street,no valve,Not Working,No secondary purpose,Unknown,Elen Khachatryan
+381,ER_145.JPG,10/28/23,Erebuni,Nor Aresh 22nd Street,no valve,6,No secondary purpose,Unknown,Elen Khachatryan
+382,ER_146.JPG,10/28/23,Erebuni,Erebuni Street,no valve,1.7,No secondary purpose,Unknown,Elen Khachatryan
+383,ER_147.JPG,10/28/23,Erebuni,Erebuni Street,no valve,Not Working,No secondary purpose,Unknown,Elen Khachatryan
+384,ER_148.JPG,10/28/23,Erebuni,Erebuni Street,no valve,2.5,No secondary purpose,Unknown,Elen Khachatryan
+385,ER_149.JPG,10/28/23,Erebuni,Azatamartikneri 5th Lane,no valve,3.75,No secondary purpose,Unknown,Elen Khachatryan
+386,ER_15.jpg,10/05/2023,Erebuni,Khaghagh Don St,no valve,2.3,No secondary purpose,Unknown,Hrayr Muradyan
+387,ER_150.JPG,10/28/23,Erebuni,Azatamartikneri 5th Lane,no valve,1.875,No secondary purpose,Unknown,Elen Khachatryan
+388,ER_151.JPG,10/28/23,Erebuni,Nor Aresh 22nd Street,no valve,Not Working,No secondary purpose,Unknown,Elen Khachatryan
+389,ER_152.JPG,10/28/23,Erebuni,Azatamartikneri Street,no valve,4,No secondary purpose,Unknown,Elen Khachatryan
+390,ER_153.JPG,10/28/23,Erebuni,Nor Aresh 14th Street,no valve,1.66,No secondary purpose,Unknown,Elen Khachatryan
+391,ER_154.JPG,10/28/23,Erebuni,Nor Aresh 12th Street,no valve,2.4,No secondary purpose,Unknown,Elen Khachatryan
+392,ER_155.JPG,10/28/23,Erebuni,Muratsan Street,no valve,2.85,No secondary purpose,Unknown,Elen Khachatryan
+393,ER_156.JPG,10/28/23,Erebuni,Muratsan Street,no valve,3,No secondary purpose,Unknown,Elen Khachatryan
+394,ER_157.JPG,10/28/23,Erebuni,Nor Aresh 15th Street,with valve,,No secondary purpose,Unknown,Elen Khachatryan
+395,ER_158.JPG,10/28/23,Erebuni,Muratsan Street,with valve,,No secondary purpose,Unknown,Elen Khachatryan
+396,ER_159.JPG,10/28/23,Erebuni,Muratsan Street,no valve,2.14,No secondary purpose,Unknown,Elen Khachatryan
+397,ER_16.jpg,10/05/2023,Erebuni,Khaghagh Don St,no valve,6.6,No secondary purpose,Unknown,Hrayr Muradyan
+398,ER_160.JPG,10/28/23,Erebuni,Nor Aresh 15th Street,no valve,2.5,No secondary purpose,Unknown,Elen Khachatryan
+399,ER_161.JPG,10/28/23,Erebuni,Nor Aresh 17th Street,no valve,2.85,No secondary purpose,Unknown,Elen Khachatryan
+400,ER_162.JPG,10/28/23,Erebuni,Atoyan Street,no valve,Not Working,No secondary purpose,Unknown,Elen Khachatryan
+401,ER_163.JPG,10/28/23,Erebuni,Nor Aresh 8th Street,no valve,4.61,No secondary purpose,Unknown,Elen Khachatryan
+402,ER_164.JPG,10/28/23,Erebuni,Muratsan Street,no valve,3.75,No secondary purpose,Unknown,Elen Khachatryan
+403,ER_165.JPG,10/28/23,Erebuni,Nor Aresh 4th Street,no valve,1.7,No secondary purpose,Unknown,Elen Khachatryan
+404,ER_166.JPG,10/28/23,Erebuni,Nor Aresh 34th Street,no valve,Not Working,No secondary purpose,Unknown,Elen Khachatryan
+405,ER_167.JPG,10/28/23,Erebuni,Nor Aresh 28th Street,no valve,Not Working,No secondary purpose,Unknown,Elen Khachatryan
+406,ER_168.JPG,10/28/23,Erebuni,Nor Aresh 31th Street,no valve,Not Working,No secondary purpose,Unknown,Elen Khachatryan
+407,ER_169.JPG,10/28/23,Erebuni,Nor Aresh 29th Street,no valve,Not Working,No secondary purpose,Unknown,Elen Khachatryan
+408,ER_17.jpg,10/05/2023,Erebuni,Khaghagh Don St,no valve,2.85,No secondary purpose,Unknown,Hrayr Muradyan
+409,ER_170.JPG,10/28/23,Erebuni,Belinsky Street,no valve,Not Working,No secondary purpose,Unknown,Elen Khachatryan
+410,ER_171.JPG,10/28/23,Erebuni,Belinsky Street,no valve,2.14,No secondary purpose,Unknown,Elen Khachatryan
+411,ER_172.JPG,10/29/23,Erebuni,Azatamartikneri Street,no valve,2.6,No secondary purpose,Unknown,Elen Khachatryan
+412,ER_173.JPG,10/29/23,Erebuni,Belinsky Street,no valve,Not Working,No secondary purpose,Unknown,Elen Khachatryan
+413,ER_18.jpg,10/05/2023,Erebuni,Khaghagh Don St,no valve,4.61,No secondary purpose,Unknown,Hrayr Muradyan
+414,ER_19.jpg,10/05/2023,Erebuni,Khaghagh Don St,no valve,5,No secondary purpose,Unknown,Hrayr Muradyan
+415,ER_2.jpg,10/01/2023,Erebuni,Artsakh Street,no valve,2.7,No secondary purpose,Unknown,Armine Papikyan
+416,ER_20.jpg,10/05/2023,Erebuni,Khaghagh Don St,no valve,Not working,No secondary purpose,Unknown,Hrayr Muradyan
+417,ER_21.jpg,10/05/2023,Erebuni,Khaghagh Don St,no valve,3,No secondary purpose,Unknown,Hrayr Muradyan
+418,ER_22.jpg,10/05/2023,Erebuni,Khaghagh Don St,no valve,3,No secondary purpose,Unknown,Hrayr Muradyan
+419,ER_23.jpg,10/05/2023,Erebuni,Khaghagh Don St,no valve,4,No secondary purpose,Unknown,Hrayr Muradyan
+420,ER_24.jpg,10/05/2023,Erebuni,Khaghagh Don St,no valve,3.33,No secondary purpose,Unknown,Hrayr Muradyan
+421,ER_25.jpg,10/05/2023,Erebuni,Khaghagh Don St,no valve,1.81,No secondary purpose,Unknown,Hrayr Muradyan
+422,ER_26.jpg,10/05/2023,Erebuni,Khaghagh Don St,no valve,2.5,No secondary purpose,Unknown,Hrayr Muradyan
+423,ER_27.jpg,10/05/2023,Erebuni,Khaghagh Don St,no valve,3.75,No secondary purpose,Unknown,Hrayr Muradyan
+424,ER_28.jpg,10/11/2023,Erebuni,Khaghagh Don St,no valve,4,No secondary purpose,Unknown,Hrayr Muradyan
+425,ER_29.jpg,10/11/2023,Erebuni,Khaghagh Don St,no valve,8.57,No secondary purpose,Unknown,Hrayr Muradyan
+426,ER_3.jpg,10/01/2023,Erebuni,Artsakh Street,no valve,2.5,No secondary purpose,Unknown,Armine Papikyan
+427,ER_30.jpg,10/11/2023,Erebuni,Khaghagh Don St,no valve,3,No secondary purpose,Unknown,Hrayr Muradyan
+428,ER_32.jpg,10/11/2023,Erebuni,Khaghagh Don St,no valve,4.28,No secondary purpose,2005,Hrayr Muradyan
+429,ER_33.jpg,10/11/2023,Erebuni,Khaghagh Don St,no valve,7.5,No secondary purpose,Unknown,Hrayr Muradyan
+430,ER_34.jpg,10/11/2023,Erebuni,Khaghagh Don St,no valve,5.56,No secondary purpose,Unknown,Hrayr Muradyan
+431,ER_35.jpg,10/11/2023,Erebuni,Khaghagh Don St,no valve,2.72,No secondary purpose,Unknown,Hrayr Muradyan
+432,ER_36.jpg,10/11/2023,Erebuni,Khaghagh Don St,no valve,1.62,No secondary purpose,Unknown,Hrayr Muradyan
+433,ER_38.jpg,10/11/2023,Erebuni,Khaghagh Don St,no valve,3.15,No secondary purpose,Unknown,Hrayr Muradyan
+434,ER_39.jpg,10/11/2023,Erebuni,Khaghagh Don St,no valve,5.45,No secondary purpose,Unknown,Elen Khachatryan
+435,ER_4.jpg,10/01/2023,Erebuni,Artsakh Street,no valve,2.7,No secondary purpose,Unknown,Armine Papikyan
+436,ER_40.jpg,10/11/2023,Erebuni,Khaghagh Don St,no valve,2.85,No secondary purpose,Unknown,Elen Khachatryan
+437,ER_41.jpg,10/11/2023,Erebuni,Khaghagh Don St,no valve,2.6,No secondary purpose,Unknown,Elen Khachatryan
+438,ER_42.jpg,10/11/2023,Erebuni,Khaghagh Don St,with valve,Valve,No secondary purpose,Unknown,Elen Khachatryan
+439,ER_43.jpg,10/11/2023,Erebuni,Khaghagh Don St,no valve,5.45,No secondary purpose,Unknown,Elen Khachatryan
+440,ER_44.jpg,10/11/2023,Erebuni,Khaghagh Don St,no valve,Not working,No secondary purpose,Unknown,Elen Khachatryan
+441,ER_45.jpg,10/11/2023,Erebuni,Khaghagh Don St,no valve,4.28,No secondary purpose,Unknown,Elen Khachatryan
+442,ER_46.jpg,10/11/2023,Erebuni,Khaghagh Don St,no valve,Not Working,No secondary purpose,Unknown,Elen Khachatryan
+443,ER_47.jpg,10/11/2023,Erebuni,Khaghagh Don St,no valve,3.53,No secondary purpose,Unknown,Elen Khachatryan
+444,ER_48.jpg,10/11/2023,Erebuni,Khaghagh Don St,no valve,2.6,No secondary purpose,Unknown,Elen Khachatryan
+445,ER_49.jpg,10/11/2023,Erebuni,Khaghagh Don St,no valve,2.85,No secondary purpose,Unknown,Elen Khachatryan
+446,ER_5.jpg,10/01/2023,Erebuni,Artsakh Street,no valve,1,No secondary purpose,Unknown,Armine Papikyan
+447,ER_50.jpg,10/15/2023,Erebuni,Varlam Avanesov St ,no valve,4.61,No secondary purpose,Unknown,Elen Khachatryan
+448,ER_51.jpg,10/15/2023,Erebuni,Varlam Avanesov St ,no valve,3.53,No secondary purpose,Unknown,Elen Khachatryan
+449,ER_52.jpg,10/15/2023,Erebuni,Varlam Avanesov St ,no valve,2.85,No secondary purpose,Unknown,Elen Khachatryan
+450,ER_54.jpg,10/15/2023,Erebuni,Varlam Avanesov St ,no valve,3.75,No secondary purpose,Unknown,Elen Khachatryan
+451,ER_55.jpg,10/15/2023,Erebuni,Varlam Avanesov St ,no valve,2,No secondary purpose,Unknown,Elen Khachatryan
+452,ER_56.jpg,10/15/2023,Erebuni,Titogradyan St,no valve,2.72,No secondary purpose,Unknown,Elen Khachatryan
+453,ER_57.jpg,10/15/2023,Erebuni,Titogradyan St,no valve,2.4,No secondary purpose,Unknown,Elen Khachatryan
+454,ER_58.jpg,10/15/2023,Erebuni,Titogradyan St,no valve,2.4,No secondary purpose,Unknown,Elen Khachatryan
+455,ER_59.jpg,10/15/2023,Erebuni,Titogradyan St,no valve,5,No secondary purpose,Unknown,Elen Khachatryan
+456,ER_6.jpg,10/05/2023,Erebuni,Khaghagh Don St,no valve,2,No secondary purpose,1997,Hrayr Muradyan
+457,ER_60.jpg,10/15/2023,Erebuni,Varlam Avanesov St ,no valve,4,No secondary purpose,Unknown,Elen Khachatryan
+458,ER_61.jpg,10/15/2023,Erebuni,Varlam Avanesov St ,no valve,2.14,No secondary purpose,Unknown,Elen Khachatryan
+459,ER_62.jpg,10/15/2023,Erebuni,Varlam Avanesov St ,no valve,2.6,No secondary purpose,Unknown,Elen Khachatryan
+460,ER_63.jpg,10/15/2023,Erebuni,Varlam Avanesov St ,no valve,2.4,No secondary purpose,Unknown,Elen Khachatryan
+461,ER_64.jpg,10/15/2023,Erebuni,Varlam Avanesov St ,no valve,10,No secondary purpose,Unknown,Elen Khachatryan
+462,ER_65.jpg,10/15/2023,Erebuni,Varlam Avanesov St ,no valve,3.2,No secondary purpose,Unknown,Elen Khachatryan
+463,ER_66.jpg,10/15/2023,Erebuni,Ayvazovski St,no valve,2.14,No secondary purpose,Unknown,Elen Khachatryan
+464,ER_67.jpg,10/15/2023,Erebuni,Ayvazovski St,no valve,5,No secondary purpose,Unknown,Elen Khachatryan
+465,ER_68.jpg,10/15/2023,Erebuni,Ayvazovski St,no valve,2.22,No secondary purpose,Unknown,Elen Khachatryan
+466,ER_7.jpg,10/05/2023,Erebuni,Khaghagh Don St,no valve,2,No secondary purpose,Unknown,Hrayr Muradyan
+467,ER_70.JPG,10/29/2023,Erebuni,Artsakh Street,no valve,2.8,No secondary purpose,Unknown,Armine Papikyan
+468,ER_71.JPG,10/29/2023,Erebuni,Artsakh Street,no valve,2.9,No secondary purpose,Unknown,Armine Papikyan
+469,ER_72.JPG,10/29/2023,Erebuni,Artsakh Street,no valve,2.85,No secondary purpose,Unknown,Armine Papikyan
+470,ER_73.JPG,10/29/2023,Erebuni,Artsakh Street,no valve,2.8,No secondary purpose,Unknown,Armine Papikyan
+471,ER_74.JPG,10/29/2023,Erebuni,Artsakh Street,with valve,,No secondary purpose,Unknown,Armine Papikyan
+472,ER_75.JPG,10/29/2023,Erebuni,Artsakh Street,no valve,2.93,No secondary purpose,Unknown,Armine Papikyan
+473,ER_76.JPG,10/29/2023,Erebuni,Artsakh Street,no valve,1.73,No secondary purpose,Unknown,Armine Papikyan
+474,ER_77.JPG,10/29/2023,Erebuni,Artsakh Street,with valve,,No secondary purpose,Unknown,Armine Papikyan
+475,ER_78.JPG,10/29/2023,Erebuni,Artsakh Street,no valve,2.5,No secondary purpose,Unknown,Armine Papikyan
+476,ER_79.JPG,10/29/2023,Erebuni,Atoyan Street,no valve,2.9,No secondary purpose,Unknown,Armine Papikyan
+477,ER_8.jpg,10/05/2023,Erebuni,Khaghagh Don St,no valve,5.45,No secondary purpose,Unknown,Hrayr Muradyan
+478,ER_80.JPG,10/29/2023,Erebuni,Nor Aresh Street,no valve,2.3,No secondary purpose,Unknown,Armine Papikyan
+479,ER_81.JPG,10/29/2023,Erebuni,Nor Aresh Street,no valve,2.35,No secondary purpose,Unknown,Armine Papikyan
+480,ER_82.JPG,10/29/2023,Erebuni,Nor Aresh Street,with valve,,No secondary purpose,Unknown,Armine Papikyan
+481,ER_83.JPG,10/29/2023,Erebuni,Nor Aresh Street,no valve,"1st head: 3.3, 2nd head: 1.9",No secondary purpose,Unknown,Armine Papikyan
+482,ER_84.JPG,10/29/2023,Erebuni,Atoyan Street,not working,,No secondary purpose,Unknown,Armine Papikyan
+483,ER_85.JPG,10/29/2023,Erebuni,Azatamartikner Avenue,not working,,No secondary purpose,Unknown,Armine Papikyan
+484,ER_86.JPG,10/29/2023,Erebuni,Azatamartikner Avenue,no valve,2.83,No secondary purpose,Unknown,Armine Papikyan
+485,ER_87.JPG,10/29/2023,Erebuni,Azatamartikner Avenue,no valve,2.85,No secondary purpose,Unknown,Armine Papikyan
+486,ER_88.JPG,10/29/2023,Erebuni,Atoyan Street,no valve,3.33,No secondary purpose,Unknown,Armine Papikyan
+487,ER_89.JPG,10/29/2023,Erebuni,Azatamartikner Avenue,not working,,No secondary purpose,Unknown,Armine Papikyan
+488,ER_9.jpg,10/05/2023,Erebuni,Khaghagh Don St,no valve,4.61,No secondary purpose,Unknown,Hrayr Muradyan
+489,ER_90.JPG,10/29/2023,Erebuni,Erebuni Street,no valve,2.78,No secondary purpose,Unknown,Armine Papikyan
+490,ER_91.JPG,10/29/2023,Erebuni,Nor Aresh Street,no valve,2.1,No secondary purpose,Unknown,Armine Papikyan
+491,ER_92.JPG,10/29/2023,Erebuni,Nubarashen Street,not working,,No secondary purpose,Unknown,Armine Papikyan
+492,ER_93.JPG,10/29/2023,Erebuni,Nor Aresh Street,not working,,No secondary purpose,Unknown,Armine Papikyan
+493,ER_94.JPG,10/29/2023,Erebuni,Rostovyan Street,no valve,2.93,No secondary purpose,Unknown,Armine Papikyan
+494,ER_95.JPG,10/29/2023,Erebuni,Nor Aresh Street,no valve,2.8,No secondary purpose,Unknown,Armine Papikyan
+495,ER_96.JPG,10/29/2023,Erebuni,Azatamartikner Avenue,no valve,2.8,No secondary purpose,Unknown,Armine Papikyan
+496,ER_97.JPG,10/29/2023,Erebuni,Azatamartikner Avenue,no valve,1.7,No secondary purpose,Unknown,Armine Papikyan
+497,ER_98.JPG,10/29/2023,Erebuni,Sasuntsi Davit Street,no valve,6.1,No secondary purpose,Unknown,Armine Papikyan
+498,ER_99.JPG,10/29/2023,Erebuni,Sasuntsi Davit Street,no valve,2.1,No secondary purpose,Unknown,Armine Papikyan
+499,KN_1.JPG,10/2/2023,Kentron,Marshal Baghramyan Street,no valve,2.36,No secondary purpose,Uknown,Lilit Ivanyan
+500,KN_10.JPG,10/2/2023,Kentron,Mesrop Mashtots Avenue,no valve,6.7,No secondary purpose,Unknown,Lilit Ivanyan
+501,KN_100.JPG,10/29/23,Kentron,Sayat Nova Ave.,no valve,3,no secondary purpose,Unknown,Hrach Khachatryan
+502,KN_101.JPG,10/29/23,Kentron,Sayat Nova Ave.,no valve,3,no secondary purpose,Unknown,Hrach Khachatryan
+503,KN_102.JPG,10/29/23,Kentron,Sayat Nova Ave.,with a broken valve,2.14,no secondary purpose,Unknown,Hrach Khachatryan
+504,KN_103.JPG,10/29/23,Kentron,Sayat Nova Ave.,no valve,2.5,no secondary purpose,Unknown,Hrach Khachatryan
+505,KN_104.JPG,10/29/23,Kentron,Sayat Nova Ave. and Tumanyan Str. crossroad,no valve,no flow/broken,no secondary purpose,Unknown,Hrach Khachatryan
+506,KN_106.JPG,10/29/23,Kentron,Hanrapetutyan Str.,no valve,3,no secondary purpose,Unknown,Hrach Khachatryan
+507,KN_11.jpg,10/8/2023,Kentron,Koghbatsi street,no valve,4.6,No secondary purpose,Unknown,Adam Simonyan
+508,KN_12.jpg,10/8/2023,Kentron,Pushkin street,no valve,4,No secondary purpose,Unknown,Adam Simonyan
+509,KN_13.jpg,10/8/2023,Kentron,Nalbandyan street,no valve,3.17,No secondary purpose,Unknown,Adam Simonyan
+510,KN_14.jpg,10/8/2023,Kentron,Hanrapetutyan street,no valve,4.28,No secondary purpose,Unknown,Adam Simonyan
+511,KN_15.jpg,10/8/2023,Kentron,Vernisage,with valve,,No secondary purpose,Unknown,Adam Simonyan
+512,KN_16.jpg,10/8/2023,Kentron,Vernisage,with valve,,No secondary purpose,Unknown,Adam Simonyan
+513,KN_17.jpg,10/8/2023,Kentron,Vernisage,with valve,,No secondary purpose,Unknown,Adam Simonyan
+514,KN_18.jpg,10/8/2023,Kentron,Hanrapetutyan street,no valve,2.38,No secondary purpose,Unknown,Adam Simonyan
+515,KN_19.jpg,10/8/2023,Kentron,Hanrapetutyan street,no valve,2.14,No secondary purpose,Unknown,Adam Simonyan
+516,KN_2.JPG,10/2/2023,Kentron,Silva Kaputikyan Street,with valve,-,No secondary purpose,1996 or 1997,Lilit Ivanyan
+517,KN_20.JPG,10/8/2023,Kentron,Sayat-Nova Street,no valve,3.22,No secondary purpose,Unknown,Lilit Ivanyan
+518,KN_21.JPG,10/8/2023,Kentron,Abovyan Street,no valve,"3/4 working heads,      4 L/m each",No secondary purpose,Unknown,Lilit Ivanyan
+519,KN_22.JPG,10/8/2023,Kentron,Abovyan Street,no valve,2.11,No secondary purpose,Unknown,Lilit Ivanyan
+520,KN_23.JPG,10/8/2023,Kentron,Vazgen Sargsyan Street,no valve,3.75,No secondary purpose,Unknown,Lilit Ivanyan
+521,KN_24.JPG,10/8/2023,Kentron,Children's park,with a broken valve,3.85,No secondary purpose,Unknown,Lilit Ivanyan
+522,KN_25.JPG,10/8/2023,Kentron,Children's park,with a broken valve,2.44,No secondary purpose,Unknown,Lilit Ivanyan
+523,KN_26.JPG,10/8/2023,Kentron,Yerevan 2800th Anniversary Park,no valve,3.66,No secondary purpose,Unknown,Lilit Ivanyan
+524,KN_27.JPG,10/8/2023,Kentron,Yerevan 2800th Anniversary Park,no valve,"3 heads, 3.85 L/min each",No secondary purpose,Unknown,Lilit Ivanyan
+525,KN_28.JPG,10/8/2023,Kentron,Yerevan 2800th Anniversary Park,no valve,"3 heads,  3.85 L/min each",No secondary purpose,Unknown,Lilit Ivanyan
+526,KN_29.JPG,10/8/2023,Kentron,English Park,no valve,3.16,No secondary purpose,Unknown,Lilit Ivanyan
+527,KN_3.JPG,10/2/2023,Kentron,Antarayin Street,no valve,1.69,No secondary purpose,Unknown,Lilit Ivanyan
+528,KN_30.JPG,10/8/2023,Kentron,English Park,"1. no valve, 2. closed head","1st one  6.7 L/min, 2nd one 0",No secondary purpose,Unknown,Lilit Ivanyan
+529,KN_31.JPG,10/8/2023,Kentron,St. Grigor Lusavorich Street,with valve,2 heads with valves,No secondary purpose,Unknown,Lilit Ivanyan
+530,KN_32.JPG,10/8/2023,Kentron,Movses Khorenatsi Street,no valve,6.25,No secondary purpose,Unknown,Lilit Ivanyan
+531,KN_33.JPG,10/8/2023,Kentron,Yeznik Koghbatsi Street,"1. with valve, 2. no valve",2nd one  2.73 L/min,No secondary purpose,Unknown,Lilit Ivanyan
+532,KN_34.JPG,10/8/2023,Kentron,Yeznik Koghbatsi Street,no valve,3.06,No secondary purpose,Unknown,Lilit Ivanyan
+533,KN_35.JPG,10/8/2023,Kentron,Yeznik Koghbatsi Street,no valve,2.13,No secondary purpose,Unknown,Lilit Ivanyan
+534,KN_36.JPG,10/8/2023,Kentron,Mesrop Mashtots Avenue,no valve,2.14L/min,No secondary purpose,Unknown,Hrach Khachatryan
+535,KN_37.JPG,10/8/2023,Kentron,Mesrop Mashtots Avenue,no valve,"3 heads, 3L/min first two, 2.5L/min the third one""",No secondary purpose,Unknown,Hrach Khachatryan
+536,KN_39.JPG,10/8/2023,Kentron,Mesrop Mashtots Avenue (by Opera),with a broken valve,1.67L/min,No secondary purpose,Unknown,Hrach Khachatryan
+537,KN_4.JPG,10/2/2023,Kentron,Antarayin Street,no valve,4,No secondary purpose,Unknown,Lilit Ivanyan
+538,KN_40.JPG,10/8/2023,Kentron,Mesrop Mashtots Avenue,no valve,3L/min,No secondary purpose,Unknown,Hrach Khachatryan
+539,KN_41.JPG,10/8/2023,Kentron,Mesrop Mashtots Avenue,no valve,2.14L/min,No secondary purpose,Unknown,Hrach Khachatryan
+540,KN_44.JPG,10/8/2023,Kentron,Mesrop Mashtots Avenue,no valve,3.33L/min,No secondary purpose,Unknown,Hrach Khachatryan
+541,KN_45.JPG,10/15/2023,Kentron,Proshyan Street,no valve,4.6,No secondary purpose,Unknown,Lilit Ivanyan
+542,KN_46.JPG,10/15/2023,Kentron,Derenik Demirchyan stret,with valve,,No secondary purpose,Unknown,Lilit Ivanyan
+543,KN_47.JPG,10/15/2023,Kentron,Amiryan Street,no valve,1.94,No secondary purpose,Unknown,Lilit Ivanyan
+544,KN_48.JPG,10/15/2023,Kentron,Mesrop Mashtots Avenue,with valve,,No secondary purpose,Unknown,Lilit Ivanyan
+545,KN_49.JPG,10/15/2023,Kentron,Khoren Abrahamyan Street,with a broken valve,2.67,No secondary purpose,Unknown,Lilit Ivanyan
+546,KN_50.JPG,10/15/2023,Kentron,Khoren Abrahamyan Street,with valve,,No secondary purpose,Unknown,Lilit Ivanyan
+547,KN_51.JPG,10/15/2023,Kentron,Khoren Abrahamyan Street,no valve,3.11,No secondary purpose,Unknown,Lilit Ivanyan
+548,KN_52.JPG,10/15/2023,Kentron,Martiros Saryan Street,no valve,Not working,No secondary purpose,Unknown,Lilit Ivanyan
+549,KN_53.JPG,10/15/2023,Kentron,Martiros Saryan Street,with a broken valve,2.76,No secondary purpose,Unknown,Lilit Ivanyan
+550,KN_54.JPG,10/24/2023,Kentron,Lunapark,no valve,4,No secondary purpose,Unknown,Lilit Ivanyan
+551,KN_55.JPG,10/24/2023,Kentron,Kor Street,no valve,2.26,No secondary purpose,Unknown,Lilit Ivanyan
+552,KN_56.JPG,10/24/2023,Kentron,Kor Street,no valve,4.48,No secondary purpose,Unknown,Lilit Ivanyan
+553,KN_57.JPG,10/24/2023,Kentron,Tigran Mets Avenue,no valve,3.85,No secondary purpose,Unknown,Lilit Ivanyan
+554,KN_58.JPG,10/24/2023,Kentron,Skate park,no valve,2.88,No secondary purpose,Unknown,Lilit Ivanyan
+555,KN_59.JPG,10/24/2023,Kentron,Mesrop Mashtots Avenue,no valve,1.3,No secondary purpose,Unknown,Lilit Ivanyan
+556,KN_6.JPG,10/2/2023,Kentron,Martiros Saryan Street,no valve,1.37,No secondary purpose,Unknown,Lilit Ivanyan
+557,KN_60.JPG,10/24/2023,Kentron,Abovyan Street,no valve,3.85,No secondary purpose,Unknown,Lilit Ivanyan
+558,KN_61.JPG,10/24/2023,Kentron,Koryun Street,no valve,4.77,No secondary purpose,Unknown,Lilit Ivanyan
+559,KN_62.JPG,10/24/2023,Kentron,Avetiq Isahakyan Street,with valve,,No secondary purpose,Unknown,Lilit Ivanyan
+560,KN_63.JPG,10/24/2023,Kentron,Aleq Manukyan Street,no valve,2.88,No secondary purpose,Unknown,Lilit Ivanyan
+561,KN_64.JPG,10/24/2023,Kentron,Aleq Manukyan Street,no valve,6.3,No secondary purpose,Unknown,Lilit Ivanyan
+562,KN_65.JPG,10/24/2023,Kentron,Aleq Manukyan Street,no valve,6.3,No secondary purpose,Unknown,Lilit Ivanyan
+563,KN_66.JPG,10/24/2023,Kentron,Aleq Manukyan Street,no valve,5.5,No secondary purpose,Unknown,Lilit Ivanyan
+564,KN_67.jpg,10/28/2023,Kentron,Ervand Kochar Street,no valve,4.4,No secondary purpose,Unknown,Adam Simonyan 
+565,KN_68.jpg,10/28/2023,Kentron,Ervand Kochar Street,no valve,4.4,No secondary purpose,Unknown,Adam Simonyan 
+566,KN_69.jpg,10/28/2023,Kentron,Ervand Kochar Street,no valve,3.6,No secondary purpose,Unknown,Adam Simonyan 
+567,KN_7.JPG,10/2/2023,Kentron,Martiros Saryan Street,no valve,4.2,No secondary purpose,Unknown,Lilit Ivanyan
+568,KN_70.jpg,10/28/2023,Kentron,Ervand Kochar Street,no valve,4.4,No secondary purpose,Unknown,Adam Simonyan 
+569,KN_71.jpg,10/28/2023,Kentron,Ervand Kochar Street,no valve,3.1,No secondary purpose,2020,Adam Simonyan 
+570,KN_72.jpg,10/28/2023,Kentron,Ervand Kochar Street,no valve,4.2,No secondary purpose,1992,Adam Simonyan 
+571,KN_73.jpg,10/28/2023,Kentron,Mashtots Avenue,no valve,4.8,No secondary purpose,Unknown,Adam Simonyan 
+572,KN_74.jpg,10/28/2023,Kentron,Northern Avenue,no valve,"7 heads,  all together 22.4",No secondary purpose,Unknown,Adam Simonyan 
+573,KN_75.jpg,10/28/2023,Kentron,Tumanyan Street,no valve,5.3,No secondary purpose,Unknown,Adam Simonyan 
+574,KN_76.jpg,10/28/2023,Kentron,Frik Street,no valve,4.9,No secondary purpose,Unknown,Adam Simonyan 
+575,KN_77.jpg,10/28/2023,Kentron,Paronyan Street,no valve,4.1,No secondary purpose,Unknown,Adam Simonyan 
+576,KN_78.jpg,10/28/2023,Kentron,Tsitsernakaberd,no valve,2.4,No secondary purpose,Unknown,Adam Simonyan 
+577,KN_79.JPG,10/29/2023,Kentron,Rafayel Lemkin street,no valve,3.44,No secondary purpose,Unknown,Lilit Ivanyan
+578,KN_8.JPG,10/2/2023,Kentron,Karen Demirchyan Street,no valve,3.125,No secondary purpose,Unknown,Lilit Ivanyan
+579,KN_80.JPG,10/29/2023,Kentron,Alexander Spendiaryan Street,no valve,4.6,No secondary purpose,Unknown,Lilit Ivanyan
+580,KN_81.JPG,10/29/2023,Kentron,Moskovyan Street,no valve,4.34,No secondary purpose,Unknown,Lilit Ivanyan
+581,KN_82.JPG,10/29/2023,Kentron,Tumanyan Street,no valve,Not working,No secondary purpose,Unknown,Lilit Ivanyan
+582,KN_84.JPG,10/29/2023,Kentron,Saint Anania church,with a broken valve,3.4,No secondary purpose,Unknown,Lilit Ivanyan
+583,KN_85.JPG,10/29/2023,Kentron,Saint Anania church,with valve,,No secondary purpose,Unknown,Lilit Ivanyan
+584,KN_87.JPG,10/29/2023,Kentron,Pushkin Street,no valve,Not working,No secondary purpose,Unknown,Lilit Ivanyan
+585,KN_88.JPG,10/29/2023,Kentron,Mesrop Mashtots Avenue,no valve,Not working,No secondary purpose,Unknown,Lilit Ivanyan
+586,KN_89.JPG,10/29/2023,Kentron,Mesrop Mashtots Avenue,no valve,3.05,No secondary purpose,Unknown,Lilit Ivanyan
+587,KN_9.JPG,10/2/2023,Kentron,Karen Demirchyan Street,no valve,3.125,No secondary purpose,Unknown,Lilit Ivanyan
+588,KN_90.JPG,10/29/2023,Kentron,Tumanyan Street,with valve,,No secondary purpose,Unknown,Lilit Ivanyan
+589,KN_91.JPG,10/29/2023,Kentron,Yeznik Koghbatsi Street,no valve,4.5,No secondary purpose,Unknown,Lilit Ivanyan
+590,KN_92.JPG,10/29/2023,Kentron,Hin Yerevantsu Street,no valve,6.2,No secondary purpose,Unknown,Lilit Ivanyan
+591,KN_93.JPG,10/29/2023,Kentron,Abovyan Street,no valve,4.5,No secondary purpose,Unknown,Lilit Ivanyan
+592,KN_94.JPG,10/29/2023,Kentron,Republic Square,no valve,"7 heads,  1.6 each",No secondary purpose,Unknown,Lilit Ivanyan
+593,KN_95.JPG,10/29/2023,Kentron,Tumanyan Street,no valve,3.24,No secondary purpose,Unknown,Lilit Ivanyan
+594,KN_96.JPG,10/29/2023,Kentron,Sayat-Nova Avenue,no valve,3.6,No secondary purpose,Unknown,Lilit Ivanyan
+595,KN_97.JPG,10/29/2023,Kentron,Abovyan Street,no valve,4.2,No secondary purpose,Unknown,Lilit Ivanyan
+596,KN_98.JPG,10/29/2023,Kentron,Moskovyan Street,no valve,Not working ,No secondary purpose,Unknown,Hrach Khachatryan
+597,KN_99.JPG,10/29/23,Kentron,Moskovyan str.,no valve,1.07,no secondary purpose,Unknown,Hrach Khachatryan
+598,KZ_1.jpg,9/29/2023,Kanaker-Zeytun,Davit Anhaght,no valve,3.5,No secondary purpose,Unknown,Meri Grigoryan
+599,KZ_10.jpg,10/06/2023,Kanaker-Zeytun,Raynis Street,with valve,-,No secondary purpose,Unknown,Meri Grigoryan
+600,KZ_100.jpg,10/29/23,Kanaker-Zeytun,Avetis Aharonyan Str.,no valve,3.2,no secondary purpose,Unknown,Marjana Mirzoyan
+601,KZ_101.jpg,10/29/23,Kanaker-Zeytun,Avetis Aharonyan Str.,no valve,2.3,no secondary purpose,Unknown,Marjana Mirzoyan
+602,KZ_102.jpg,10/29/23,Kanaker-Zeytun,Avetis Aharonyan Str.,no valve,2.14,no secondary purpose,Unknown,Marjana Mirzoyan
+603,KZ_103.jpg,10/29/23,Kanaker-Zeytun,Avetis Aharonyan Str.,no valve,3.6,no secondary purpose,Unknown,Marjana Mirzoyan
+604,KZ_104.jpg,10/29/23,Kanaker-Zeytun,Karapet Ulnetsi Str.,no valve,5,no secondary purpose,Unknown,Marjana Mirzoyan
+605,KZ_105.jpg,10/29/23,Kanaker-Zeytun,Karapet Ulnetsi Str.,no valve,4.12,no secondary purpose,Unknown,Marjana Mirzoyan
+606,KZ_106.jpg,10/29/23,Kanaker-Zeytun,Karapet Ulnetsi Str.,no valve,3.8,no secondary purpose,Unknown,Marjana Mirzoyan
+607,KZ_107.jpg,10/29/23,Kanaker-Zeytun,Paruyr Sevak Str.,no valve,3.02,no secondary purpose,Unknown,Marjana Mirzoyan
+608,KZ_108.jpg,10/29/23,Kanaker-Zeytun,Minas Avetisyan Str.,no valve,5,no secondary purpose,Unknown,Marjana Mirzoyan
+609,KZ_109.jpg,10/29/23,Kanaker-Zeytun,Minas Avetisyan Str.,no valve,3.24,no secondary purpose,Unknown,Marjana Mirzoyan
+610,KZ_110.jpg,10/29/23,Kanaker-Zeytun,Minas Avetisyan Str.,no valve,4.08,no secondary purpose,Unknown,Marjana Mirzoyan
+611,KZ_111.jpg,10/29/23,Kanaker-Zeytun,Dro Str.,no valve,2.37,no secondary purpose,Unknown,Marjana Mirzoyan
+612,KZ_112.jpg,10/29/23,Kanaker-Zeytun,Dro Str.,with valve,3.8,no secondary purpose,Unknown,Marjana Mirzoyan
+613,KZ_113.jpg,10/29/23,Kanaker-Zeytun,Dro Str.,no valve,4.31,no secondary purpose,Unknown,Marjana Mirzoyan
+614,KZ_114.jpg,10/29/23,Kanaker-Zeytun,Paruyr Sevak Str.,with valve,5.51,no secondary purpose,Unknown,Marjana Mirzoyan
+615,KZ_115.jpg,10/29/23,Kanaker-Zeytun,Karapet Ulnetsi Str.,with valve,3.76,no secondary purpose,Unknown,Marjana Mirzoyan
+616,KZ_116.jpg,10/29/23,Kanaker-Zeytun,Ani Tigranyan Str.,no valve,4.013,no secondary purpose,Unknown,Marjana Mirzoyan
+617,KZ_117.jpg,10/29/23,Kanaker-Zeytun,Karapet Ulnetsi Str.,no valve,Not working,no secondary purpose,Unknown,Marjana Mirzoyan
+618,KZ_118.jpg,10/29/23,Kanaker-Zeytun,Aram Cholakyan Str.,no valve,3.4,no secondary purpose,Unknown,Marjana Mirzoyan
+619,KZ_119.jpg,10/29/23,Kanaker-Zeytun,Aram Cholakyan Str.,no valve,2.23,no secondary purpose,Unknown,Marjana Mirzoyan
+620,KZ_12.jpg,10/06/2023,Kanaker-Zeytun,Raynis Street,with valve,-,No secondary purpose,Unknown,Meri Grigoryan
+621,KZ_120.jpg,10/29/23,Kanaker-Zeytun,Karapet Ulnetsi Str.,no valve,2.55,no secondary purpose,Unknown,Marjana Mirzoyan
+622,KZ_121.jpg,10/29/23,Kanaker-Zeytun,Azatutyan Avenue Lane,no valve,5.3,no secondary purpose,Unknown,Marjana Mirzoyan
+623,KZ_122.jpg,10/29/23,Kanaker-Zeytun,Azatutyan Avenue Lane,no valve,4.394,no secondary purpose,Unknown,Marjana Mirzoyan
+624,KZ_123.jpg,10/29/23,Kanaker-Zeytun,Nazaret Surenyan Str.,no valve,"3 heads, 2 working, one 4, one 2.8",no secondary purpose,Unknown,Marjana Mirzoyan
+625,KZ_124.jpg,10/29/23,Kanaker-Zeytun,Davit Anhaght Str.,no valve,5.6,no secondary purpose,Unknown,Marjana Mirzoyan
+626,KZ_125.jpg,10/29/23,Kanaker-Zeytun,Azatutyan Avenue ,no valve,3.426,no secondary purpose,Unknown,Marjana Mirzoyan
+627,KZ_126.jpg,10/29/23,Kanaker-Zeytun,Zakaria Sarkavag Str.,no valve,2.05,no secondary purpose,Unknown,Marjana Mirzoyan
+628,KZ_127.jpg,10/29/23,Kanaker-Zeytun,Zakaria Sarkavag Str.,no valve,2.84,no secondary purpose,Unknown,Marjana Mirzoyan
+629,KZ_128.jpg,10/29/23,Kanaker-Zeytun,Zakaria Sarkavag Str.,no valve,3.263,no secondary purpose,Unknown,Marjana Mirzoyan
+630,KZ_129.jpg,10/29/23,Kanaker-Zeytun,Zakaria Sarkavag Str.,no valve,Not Working,no secondary purpose,Unknown,Marjana Mirzoyan
+631,KZ_13.jpg,10/06/2023,Kanaker-Zeytun,Sevak Street,with valve,-,No secondary purpose,Unknown,Meri Grigoryan
+632,KZ_130.jpg,10/29/23,Kanaker-Zeytun,Fanarjian Str.,no valve,2.951,no secondary purpose,Unknown,Marjana Mirzoyan
+633,KZ_131.jpg,10/29/23,Kanaker-Zeytun,Fanarjian Str.,no valve,Not Working,no secondary purpose,Unknown,Marjana Mirzoyan
+634,KZ_132.jpg,10/29/23,Kanaker-Zeytun,Karapet Ulnetsi 2nd Deadlock,no valve,3.28,no secondary purpose,Unknown,Marjana Mirzoyan
+635,KZ_133.jpg,10/29/23,Kanaker-Zeytun,Minas Avetisyan 4th Str.,no valve,4.32,no secondary purpose,Unknown,Marjana Mirzoyan
+636,KZ_14.jpg,10/06/2023,Kanaker-Zeytun,Rubinyants Street,no valve,2.4,No secondary purpose,Unknown,Meri Grigoryan
+637,KZ_15.jpg,10/06/2023,Kanaker-Zeytun,Rubinyants Street,no valve,4.1,No secondary purpose,Unknown,Meri Grigoryan
+638,KZ_16.jpg,10/06/2023,Kanaker-Zeytun,Rubinyants Street,no valve,Not working,No secondary purpose,Unknown,Sofia Aleksanyan
+639,KZ_17.jpg,10/06/2023,Kanaker-Zeytun,Shovroyan Street,no valve,0.8,No secondary purpose,Unknown,Sofia Aleksanyan
+640,KZ_18.jpg,10/06/2023,Kanaker-Zeytun,Rubinyants Street,no valve,5.6,No secondary purpose,Unknown,Sofia Aleksanyan
+641,KZ_19.jpg,10/06/2023,Kanaker-Zeytun,Avetis Aharonyan Street,no valve,4,No secondary purpose,Unknown,Sofia Aleksanyan
+642,KZ_2.jpg,9/29/2023,Kanaker-Zeytun,Davit Anhaght,no valve,2.82,No secondary purpose,Unknown,Meri Grigoryan
+643,KZ_20.jpg,10/06/2023,Kanaker-Zeytun,Avetis Aharonyan Street,no valve,3.6,No secondary purpose,Unknown,Sofia Aleksanyan
+644,KZ_21.jpg,10/06/2023,Kanaker-Zeytun,Avetis Aharonyan Street,no valve,Not working,No secondary purpose,Unknown,Sofia Aleksanyan
+645,KZ_22.jpg,10/06/2023,Kanaker-Zeytun,Dro Street,no valve,1.6,No secondary purpose,Unknown,Sofia Aleksanyan
+646,KZ_23.jpg,10/06/2023,Kanaker-Zeytun,Dro Street,no valve,8.6,No secondary purpose,Unknown,Sofia Aleksanyan
+647,KZ_24.jpg,10/06/2023,Kanaker-Zeytun,Dro Street,no valve,Not working,No secondary purpose,Unknown,Sofia Aleksanyan
+648,KZ_25.jpg,10/06/2023,Kanaker-Zeytun,Vahe Vahanyan Street,no valve,4.2,No secondary purpose,2020,Sofia Aleksanyan
+649,KZ_26.jpg,10/13/2023,Kanaker-Zeytun,Zakaria Sarkavag Street,no valve,3,No secondary purpose,Unknown,Meri Grigoryan
+650,KZ_27.jpg,10/13/2023,Kanaker-Zeytun,Zakaria Sarkavag Street,no valve,5.1,No secondary purpose,Unknown,Meri Grigoryan
+651,KZ_28jpg.,10/13/2023,Kanaker-Zeytun,Zakaria Sarkavag Street,with valve,-,No secondary purpose,Unknown,Meri Grigoryan
+652,KZ_29.jpg,10/13/2023,Kanaker-Zeytun,Zakaria Sarkavag Street,no valve,1.8,No secondary purpose,Unknown,Meri Grigoryan
+653,KZ_3.jpg,9/29/2023,Kanaker-Zeytun,Davit Anhaght,no valve,2.1,No secondary purpose,Unknown,Meri Grigoryan
+654,KZ_30.jpg,10/13/2023,Kanaker-Zeytun,Meliq Meliqyan Street,with valve,-,No secondary purpose,Unknown,Meri Grigoryan
+655,KZ_31.jpg,10/13/2023,Kanaker-Zeytun,Meliq Meliqyan Street,no valve,Not working,No secondary purpose,Unknown,Meri Grigoryan
+656,KZ_32.jpg,10/13/2023,Kanaker-Zeytun,Kanaker 15th Street,no valve,Not working,No secondary purpose,Unknown,Meri Grigoryan
+657,KZ_33.jpg,10/13/2023,Kanaker-Zeytun,Meliq Meliqyan Street,no valve,2 heads 3.9 and 2.4,No secondary purpose,Unknown,Meri Grigoryan
+658,KZ_34.jpg,10/13/2023,Kanaker-Zeytun,Meliq Meliqyan Street,no valve,2.1,No secondary purpose,Unknown,Meri Grigoryan
+659,KZ_35.jpg,10/13/2023,Kanaker-Zeytun,Meliq Meliqyan Street,no valve,3.4,No secondary purpose,Unknown,Meri Grigoryan
+660,KZ_36.jpg,10/13/2023,Kanaker-Zeytun,Kanaker 14th Street,no valve,Not working,No secondary purpose,Unknown,Meri Grigoryan
+661,KZ_38.jpg,10/13/2023,Kanaker-Zeytun,Zakaria Sarkavag Street,no valve,5.1,No secondary purpose,Unknown,Meri Grigoryan
+662,KZ_39.jpg,10/13/2023,Kanaker-Zeytun,Zakaria Sarkavag Street,with a broken valve,Not working,No secondary purpose,Unknown,Meri Grigoryan
+663,KZ_4.jpg,9/29/2023,Kanaker-Zeytun,Davit Anhaght,no valve,2.9,No secondary purpose,Unknown,Sofia Aleksanyan
+664,KZ_40.jpg,10/13/2023,Kanaker-Zeytun,Zakaria Sarkavag Street,no valve,1.2,No secondary purpose,Unknown,Meri Grigoryan
+665,KZ_41.jpg,10/13/2023,Kanaker-Zeytun,Zakaria Sarkavag Street,no valve,2.4,No secondary purpose,Unknown,Meri Grigoryan
+666,KZ_42.jpg,10/13/2023,Kanaker-Zeytun,Zakaria Sarkavag Street,no valve,3.2,No secondary purpose,Unknown,Sofia Aleksanyan
+667,KZ_43.jpg,10/13/2023,Kanaker-Zeytun,Zakaria Sarkavag Street,no valve,1.56,No secondary purpose,Unknown,Sofia Aleksanyan
+668,KZ_44.jpg,10/13/2023,Kanaker-Zeytun,Zakaria Sarkavag Street,no valve,2.2,No secondary purpose,Unknown,Sofia Aleksanyan
+669,KZ_45.jpg,10/13/2023,Kanaker-Zeytun,Zakaria Sarkavag Street,no valve,Not working,No secondary purpose,Unknown,Sofia Aleksanyan
+670,KZ_46.jpg,10/13/2023,Kanaker-Zeytun,Zakaria Sarkavag Street,no valve,2.4,No secondary purpose,Unknown,Sofia Aleksanyan
+671,KZ_47.jpg,10/13/2023,Kanaker-Zeytun,Fanarjyan Street,no valve,"3 heads, 1.3x2.5",No secondary purpose,Unknown,Sofia Aleksanyan
+672,KZ_48.jpg,10/13/2023,Kanaker-Zeytun,Fanarjyan Street,no valve,2.6,No secondary purpose,Unknown,Sofia Aleksanyan
+673,KZ_49.jpg,10/13/2023,Kanaker-Zeytun,Zakaria Sarkavag Street,no valve,Not working,No secondary purpose,Unknown,Sofia Aleksanyan
+674,KZ_50.jpg,10/13/2023,Kanaker-Zeytun,Zakaria Sarkavag Street,no valve,1.8,No secondary purpose,Unknown,Sofia Aleksanyan
+675,KZ_51.jpg,10/13/2023,Kanaker-Zeytun,Fanarjyan Street,no valve,2.3,No secondary purpose,2020-2021,Sofia Aleksanyan
+676,KZ_52.jpg,10/13/2023,Kanaker-Zeytun,Fanarjyan Street,no valve,3.2,No secondary purpose,Unknown,Sofia Aleksanyan
+677,KZ_53.jpg,10/13/2023,Kanaker-Zeytun,Ezras Hasratyan Street,with a broken valve,1.9,No secondary purpose,Unknown,Sofia Aleksanyan
+678,KZ_54.jpg,10/13/2023,Kanaker-Zeytun,Ezras Hasratyan Street,with valve,-,No secondary purpose,Unknown,Sofia Aleksanyan
+679,KZ_55.jpg,10/13/2023,Kanaker-Zeytun,Ezras Hasratyan Street,no valve,2.05,No secondary purpose,Unknown,Sofia Aleksanyan
+680,KZ_56.jpg,10/13/2023,Kanaker-Zeytun,Ezras Hasratyan Street,no valve,2.1,No secondary purpose,Unknown,Sofia Aleksanyan
+681,KZ_57.jpg,10/13/2023,Kanaker-Zeytun,Ezras Hasratyan Street,no valve,2.3,No secondary purpose,Unknown,Sofia Aleksanyan
+682,KZ_58.jpg,10/13/2023,Kanaker-Zeytun,Ezras Hasratyan Street,with valve,-,No secondary purpose,Unknown,Sofia Aleksanyan
+683,KZ_59.jpg,10/23/2023,Kanaker-Zeytun,Hrachya Nersisyan Street,with valve,-,No secondary purpose,1968,Meri Grigoryan
+684,KZ_6.jpg,10/06/2023,Kanaker-Zeytun,Rubinyants Street,no valve,3.42,No secondary purpose,Unknown,Meri Grigoryan
+685,KZ_60.jpg,10/23/2023,Kanaker-Zeytun,Hrachya Nersisyan Street,no valve,3.4,No secondary purpose,Unknown,Meri Grigoryan
+686,KZ_61.jpg,10/23/2023,Kanaker-Zeytun,Azatutyan Avenue,no valve,Not working,No secondary purpose,Unknown,Meri Grigoryan
+687,KZ_62.jpg,10/23/2023,Kanaker-Zeytun,Azatutyan Avenue,with valve,-,No secondary purpose,Unknown,Meri Grigoryan
+688,KZ_64.jpg,10/23/2023,Kanaker-Zeytun,Hrachya Nersisyan Street,no valve,2.9,No secondary purpose,Unknown,Meri Grigoryan
+689,KZ_65.jpg,10/23/2023,Kanaker-Zeytun,Hrachya Nersisyan Street,no valve,2.2,No secondary purpose,Unknown,Meri Grigoryan
+690,KZ_66.jpg,10/23/2023,Kanaker-Zeytun,Hrachya Nersisyan Street,no valve,1.28,No secondary purpose,1995,Meri Grigoryan
+691,KZ_67.jpg,10/23/2023,Kanaker-Zeytun,Hrachya Nersisyan Street,no valve,3.2,No secondary purpose,Unknown,Meri Grigoryan
+692,KZ_68.jpg,10/23/2023,Kanaker-Zeytun,Hrachya Nersisyan Street,with a broken valve,Not working,No secondary purpose,Unknown,Meri Grigoryan
+693,KZ_69.jpg,10/23/2023,Kanaker-Zeytun,Hrachya Nersisyan Street,with valve,-,No secondary purpose,2021,Meri Grigoryan
+694,KZ_7.jpg,10/06/2023,Kanaker-Zeytun,Rubinyants Street,no valve,1.7,No secondary purpose,Unknown,Meri Grigoryan
+695,KZ_70.jpg,10/23/2023,Kanaker-Zeytun,Hrachya Nersisyan Street,no valve,3.13,No secondary purpose,Unknown,Meri Grigoryan
+696,KZ_71.jpg,10/23/2023,Kanaker-Zeytun,Avetis Aharonyan Street,no valve,5.05,No secondary purpose,2005,Meri Grigoryan
+697,KZ_72.jpg,10/23/2023,Kanaker-Zeytun,Lepsius Street,no valve,1.2,No secondary purpose,Unknown,Meri Grigoryan
+698,KZ_73.jpg,10/23/2023,Kanaker-Zeytun,Lepsius Street,no valve,Not working,No secondary purpose,Unknown,Meri Grigoryan
+699,KZ_74.jpg,10/23/2023,Kanaker-Zeytun,Lepsius Street,no valve,1.9,No secondary purpose,Unknown,Meri Grigoryan
+700,KZ_76.jpg,10/23/2023,Kanaker-Zeytun,Lepsius Street,no valve,3 liter (2 heads),No secondary purpose,Unknown,Meri Grigoryan
+701,KZ_77.jpg,10/23/2023,Kanaker-Zeytun,Lepsius Street,no valve,1.9,No secondary purpose,Unknown,Meri Grigoryan
+702,KZ_78.jpg,10/23/2023,Kanaker-Zeytun,Lepsius Street,no valve,4.9,No secondary purpose,2020,Sofia Aleksanyan
+703,KZ_79.jpg,10/23/2023,Kanaker-Zeytun,Lepsius Street,no valve,5.2,No secondary purpose,Unknown,Sofia Aleksanyan
+704,KZ_8.jpg,10/06/2023,Kanaker-Zeytun,Rubinyants Street,no valve,1.57,No secondary purpose,Unknown,Meri Grigoryan
+705,KZ_80.jpg,10/23/2023,Kanaker-Zeytun,Minas Avetisyan Street,no valve,Not working,No secondary purpose,Unknown,Sofia Aleksanyan
+706,KZ_81.jpg,10/23/2023,Kanaker-Zeytun,Minas Avetisyan Street,no valve,3.7,No secondary purpose,Unknown,Sofia Aleksanyan
+707,KZ_82.jpg,10/23/2023,Kanaker-Zeytun,Minas Avetisyan Street,with valve,-,No secondary purpose,Unknown,Sofia Aleksanyan
+708,KZ_83.jpg,10/23/2023,Kanaker-Zeytun,Minas Avetisyan Street,no valve,4.48,No secondary purpose,Unknown,Sofia Aleksanyan
+709,KZ_85.jpg,10/23/2023,Kanaker-Zeytun,Karapet Ulneci Street,no valve,5.24,No secondary purpose,Unknown,Sofia Aleksanyan
+710,KZ_86.jpg,10/23/2023,Kanaker-Zeytun,Karapet Ulneci Street,with valve,-,No secondary purpose,Unknown,Sofia Aleksanyan
+711,KZ_87.jpg,10/23/2023,Kanaker-Zeytun,Hrachya Nersisyan Street,no valve,1.145,No secondary purpose,Unknown,Sofia Aleksanyan
+712,KZ_88.jpg,10/23/2023,Kanaker-Zeytun,Lepsius Street,no valve,1.145,No secondary purpose,Unknown,Sofia Aleksanyan
+713,KZ_89.jpg,10/23/2023,Kanaker-Zeytun,Lepsius Street,no valve,3.32,No secondary purpose,Unknown,Sofia Aleksanyan
+714,KZ_9.jpg,10/06/2023,Kanaker-Zeytun,Raynis Street,no valve,3.9,No secondary purpose,Unknown,Meri Grigoryan
+715,KZ_90.jpg,10/23/2023,Kanaker-Zeytun,Lepsius Street,no valve,Not working,No secondary purpose,Unknown,Sofia Aleksanyan
+716,KZ_91.jpg,10/23/2023,Kanaker-Zeytun,Lepsius Street,with valve,-,No secondary purpose,Unknown,Sofia Aleksanyan
+717,KZ_92.jpg,10/23/2023,Kanaker-Zeytun,Lepsius Street,no valve,3.17,No secondary purpose,Unknown,Sofia Aleksanyan
+718,KZ_93.jpg,10/23/2023,Kanaker-Zeytun,Lepsius Street,no valve,Not working,No secondary purpose,Unknown,Sofia Aleksanyan
+719,KZ_94.jpg,10/23/2023,Kanaker-Zeytun,Minas Avetisyan Street,no valve,4.34,No secondary purpose,Unknown,Sofia Aleksanyan
+720,KZ_95.jpg,10/23/2023,Kanaker-Zeytun,Minas Avetisyan Street,no valve,1.91,No secondary purpose,Unknown,Sofia Aleksanyan
+721,KZ_96.jpg,10/23/2023,Kanaker-Zeytun,Karapet Ulneci Street,no valve,6.7,No secondary purpose,Unknown,Sofia Aleksanyan
+722,KZ_97.jpg,10/23/2023,Kanaker-Zeytun,Karapet Ulneci Street,no valve,3.3,No secondary purpose,Unknown,Sofia Aleksanyan
+723,KZ_98.jpg,10/29/23,Kanaker-Zeytun,Minas Avetisyan Str.,no valve,"2 heads, 2.17 each",no secondary purpose,Unknown,Marjana Mirzoyan
+724,KZ_99.jpg,10/29/23,Kanaker-Zeytun,Avetis Aharonyan Str.,no valve,3,no secondary purpose,Unknown,Marjana Mirzoyan
+725,NM_13.JPG,10/15/2023,Nork-Marash,Aytsemnik Urartu street,no valve,1.2,no secondary purpose,Unknown,Alla Basentsyan
+726,NM_14.JPG,10/15/2023,Nork-Marash,Aytsemnik Urartu street,no valve,5.04,no secondary purpose,Unknown,Alla Basentsyan
+727,NM_16.JPG,10/15/2023,Nork-Marash,Buzhashkhatokhner street,no valve,2.28,no secondary purpose,Unknown,Alla Basentsyan
+728,NM_17.JPG,10/15/2023,Nork-Marash,Buzhashkhatokhner street,no valve,3.6,no secondary purpose,Unknown,Alla Basentsyan
+729,NM_18.JPG,10/15/2023,Nork-Marash,Nork 7th street 1st lane,no valve,0.7,no secondary purpose,Unknown,Alla Basentsyan
+730,NM_20.JPG,10/15/2023,Nork-Marash,Garegin Hovsepyan street,no valve,4.2,no secondary purpose,Unknown,Alla Basentsyan
+731,NM_22.JPG,10/15/2023,Nork-Marash,"Armenak Armenakyan street, St. Mary church",no valve,4.8,no secondary purpose,Unknown,Alla Basentsyan
+732,NM_3.JPG,10/01/2023,Nork-Marash,Nork Pass,no valve,4.8,No secondary purpose,Unknown,Alla Basentsyan
+733,NM_4.JPG,10/01/2023,Nork-Marash,Nork 5th Street,no valve,1.2,No secondary purpose,Unknown,Alla Basentsyan 
+734,NM_7.JPG,10/15/2023,Nork-Marash,Nork 2nd street,no valve,2.4,no secondary purpose,Unknown,Alla Basentsyan
+735,NM_8.JPG,10/15/2023,Nork-Marash,Ara Harutyunyan street,with valve,,no secondary purpose,Unknown,Alla Basentsyan
+736,NM_9.JPG,10/15/2023,Nork-Marash,Lusine Zakaryan street,not working,,no secondary purpose,Unknown,Alla Basentsyan
+737,NN_10.JPG,10/15/2023,Nor Nork,Artem Mikoyan Street,no valve,2,No secondary purpose,Unknown,Davit Barseghyan
+738,NN_11.JPG,10/15/2023,Nor Nork,Marr Street,no valve,2.1,No secondary purpose,Unknown,Davit Barseghyan
+739,NN_13.JPG,10/15/2023,Nor Nork,Lyovyan Street,no valve,2.6,No secondary purpose,Unknown,Davit Barseghyan
+740,NN_16.JPG,10/15/2023,Nor Nork,Moldovakan Street,no valve,2.5,No secondary purpose,Unknown,Davit Barseghyan
+741,NN_17.JPG,10/16/2023,Nor Nork,Gai Avenue,no valve,3.05,No secondary purpose,Unknown,Davit Barseghyan
+742,NN_19.JPG,10/18/2023,Nor Nork,Moldovakan Street,no valve,4,No secondary purpose,Unknown,Davit Barseghyan
+743,NN_2.jpg,10/01/2023,Nor Nork,Mikoyan Street,no valve,2.7,No secondary purpose,Unknown,Davit Barseghyan
+744,NN_20.JPG,10/19/2023,Nor Nork,Moldovakan Street,no valve,1.95,No secondary purpose,Unknown,Davit Barseghyan
+745,NN_21.JPG,10/20/2023,Nor Nork,Gai Avenue,with a broken valve,3.25,No secondary purpose,Unknown,Davit Barseghyan
+746,NN_22.JPG,10/21/2023,Nor Nork,Gai Avenue,no valve,2.1,No secondary purpose,Unknown,Davit Barseghyan
+747,NN_23.JPG,10/22/2023,Nor Nork,Gai Avenue,with valve,2,No secondary purpose,Unknown,Davit Barseghyan
+748,NN_24.JPG,10/23/2023,Nor Nork,Gai Avenue,no valve,2.4,No secondary purpose,Unknown,Davit Barseghyan
+749,NN_25.JPG,10/24/2023,Nor Nork,Artem Mikoyan Street,no valve,2,No secondary purpose,Unknown,Mher Khanoyan
+750,NN_26.JPG,10/25/2023,Nor Nork,Artem Mikoyan Street,no valve,3,No secondary purpose,Unknown,Mher Khanoyan
+751,NN_27.JPG,10/26/2023,Nor Nork,Artem Mikoyan Street,no valve,1.85,No secondary purpose,Unknown,Mher Khanoyan
+752,NN_28.JPG,10/27/2023,Nor Nork,Ashot Hovhannisyan Street,with valve,2.65,No secondary purpose,Unknown,Mher Khanoyan
+753,NN_29.JPG,10/28/2023,Nor Nork,Ashot Hovhannisyan Street,no valve,2.3,No secondary purpose,Unknown,Mher Khanoyan
+754,NN_3.jpg,10/01/2023,Nor Nork,Galshoyan Street,no valve,2.2,No secondary purpose,Unknown,Davit Barseghyan
+755,NN_30.JPG,10/29/2023,Nor Nork,Ashot Hovhannisyan Street,no valve,3.25,No secondary purpose,Unknown,Mher Khanoyan
+756,NN_31.JPG,10/30/2023,Nor Nork,Ashot Hovhannisyan Street,no valve,4.2,No secondary purpose,Unknown,Mher Khanoyan
+757,NN_32.JPG,10/31/2023,Nor Nork,"Totovents Street, 7",no valve,2.2,No secondary purpose,Unknown,Inessa Minasyan
+758,NN_33.JPG,10/31/2023,Nor Nork,"Totovents Street, 11",no valve,2.9,No secondary purpose,Unknown,Inessa Minasyan
+759,NN_34.JPG,11/08/2023,Nor Nork,"Gayi Avenue, 13",no valve,2.7,No secondary purpose,Unknown,Inessa Minasyan
+760,NN_35.JPG,11/08/2023,Nor Nork,"Gayi Avenue, 19",no valve,2.85,No secondary purpose,Unknown,Inessa Minasyan
+761,NN_36.JPG,11/08/2023,Nor Nork,"Nelson Stepanyan Street, 10/5",no valve,3.1,No secondary purpose,Unknown,Inessa Minasyan
+762,NN_4.jpg,10/01/2023,Nor Nork,Galshoyan Street,with valve,3,No secondary purpose,Unknown,Davit Barseghyan
+763,NN_5.jpg,10/01/2023,Nor Nork,Galshoyan Street,with a broken valve,0.8,No secondary purpose,Unknown,Davit Barseghyan
+764,NN_6.JPG,10/15/2023,Nor Nork,Hunan Avetisyan Street,no valve,2.8,No secondary purpose,Unknown,Davit Barseghyan
+765,NN_7.JPG,10/15/2023,Nor Nork,Hunan Avetisyan Street,no valve,2.2,No secondary purpose,Unknown,Davit Barseghyan
+766,NN_8.JPG,10/15/2023,Nor Nork,Artem Mikoyan Street,with valve,3.3,No secondary purpose,Unknown,Davit Barseghyan
+767,NN_9.JPG,10/15/2023,Nor Nork,Artem Mikoyan Street,no valve,3,No secondary purpose,Unknown,Davit Barseghyan
+768,SG__19JPG,11/1/2023,Shengavit,Taronts 3rd Lane,no valve,0.36,No secondary purpose,unknown,Tamara Manukyan 
+769,SG_10JPG,11/1/2023,Shengavit,Taronts 1st Lane,no valve,0.32,No secondary purpose,unknown,Tamara Manukyan 
+770,SG_11JPG,11/1/2023,Shengavit,Taronts 26/8,no valve,0.24,No secondary purpose,unknown,Tamara Manukyan 
+771,SG_12JPG,11/1/2023,Shengavit,Taronts 3rd Lane,no valve,0.43,No secondary purpose,unknown,Tamara Manukyan 
+772,SG_14JPG,11/1/2023,Shengavit,Taronts 3rd Lane,no valve,0.38,No secondary purpose,unknown,Tamara Manukyan 
+773,SG_15JPG,11/1/2023,Shengavit,Taronts 3rd Lane,,not working,No secondary purpose,unknown,Tamara Manukyan 
+774,SG_16JPG,11/1/2023,Shengavit,Taronts 3rd Lane,no valve,0.35,No secondary purpose,unknown,Tamara Manukyan 
+775,SG_17JPG,11/1/2023,Shengavit,Taronts 3rd Lane,no valve,0.34,No secondary purpose,unknown,Tamara Manukyan 
+776,SG_1JPG,11/1/2023,Shengavit,Taronts Street,no valve,0.24,No secondary purpose,unknown,Tamara Manukyan 
+777,SG_20JPG,11/1/2023,Shengavit,Taronts 3rd Lane,no valve,0.32,No secondary purpose,unknown,Tamara Manukyan 
+778,SG_21JPG,11/1/2023,Shengavit,Taronts Street,no valve,0.3,No secondary purpose,unknown,Tamara Manukyan 
+779,SG_22JPG,11/1/2023,Shengavit,Shahamir Shahamiryan Street,no valve,0.29,No secondary purpose,unknown,Tamara Manukyan 
+780,SG_23JPG,11/1/2023,Shengavit,Shahamir Shahamiryan Street,no valve,0.33,No secondary purpose,unknown,Tamara Manukyan 
+781,SG_24JPG,11/1/2023,Shengavit,Manandyan street,no valve,0.38,No secondary purpose,unknown,Tamara Manukyan 
+782,SG_3JPG,11/1/2023,Shengavit,Taronts Street,with valve,0.29,No secondary purpose,unknown,Tamara Manukyan 
+783,SG_4JPG,11/1/2023,Shengavit,Taronts Street,with valve,0.15,No secondary purpose,unknown,Tamara Manukyan 
+784,SG_5JPG,11/1/2023,Shengavit,Bagratunyanc 4 Avenue,no valve,0.31,No secondary purpose,unknown,Tamara Manukyan 
+785,SG_6JPG,11/1/2023,Shengavit,Taronts Street,no valve,0.28,No secondary purpose,unknown,Tamara Manukyan 
+786,SG_7JPG,11/1/2023,Shengavit,Taronts Backstreet,no valve,0.3,No secondary purpose,unknown,Tamara Manukyan 
+787,SG_8JPG,11/1/2023,Shengavit,Taronts Street,,not working,No secondary purpose,unknown,Tamara Manukyan 
+788,SG_9JPG,11/1/2023,Shengavit,Taaronts Street,no valve,0.34,No secondary purpose,unknown,Tamara Manukyan 
+789,KN_5.JPG,10/2/2023,Kentron,Moskovyan Street,no valve,2.14,No secondary purpose ,Unknown,Lilit Ivanyan
+790,NM_2.JPG,10/01/2023,Nork-Marash,Nork 2nd Street,no valve,2.4,No secondary purpose ,Unknown,Alla Basentsyan
+791,SG_100..JPG,11/1/2023,Shengavit,Upper Shengavit,no valve,0.38,no secondary purpose ,unknown,Tamara Manukyan 
+792,SG_101.JPG,11/1/2023,Shengavit,Upper Shengavit,with valve,0.63,no secondary purpose ,unknown,Tamara Manukyan 
+793,SG_102.JPG,11/1/2023,Shengavit,Upper Shengavit,no valve,0.9,no secondary purpose ,unknown,Tamara Manukyan 
+794,SG_103.JPG,11/1/2023,Shengavit,Upper Shengavit,no valve,0.41,no secondary purpose ,unknown,Tamara Manukyan 
+795,SG_104.JPG,11/1/2023,Shengavit,Upper Shengavit,no valve,0.65,no secondary purpose ,unknown,Tamara Manukyan 
+796,SG_105.JPG,11/1/2023,Shengavit,Upper Shengavit,no valve,0.45,no secondary purpose ,unknown,Tamara Manukyan 
+797,SG_106.JPG,11/1/2023,Shengavit,Arshakunyanc Avenue,no valve,1.03,no secondary purpose ,unknown,Tamara Manukyan 
+798,SG_108.JPG,11/1/2023,Shengavit,Artashisyan Avenue,no valve,0.48,no secondary purpose ,unknown,Tamara Manukyan 
+799,SG_109.JPG,11/1/2023,Shengavit,Artashisyan Avenue,no valve,0.66,no secondary purpose ,unknown,Tamara Manukyan 
+800,SG_110.JPG,11/1/2022,Shengavit,Artashisyan Avenue,no valve,2.72,no secondary purpose ,unknown,Tamara Manukyan 
+801,SG_27.JPG,11/1/2023,Shengavit,Mantashyan Street,no valve,0.35,no secondary purpose ,unknown,Tamara Manukyan 
+802,SG_28.JPG,11/1/2023,Shengavit,Arshakunyanc Street 75/1,no valve,0.28,no secondary purpose ,unknown,Tamara Manukyan 
+803,SG_29.JPG,11/1/2023,Shengavit,Arshakunyanc Street  56,no valve,0.29,no secondary purpose ,unknown,Tamara Manukyan 
+804,SG_30.JPG,11/1/2023,Shengavit,Arshakunyanc Street 52/3,,not wokring,no secondary purpose ,unknown,Tamara Manukyan 
+805,SG_31.JPG,11/1/2023,Shengavit,Arshakunyanc Street 54/3,no valve,0.28,no secondary purpose ,unknown,Tamara Manukyan 
+806,SG_32.JPG,11/1/2023,Shengavit,Arshakunyanc  Street 54,no valve,0.29,no secondary purpose ,unknown,Tamara Manukyan 
+807,SG_33.JPG,11/1/2023,Shengavit,Arshakunyanc Street 49,no valve,0.23,no secondary purpose ,unknown,Tamara Manukyan 
+808,SG_34.JPG,11/1/2023,Shengavit,Arshakunyanc Street 50/1,no valve,0.34,no secondary purpose ,unknown,Tamara Manukyan 
+809,SG_35.JPG,11/1/2023,Shengavit,Arshakunyanc Street 50/2,no valve,1,no secondary purpose ,unknown,Tamara Manukyan 
+810,SG_36.JPG,11/1/2023,Shengavit,Arshakunyanc Street 50/3,with valve,3.33,no secondary purpose ,unknown,Tamara Manukyan 
+811,SG_37.JPG,11/1/2023,Shengavit,Arshakunyanc Street 52/3,no valve,0.38,no secondary purpose ,unknown,Tamara Manukyan 
+812,SG_38.JPG,11/1/2023,Shengavit,Arshakunyanc Street 60/1,no valve,1.02,no secondary purpose ,unknown,Tamara Manukyan 
+813,SG_39.JPG,11/1/2023,Shengavit,Arshakunyanc Street 54/2,no valve,0.38,no secondary purpose ,unknown,Tamara Manukyan 
+814,SG_40.JPG,11/1/2023,Shengavit,Arshakunyanc Street 54/2,no valve,0.48,no secondary purpose ,unknown,Tamara Manukyan 
+815,SG_41.JPG,11/1/2023,Shengavit,Arshakunyanc Street ,,Not Working,no secondary purpose ,unknown,Tamara Manukyan 
+816,SG_42.JPG,11/1/2023,Shengavit,Arshakunyanc Street 48/1,no valve,0.47,no secondary purpose ,unknown,Tamara Manukyan 
+817,SG_43.JPG,11/1/2023,Shengavit,Arshakunyanc Street 52/2,no valve,1,no secondary purpose ,unknown,Tamara Manukyan 
+818,SG_44.JPG,11/1/2023,Shengavit,Arshakunyanc Street 52/1,no valve,1,no secondary purpose ,unknown,Tamara Manukyan 
+819,SG_45.JPG,11/1/2023,Shengavit,Arshakunyanc Street 50/2,,Not Working,no secondary purpose ,unknown,Tamara Manukyan 
+820,SG_46.JPG,11/1/2023,Shengavit,Arshakunyanc Street 50/1,no valve,0.62,no secondary purpose ,unknown,Tamara Manukyan 
+821,SG_47.JPG,11/1/2023,Shengavit,Arshakunyanc Street 50/11,no valve,0.73,no secondary purpose ,unknown,Tamara Manukyan 
+822,SG_48.JPG,11/1/2023,Shengavit,Arshakunyanc Street 50,with valve,0.76,no secondary purpose ,unknown,Tamara Manukyan 
+823,SG_49.JPG,11/1/2023,Shengavit,Arshakunyanc Street 50,with valve,0.39,no secondary purpose ,unknown,Tamara Manukyan 
+824,SG_50.JPG,11/2/2023,Shengavit,Arshakunyanc Street 48,no valve,0.76,no secondary purpose ,unknown,Tamara Manukyan 
+825,SG_51.JPG,11/1/2023,Shengavit,Arshakunyanc Street 56,no valve,0.55,no secondary purpose ,unknown,Tamara Manukyan 
+826,SG_52.JPG,11/1/2023,Shengavit,Arshakunyanc Street 65,,Not Working ,no secondary purpose ,unknown,Tamara Manukyan 
+827,SG_54.JPG,11/1/2023,Shengavit,Arshakunyanc Street 46/2,,Not Working,no secondary purpose ,unknown,Tamara Manukyan 
+828,SG_55.JPG,11/1/2023,Shengavit,Arshakunyanc Street 65,no valve,0.75,no secondary purpose ,unknown,Tamara Manukyan 
+829,SG_56.JPG,11/1/2023,Shengavit,Arshakunyanc Street 68,no valve,0.46,no secondary purpose ,unknown,Tamara Manukyan 
+830,SG_57.JPG,11/1/2023,Shengavit,Mantashyan Street 1,no valve,0.69,no secondary purpose ,unknown,Tamara Manukyan 
+831,SG_58.JPG,11/1/2023,Shengavit,Mantashyan Street 1,,Not Working,no secondary purpose ,unknown,Tamara Manukyan 
+832,SG_59.JPG,11/1/2023,Shengavit,Mantashyan Street 6,no valve,0.53,no secondary purpose ,unknown,Tamara Manukyan 
+833,SG_60.JPG,11/1/2023,Shengavit,Manandyan street,no valve,0.4,no secondary purpose ,unknown,Tamara Manukyan 
+834,SG_61.JPG,11/1/2023,Shengavit,Eghbayrutyun Street 1,no valve,0.49,no secondary purpose ,unknown,Tamara Manukyan 
+835,SG_62.JPG,11/1/2023,Shengavit,Mantashyan Street 8,no valve,0.42,no secondary purpose ,unknown,Tamara Manukyan 
+836,SG_63.JPG,11/1/2023,Shengavit,Eghbayrutyun Street 2,no valve,0.72,no secondary purpose ,unknown,Tamara Manukyan 
+837,SG_64.JPG,11/1/2023,Shengavit,Eghbayrutyun Street 2,no valve,0.9,no secondary purpose ,unknown,Tamara Manukyan 
+838,SG_65.JPG,11/1/2023,Shengavit,Chekhov Street 1,no valve,0.87,no secondary purpose ,unknown,Tamara Manukyan 
+839,SG_68.JPG,11/1/2023,Shengavit,Chekhov Street 1,no valve,0.63,no secondary purpose ,unknown,Tamara Manukyan 
+840,SG_69.JPG,11/1/2023,Shengavit,Chekhov Street 1,,Not Working,no secondary purpose ,unknown,Tamara Manukyan 
+841,SG_70.JPG,11/1/2023,Shengavit,Chekhov Street 3,no valve,0.62,no secondary purpose ,unknown,Tamara Manukyan 
+842,SG_71.JPG,11/1/2023,Shengavit,Bagratunyanc Street 1,with valve,0.56,no secondary purpose ,unknown,Tamara Manukyan 
+843,SG_72.JPG,11/1/2023,Shengavit,Chekhov Street 1,no valve,0.52,no secondary purpose ,unknown,Tamara Manukyan 
+844,SG_73.JPG,11/1/2023,Shengavit,Chekhov Street 1,,Not Wokring,no secondary purpose ,unknown,Tamara Manukyan 
+845,SG_74.JPG,11/1/2023,Shengavit,Chekhov Street 1,no valve,0.41,no secondary purpose ,unknown,Tamara Manukyan 
+846,SG_75.JPG,11/1/2023,Shengavit,Chekhov Street 1,no valve,2.27,no secondary purpose ,unknown,Tamara Manukyan 
+847,SG_76.JPG,11/1/2023,Shengavit,Shevchenko Street,no valve,0.47,no secondary purpose ,unknown,Tamara Manukyan 
+848,SG_78.JPG,11/1/2023,Shengavit,Nizami Street,no valve,0.42,no secondary purpose ,unknown,Tamara Manukyan 
+849,SG_79.JPG,11/1/2023,Shengavit,Eghbayrutyun Street 1,no valve,1.82,no secondary purpose ,unknown,Tamara Manukyan 
+850,SG_80.JPG,11/1/2023,Shengavit,Nizami Street,no valve,0.51,no secondary purpose ,unknown,Tamara Manukyan 
+851,SG_81.JPG,11/1/2022,Shengavit,Chekhov Street ,no valve,0.38,no secondary purpose ,unknown,Tamara Manukyan 
+852,SG_82.JPG,11/1/2023,Shengavit,Eghbayrutyun Street 1,no valve,3.19,no secondary purpose ,unknown,Tamara Manukyan 
+853,SG_83.JPG,11/1/2023,Shengavit,Nizami Street,no valve,0.49,no secondary purpose ,unknown,Tamara Manukyan 
+854,SG_84.JPG,11/1/2023,Shengavit,Eghbayrutyun Street ,,Not Working,no secondary purpose ,unknown,Tamara Manukyan 
+855,SG_85.JPG,11/1/2023,Shengavit,Shevchenko Street,no valve,0.73,no secondary purpose ,unknown,Tamara Manukyan 
+856,SG_86.JPG,11/1/2023,Shengavit,Shevchenko Street,no valve,0.4,no secondary purpose ,unknown,Tamara Manukyan 
+857,SG_87.JPG,11/1/2023,Shengavit,Shevchenko Street,no valve,0.58,no secondary purpose ,unknown,Tamara Manukyan 
+858,SG_88.JPG,11/1/2023,Shengavit,Eghbayrutyun Street,no valve,0.66,no secondary purpose ,unknown,Tamara Manukyan 
+859,SG_89.JPG,11/1/2023,Shengavit,Mantashyan Street,no valve,1.8,no secondary purpose ,unknown,Tamara Manukyan 
+860,SG_90.JPG,11/1/2023,Shengavit,Mantashyan Street,no valve,0.53,no secondary purpose ,unknown,Tamara Manukyan 
+861,SG_91.JPG,11/1/2023,Shengavit,Mantashyan Street,no valve,0.55,no secondary purpose ,unknown,Tamara Manukyan 
+862,SG_92.JPG,11/1/2023,Shengavit,Garegin Nzhdeh Street,no valve,0.61,no secondary purpose ,unknown,Tamara Manukyan 
+863,SG_93.JPG,11/1/2023,Shengavit,Nizami Street,no valve,1.2,no secondary purpose ,unknown,Tamara Manukyan 
+864,SG_94.JPG,11/1/2023,Shengavit,May 9 Street,no valve,1.05,no secondary purpose ,unknown,Tamara Manukyan 
+865,SG_95.JPG,11/1/2023,Shengavit,May 9 Street,no valve,0.78,no secondary purpose ,unknown,Tamara Manukyan 
+866,SG_96.JPG,11/1/2023,Shengavit,Manandyan street,no valve,0.8,no secondary purpose ,unknown,Tamara Manukyan 
+867,SG_97.JPG,11/1/2023,Shengavit,Upper Shengavit,no valve,0.49,no secondary purpose ,unknown,Tamara Manukyan 
+868,SG_98.JPG,11/1/2023,Shengavit,Upper Shengavit,no valve,1,no secondary purpose ,unknown,Tamara Manukyan 
+869,SG_99.JPG,11/1/2023,Shengavit,Upper Shengavit,no valve,0.34,no secondary purpose ,unknown,Tamara Manukyan 
+870,NN_12.JPG,10/15/2023,Nor Nork,Jughayi Street,no valve,2.85,Park Irrigation,Unknown,Davit Barseghyan
+871,NN_18.JPG,10/17/2023,Nor Nork,Gai Avenue,no valve,3,Park Irrigation,Unknown,Davit Barseghyan
+872,NM_23.JPG,10/15/2023,Nork-Marash,Armenak Armenakyan street,no valve,4.8,used to fill coffee machine water,Unknown,Alla Basentsyan
+873,KN_42.JPG KN_43.JPG,10/8/2023,Kentron,Mesrop Mashtots Avenue,"3 with valve, 1 with no valve","4 heads. The one with no valve: 3L/min, one with valve: 2.14L/min, other two with valves:  1.67L/min",Washing baskets from the store nearby,Unknown,Hrach Khachatryan
+874,KZ_11.jpg,10/06/2023,Kanaker-Zeytun,Raynis Street,no valve,4,Washing cars,Unknown,Meri Grigoryan
+875,SG_66JPG,11/1/2023,Shengavit,Chekhov Street 1,no valve,1.19,washing cars,unknown,Tamara Manukyan 
+876,KN_105.JPG,10/29/23,Kentron,Hanrapetutyan Str.,no valve,2.14,watering flowers in the nearby flower booth,Unknown,Hrach Khachatryan
+877,SG_2JPG,11/1/2023,Shengavit,Taronts Street,no valve,0.28,watering soil,unknown,Tamara Manukyan 
+878,SG_26JPG,11/1/2023,Shengavit,Mantashyan Street,no valve,0.45,watering soil ,unknown,Tamara Manukyan 
+879,NM_10.JPG,10/15/2023,Nork-Marash,Sargis Baghdasaryan street,no valve,2.4,watering soil/trees,Unknown,Alla Basentsyan
+880,NM_11.JPG,10/15/2023,Nork-Marash,Arpenik Nalbandyan Street,no valve,2.52,watering soil/trees,Unknown,Alla Basentsyan
+881,NM_12.JPG,10/15/2023,Nork-Marash,Aytsemnik Urartu street,no valve,0.8,watering soil/trees,Unknown,Alla Basentsyan
+882,NM_15.JPG,10/15/2023,Nork-Marash,Nork 15th street,no valve,2.28,watering soil/trees,Unknown,Alla Basentsyan
+883,NM_19.JPG,10/15/2023,Nork-Marash,next to Garegin Hovsepyan street (next to Panorama hotel ),with valve,,watering soil/trees,Unknown,Alla Basentsyan
+884,NM_21.JPG,10/15/2023,Nork-Marash,"Armenak Armenakyan street, St. Mary church",no valve,2.34,watering soil/trees,Unknown,Alla Basentsyan
+885,NM_24.JPG,10/15/2023,Nork-Marash,Norqi Ayginer street (Nork-Marash Medical center),with valve,,watering soil/trees,Unknown,Alla Basentsyan
+886,NM_25.JPG,10/15/2023,Nork-Marash,Armenak Armenakyan street,no valve,5.4,watering soil/trees,Unknown,Alla Basentsyan
+887,NM_6.JPG,10/15/2023,Nork-Marash,Sero Khanzadyan roundabout,no valve,5.4,watering soil/trees,Unknown,Alla Basentsyan
+888,KZ_37.jpg,10/13/2023,Kanaker-Zeytun,Zakaria Sarkavag Street,with valve,-,Watering the garden,Unknown,Meri Grigoryan
+889,KZ_5.jpg,9/29/2023,Kanaker-Zeytun,Davit Anhaght,with a broken valve,2.64,Watering the garden,Unknown,Sofia Aleksanyan
+890,KZ_63.jpg,10/23/2023,Kanaker-Zeytun,Hrachya Nersisyan Street,no valve,2.8,Watering the garden,Unknown,Meri Grigoryan
+891,KZ_75.jpg,10/23/2023,Kanaker-Zeytun,Lepsius Street,no valve,0.8,Watering the garden,Unknown,Meri Grigoryan
+892,KZ_84.jpg,10/23/2023,Kanaker-Zeytun,Minas Avetisyan Street,no valve,0.9,Watering the garden,Unknown,Sofia Aleksanyan
+893,NN_14.JPG,10/15/2023,Nor Nork,Ashot Hovhannisyan Street,with valve,4.5,Watering trees,Unknown,Davit Barseghyan
+894,NN_15.JPG,10/15/2023,Nor Nork,Ashot Hovhannisyan Street,no valve,2.25,Watering trees,Unknown,Davit Barseghyan
+895,NN_1.jpg,10/01/2023,Nor Nork,Mikoyan Street,no valve,1.9,Waters nearby park,Unknown,Davit Barseghyan
+896,AR_1.JPG,9/30/2023,Arabkir,Sose 2nd Lane,no valve,5,waters the trees,Unknown,Inga Avetisyan
+897,NM_5.JPG,10/01/2023,Nork-Marash,Sero Khanzadyan 2nd Lane,with valve,-,Waters the trees/soil,Unknown,Alla Basentsyan 
+898,SG_25JPG,11/1/2023,Shengavit,Bagratunyanc 4 Avenue,,not working,,unknown,Tamara Manukyan 
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+, ,,,,,,,,

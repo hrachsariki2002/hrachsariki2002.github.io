@@ -1,0 +1,763 @@
+---
+title: "Mapping and analyzing the pulpulak water dynamics in Yerevan"
+author: ""
+date: "2023-11-15"
+#output:
+ # html_document:
+  #  css: styles.css
+   # df_print: paged
+#editor_options:
+ # markdown:
+  #  wrap: 72
+output:
+  prettydoc::html_pretty:
+      theme: leonids
+      highlight: github
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r, echo = FALSE, message=FALSE, warning=FALSE}
+library(ggplot2)
+library(dplyr)
+library(openxlsx)
+library(leaflet)
+library(htmlwidgets)
+library(DT)
+```
+
+*Abstract:*
+
+This study delves into the critical issue of Yerevan's Water wastage, focusing mainly on the Kentron district. The research uses spatial analysis, which examines the distribution and flow rates of pulpulaks, uncovering patterns that highlight the severity of the problem. Results show that most pulpulaks lack functional valves, leading to substantial daily and annual water loss. The study estimates the equivalent impact on water usage in major global cities through quantitative evaluation. Furthermore, the research explores potential correlations between pulpulak distribution and factors like road types, architecture, socioeconomic realities, and geographic features. The research findings emphasize the need for urgent and targeted interventions and policy measures to reduce water wastage and promote sustainable water management practices in Yerevan.
+
+*Introduction:*
+
+Yerevan, the vibrant heart of Armenia, faces an urgent challenge that threatens the well-being of its residents and the city's environmental sustainability - the wastage of water. As we all know, water is a fundamental resource essential for life, and for a society to thrive, water demands a profound examination of its usage patterns, conservation practices, and potential for ways of improvement. This study seeks to uncover the intricate web of factors that contribute to water wastage in Yerevan, shedding light on the issue of how severe it is and providing a foundation for informed solutions.
+
+*Hypothesis:*
+
+In the midst of Yerevan’s urban landscape, water wastage is uncontrolled and poses a great threat to the city’s ecological balance and also to long-term water security. This paper makes a hypothesis that a combination of inadequate infrastructure, behavioral factors, and a lack of strict measures for conservation contributes to the substantial loss of water resources. By examining current usage patterns, in addition to the integrity of the infrastructure and global best practices, the aim is to demonstrate the urgency for implementing interventions to curb water wastage in Yerevan. The hypothesis asserts that the understanding of these factors will pave the way for targeted solutions for fostering a sustainable water management system for Yerevan.
+
+*Methods:*
+
+In this paper, we will conduct a spatial analysis of pulpulak distribution in Yerevan as well as data analysis related to water usage and wastage in the city, especially in Kentron district, to answer a list of quantitative questions that will help us determine whether are proposed hypothesis should be reatined or rejected. On top of the quantitative questions, we will also answer qualitative questions and represent data from a survey we conducted. These two as well will serve the same purpose as the answers to the quantitative questions: determining whether we should retain or reject our hypothesis.
+
+<hr>
+
+*Results:*
+
+In this particular section we will answer the following quantitative
+questions:
+
+1.  What is the portion of pulpulaks that have a functional valve vs
+    ones that have continuously flowing water? Produce graph(s) to
+    highlight your result.
+
+2.  Taking into account the flow rates from continuously flowing
+    pulpulaks in your dataset, how much water is lost per day in
+    Yerevan? How much per year? What are those numbers equivalent to?
+
+3.  
+
+```{=html}
+<!-- -->
+```
+a)  Describe the distribution of pulpulaks between the different
+    districts. Highlight if there are significant spatial discrepancies
+    in their distribution density. Analyze the potential reasons that
+    lead to these differences.
+
+b)  Develop a methodology to identify where it is more likely to find
+    pulpulaks. Try to find correlations related to some of these
+    factors:
+
+```{=html}
+<!-- -->
+```
+a.  Road types
+
+b.  Architecture
+
+c.  Socioeconomic realities and institutions
+
+d.  Proximity to certain institutions and entities
+
+e.  Demographics
+
+f.  Geography
+
+Do your conclusions somehow explain the spatial distribution answered
+above?
+
+4.  Are there significant differences in flow rates of continuously
+    flowing pulpulaks between different districts? Hypothesize why there
+    may or may not be a difference depending on your answers.
+
+The questions will be answered using the available data in forms of tables and maps. First two questions will be adressed only within the scope of Kentron district of Yerevan, the last two will be answered within the scope of entire Yerevan (except the districts that were excluded). The questions will be answered both in evaluative manner and also using various graphs generated by R.    
+```{=html}
+<hr>
+```
+
+<h2>Quantitative Questions</h2>
+
+**1. What is the portion of pulpulaks that have a functional valve vs
+ones that have continuously flowing water? Produce graph(s) to highlight
+your result.**
+
+After importing the data and filtering it we will get only the
+information for pulpulaks located in Kentron district of Yerevan since
+that is the only district we are working on at the moment.
+
+```{r, echo = FALSE, message=FALSE, warning=FALSE}
+collected_data <- read.csv("collected_data.csv")
+filtered_data <- collected_data %>% filter(District == 'Kentron')
+
+```
+
+Getting the absolute numbers of:\
+1. Pulpulaks with valve\
+2. Pulpulaks with no valve\
+3. Pulpulaks with a broken valve\
+4. Total number of pulpulaks
+
+Here are the categories that pulpulaks have been split into based on the
+existence of valve:
+
+```{r, echo = FALSE, message=FALSE, warning=FALSE}
+unique(filtered_data$Type)
+```
+
+The categories with several values in them were removed for data
+consistency. These represent just a couple of pulpulaks and would not
+make much of a difference if we get them removed.
+
+```{r, echo = FALSE, message=FALSE, warning=FALSE}
+filtered_data <- filtered_data %>% filter(Type == "no valve" | Type == "with a broken valve" | Type == "with valve" )
+```
+
+We need to get the absolute numbers per category:
+
+```{r, echo = FALSE, message=FALSE, warning=FALSE}
+with_valve = nrow(filtered_data[filtered_data$Type == "with valve",])
+no_valve = nrow(filtered_data[filtered_data$Type == "no valve",])
+broken_valve = nrow(filtered_data[filtered_data$Type == "with a broken valve",])
+```
+
+Number of pulpulaks with a valve: `r with_valve`\
+Number of pulpulaks with no valve: `r no_valve`\
+Number of pulpulaks with broken valve: `r broken_valve`\
+
+Now, let's draw some graphs to look at the proportion and distribution
+per categories. First we will draw a barplot:
+
+```{r, echo = FALSE, message=FALSE, warning=FALSE}
+# This chunk was added later on upon the decision to check the valve type proportion in all districts
+
+clean_collected_data <- collected_data[collected_data$Type == "with valve" | collected_data$Type == "with a broken valve" | collected_data$Type == "no valve" | collected_data$Type == "valve" | collected_data$Type == "broken valve",]
+
+for(i in 1:nrow(clean_collected_data)) {
+  if(clean_collected_data[i, "Type"] == "with a broken valve") {
+    clean_collected_data[i, "Type"] <- "broken valve"
+  } else  if(clean_collected_data[i, "Type"] == "with valve") {
+    clean_collected_data[i, "Type"] <- "valve"
+  }
+}
+
+```
+
+```{r, echo = FALSE, message=FALSE, warning=FALSE, fig.cap="Figure 1: Number of pulpulaks per valve category in entire Yerevan"}
+
+ggplot() + geom_bar(data = clean_collected_data, aes(x = Type, fill = Type)) +
+  labs(title = "Number of pulpulaks per valve category in entire Yerevan",
+       x = "Type of pulpulak per valve installation",
+       y = "Number of pulpulaks per each category",
+       fill = "Valve type")
+
+
+```
+
+As we can see from the barplot above, most of the pulpulaks in Yerevan have no valve, i.e. most of the pulpulaks in Yerevan have a continuous flow.
+
+```{r, echo = FALSE, message=FALSE, warning=FALSE, fig.cap="Figure 2: Number of pulpulaks per valve category in Nork-Marash"}
+
+
+districtNames <- unique(clean_collected_data$District)
+
+
+ggplot() + geom_bar(data = clean_collected_data[clean_collected_data$District == districtNames[1],], aes(x = Type, fill = Type)) +
+    labs(title = paste("Number of pulpulaks per valve category in", districtNames[1]),
+         x = "Type of pulpulak per valve installation",
+         y = "Number of pulpulaks per each category",
+         fill = "Valve type")
+
+
+```
+
+Here we can see that there are no pulpulaks with broken valves in Nork-Marash district, however again, most of the pulpulaks have no valve, i.e. have continuous flow.
+
+```{r, echo = FALSE, message=FALSE, warning=FALSE, fig.cap="Figure 3: Number of pulpulaks per valve category in Ajapnyak"}
+ggplot() + geom_bar(data = clean_collected_data[clean_collected_data$District == districtNames[2],], aes(x = Type, fill = Type)) +
+    labs(title = paste("Number of pulpulaks per valve category in", districtNames[2]),
+         x = "Type of pulpulak per valve installation",
+         y = "Number of pulpulaks per each category",
+         fill = "Valve type")
+```
+
+In Ajapnyak district as well, most of the pulpulaks have no valve.
+
+```{r, echo = FALSE, message=FALSE, warning=FALSE, fig.cap="Figure 4: Number of pulpulaks per valve category in Shengavit"}
+
+ggplot() + geom_bar(data = clean_collected_data[clean_collected_data$District == districtNames[3],], aes(x = Type, fill = Type)) +
+    labs(title = paste("Number of pulpulaks per valve category in", districtNames[3]),
+         x = "Type of pulpulak per valve installation",
+         y = "Number of pulpulaks per each category",
+         fill = "Valve type")
+
+```
+
+In Shengavit district as well, as in previous districts, most of the pulpulaks have no valve. Pay attention that there are no pulpulaks with broken valves.
+
+```{r, echo = FALSE, message=FALSE, warning=FALSE, fig.cap="Figure 5: Number of pulpulaks per valve category in Kentron"}
+
+ggplot() + geom_bar(data = clean_collected_data[clean_collected_data$District == districtNames[4],], aes(x = Type, fill = Type)) +
+    labs(title = paste("Number of pulpulaks per valve category in", districtNames[4]),
+         x = "Type of pulpulak per valve installation",
+         y = "Number of pulpulaks per each category",
+         fill = "Valve type")
+
+```
+
+Most of the pulpulaks in Kentron district too have no valve.
+
+```{r, echo = FALSE, message=FALSE, warning=FALSE, fig.cap="Figure 6: Number of pulpulaks per valve category in Erebuni"}
+
+ggplot() + geom_bar(data = clean_collected_data[clean_collected_data$District == districtNames[5],], aes(x = Type, fill = Type)) +
+    labs(title = paste("Number of pulpulaks per valve category in", districtNames[5]),
+         x = "Type of pulpulak per valve installation",
+         y = "Number of pulpulaks per each category",
+         fill = "Valve type")
+
+```
+
+Most of the pulpulaks in Erebuni district have no valve. Again, pay attention that there are no pulpulaks with broken valves here.
+
+```{r, echo = FALSE, message=FALSE, warning=FALSE, fig.cap="Figure 7: Number of pulpulaks per valve category in Arabkir"}
+
+ggplot() + geom_bar(data = clean_collected_data[clean_collected_data$District == districtNames[6],], aes(x = Type, fill = Type)) +
+    labs(title = paste("Number of pulpulaks per valve category in", districtNames[6]),
+         x = "Type of pulpulak per valve installation",
+         y = "Number of pulpulaks per each category",
+         fill = "Valve type")
+
+```
+
+Most of the pulpulaks in Arabkir district have no valve. Also, the number of pulpulaks with broken valve is relatively lower compared to the number of those in previous districts.
+
+```{r, echo = FALSE, message=FALSE, warning=FALSE, fig.cap="Figure 8: Number of pulpulaks per valve category in Avan"}
+
+ggplot() + geom_bar(data = clean_collected_data[clean_collected_data$District == districtNames[7],], aes(x = Type, fill = Type)) +
+    labs(title = paste("Number of pulpulaks per valve category in", districtNames[7]),
+         x = "Type of pulpulak per valve installation",
+         y = "Number of pulpulaks per each category",
+         fill = "Valve type")
+
+```
+
+In Avan district too, there are no pulpulaks with broken valves. Most of the pulpulaks have no valve.
+
+```{r, echo = FALSE, message=FALSE, warning=FALSE, fig.cap="Figure 9: Number of pulpulaks per valve category in Davtashen"}
+
+ggplot() + geom_bar(data = clean_collected_data[clean_collected_data$District == districtNames[8],], aes(x = Type, fill = Type)) +
+    labs(title = paste("Number of pulpulaks per valve category in", districtNames[8]),
+         x = "Type of pulpulak per valve installation",
+         y = "Number of pulpulaks per each category",
+         fill = "Valve type")
+
+```
+
+In Davtashen district most of the pulpulaks have no valve.
+
+```{r, echo = FALSE, message=FALSE, warning=FALSE, fig.cap="Figure 10: Number of pulpulaks per valve category in Kanaker-Zeytun"}
+
+ggplot() + geom_bar(data = clean_collected_data[clean_collected_data$District == districtNames[9],], aes(x = Type, fill = Type)) +
+    labs(title = paste("Number of pulpulaks per valve category in", districtNames[9]),
+         x = "Type of pulpulak per valve installation",
+         y = "Number of pulpulaks per each category",
+         fill = "Valve type")
+
+```
+
+Kanaker-Zeytun district as well has mostly pulpulaks with no valves.
+
+```{r, echo = FALSE, message=FALSE, warning=FALSE, fig.cap="Figure 11: Number of pulpulaks per valve category in Nor Nork"}
+
+ggplot() + geom_bar(data = clean_collected_data[clean_collected_data$District == districtNames[10],], aes(x = Type, fill = Type)) +
+    labs(title = paste("Number of pulpulaks per valve category in", districtNames[10]),
+         x = "Type of pulpulak per valve installation",
+         y = "Number of pulpulaks per each category",
+         fill = "Valve type")
+
+```
+
+In Nor-Nork district, as in other districts, most of the pulpulaks have no valve.
+
+Evaluation:
+
+Most of the pulpulaks in the Kentron district have no valve. The valves of some of the pulpulaks that have valves are broken.
+
+```{=html}
+<hr>
+```
+
+**2. Taking into account the flow rates from continuously flowing
+pulpulaks in your dataset, how much water is lost per day in Kentron?
+How much per year? What are those numbers equivalent to?**
+
+Let's get to the amount of water lost in Kentron per day and per year
+and compare it with other forms of water usage. We will obviously
+exclude the pulpulaks with valves since they are not wasting water.
+
+```{r, echo = FALSE, message=FALSE, warning=FALSE}
+#unique(filtered_data$Flow.rate..L.min.)
+continous_flow_data <- filtered_data %>% filter( (Type == "no valve" | Type == "with a broken valve") & Flow.rate..L.min. != "no flow/broken" & Flow.rate..L.min. != "Not working " & Flow.rate..L.min. !=  "Not working")
+```
+
+```{r, echo = FALSE, message=FALSE, warning=FALSE}
+write.xlsx(continous_flow_data, "output_file.xlsx")
+
+```
+
+```{r, echo = FALSE, message=FALSE, warning=FALSE}
+refined_data <- read.csv("refined_data.csv")
+```
+
+Before running the numbers, the data was exported and further refined in excel.
+Let's get the numbers for water wastage:
+
+```{r, echo = FALSE, message=FALSE, warning=FALSE}
+per_minute_total = sum(refined_data$Flow.rate..L.min.)
+per_day_total = per_minute_total * 60 * 24
+per_year_total = per_day_total * 365
+```
+
+Here is the total amount of water wasted in Kentron:\
+1. Per minute: `r per_minute_total`\
+2. Per day : `r per_day_total`\
+3. Per year: `r per_year_total`\
+
+The wasted water in Kentron per day is roughly equivalent to the per
+capita water usage of about 2,902,824 people in New York City per day.
+
+The wasted water in Kentron per day is roughly equivalent to the per
+capita water usage of about 5,186,218 people in Tokyo per day.
+
+The wasted water in Kentron per day is equivalent to about 0.0015% of
+the daily water usage in the entire United States.
+
+The wasted water in Kentron per day is equivalent to about 0.00003% of
+China's annual water usage per day.
+
+The wasted water in Kentron per year is roughly equivalent to the per
+capita water usage of about 1,059,178 people in New York City.
+
+The wasted water in Kentron per year is roughly equivalent to the per
+capita water usage of about 1,891,455 people in Tokyo.
+
+United States: The total water usage in the United States is around
+3,800 billion gallons per day (approximately 14,384,000,000,000 liters
+per day). The wasted water in Kentron per year is equivalent to about
+0.0014% of the daily water usage in the entire United States.
+
+China: China's total water usage is around 554 billion cubic meters per
+year (approximately 554,000,000,000,000 liters per year). The wasted
+water in Kentron per year is equivalent to about 0.00003% of China's
+annual water usage.
+
+```{=html}
+<hr>
+```
+
+3.  
+
+a)  **Describe the distribution of pulpulaks between the different
+    districts. Highlight if there are significant spatial discrepancies
+    in their distribution density. Analyze the potential reasons that
+    lead to these differences.**
+    
+    
+```{r, echo = FALSE, message = FALSE, warning = FALSE, fig.cap="Figure 12: Number of pulpulaks in each Yerevan district"}
+ggplot() + geom_bar(data = collected_data, aes(x = District, fill = District)) +
+  labs(title = "Number of pulpulaks in each Yerevan district",
+       x = "District Name",
+       y = "Number of pulpulaks",
+       fill = "District color") +
+  theme(axis.text.x = element_text(angle = 90, hjust = 1),)
+
+```
+
+The barplot shows clearly that the most amount of tracked pulpulaks is in Erebuni district and the smallest amount is in Nork-Marash (not counting the pulpulaks from the unnamed area).
+Looking at the interactive map below, we can see that pulpulaks are located more densely in Kanaker-Zeytun and Arabkir districts.
+
+b)  **Develop a methodology to identify where it is more likely to find
+    pulpulaks. Try to find correlations related to some of these
+    factors:**
+    
+    
+a.  **Road types**
+
+b.  **Architecture**
+
+c.  **Socioeconomic realities and institutions**
+
+d.  **Proximity to certain institutions and entities**
+
+e.  **Demographics**
+
+f.  **Geography**
+
+**Do your conclusions somehow explain the spatial distribution answered
+above?**
+    
+```{r, echo = FALSE, message = FALSE, warning = FALSE, fig.cap="Figure 13: Scatterplot of number of pulpulaks over number of amenities in a district"}
+districtInfoData <- read.csv("districtInfoData.csv")
+
+districtInfoData$TotalPointNum <- 0
+districtInfoData$X <- NULL
+
+# 2- 15
+
+for(i in 1:nrow(districtInfoData)) {
+  districtInfoData[i, 17] <- sum(districtInfoData[i, 2:15])
+}
+
+districtVector <- districtInfoData$District
+pointNumVector <- districtInfoData$TotalPointNum
+
+districtCorData <- data.frame(districtVector, pointNumVector)
+districtCorData <- districtCorData[-1,]
+
+districtCorData$pulpulakNum <- 0
+
+for(i in 1:nrow(districtCorData)) {
+  districtCorData[i, 3] <- nrow(collected_data[collected_data$District == districtCorData[i,1],])
+}
+
+ggplot() + geom_point(data = districtCorData, aes(x = pointNumVector, y = pulpulakNum)) +
+  labs(title = "Scatterplot of number of pulpulaks over number of amenities in a district",
+       x = "Number of amenities", y = "Number of pulpulak")
+
+```
+
+
+
+The graph above shows the correlation between the number of amenities and the number of pulpulaks in each district. As we can see, there is no linear relationship, i.e. no correlation between these two factors, therefore architecture, proximity to certain institutions and entities do not affect the number of pulpulaks in a given area.
+
+```{r, echo = FALSE, message = FALSE, warning= FALSE, fig.cap="Map 1: Public pulpulmap of Yerevan"}
+
+arcgis_map_url <- "https://aua-gis-lab.maps.arcgis.com/apps/instant/portfolio/index.html?appid=33b280e0682046549672150545eee4cb"
+
+leaflet() %>%
+  addTiles() %>%
+  htmlwidgets::onRender(sprintf("function(el, x) {el.innerHTML = '<iframe src=\"%s\" width=\"100%%\" height=\"100%%\"></iframe>'}", arcgis_map_url))
+
+
+```
+
+When it comes to geography, we can look at the elevation, and there are no patterns on the elevation map that clearly point out to some sort of correlation between elevation and the number of pulpulaks in a given area.
+
+When it comes to buildings and land use, we can see based on the map that the land use does not matter that much, however all the pulpulaks (at least most of them) are built in a close proximity to buildings. Wherever we see pulpulaks, we can also see buildings nearby.
+
+Currently, there is no information regarding the road types in Yerevan, therefore we cannot make any conclusions at the moment about the correlation between the road types and number of pulpulaks in a given area.
+
+However, based on the map, we can notice that the closer you get to Kentron district, the bigger is the number of the pulpulaks and the higher is their density. So, we can say that to some extent, the number of pulpulaks is dependent upon road types, architecture, socioeconomic realities and institutions, demographics and geography since there is a big number of people going in and out of Kentron on a daily basis, because clearly, the factors that were mentioned earlier have a better and improved manifestations in Kentron district compared to the other districts.
+
+Therefore all the above factors to some extent affect the number of pulpulaks in a given area, except the number of amenities.
+
+```{=html}
+<hr>
+```
+
+4.  **Are there significant differences in flow rates of continuously
+    flowing pulpulaks between different districts? Hypothesize why there
+    may or may not be a difference depending on your answers.**
+
+```{r, echo = FALSE, message = FALSE, warning = FALSE}
+
+
+updated_data <- read.csv("collected_data.csv")
+
+updated_data$Flow.rate..L.min. <- as.numeric(updated_data$Flow.rate..L.min.)
+updated_data <- na.omit(updated_data)
+updated_data <- updated_data[updated_data$Type == "no valve",]
+
+```
+
+```{r, echo = FALSE, message = FALSE, warning = FALSE, fig.cap="Figure 14: Number of pulpulaks per given flow rate"}
+ggplot() + geom_histogram(data = updated_data[updated_data$District == districtNames[1],], aes(x = Flow.rate..L.min.), color = "white") +
+    labs(title = paste("Number of pulpulaks per given flow rate in", districtNames[1], "district"),
+         x = "Flow rate (liter per minute)", y = "Number of pulpulaks")
+
+```
+
+We can see that in Ajapnyak district the water flow rate of pulpulaks is mostly concetrated around the neighborhood of 2.5 liters per minute. The frequency of flow rate range increases with disruptions(lower bars in between the higher ones that are in the range below 2.5) towards 2.5, reaches its peak around 2.5 and little bit below it and then decreases. There are some outlier flow rate ranges but they do not have a high frequency of appearing in pulpulaks (relatively speaking).
+
+```{r, echo = FALSE, message = FALSE, warning = FALSE, fig.cap="Figure 15: Number of pulpulaks per given flow rate"}
+ggplot() + geom_histogram(data = updated_data[updated_data$District == districtNames[2],], aes(x = Flow.rate..L.min.), color = "white") +
+    labs(title = paste("Number of pulpulaks per given flow rate in", districtNames[2], "district"),
+         x = "Flow rate (liter per minute)", y = "Number of pulpulaks")
+```
+
+We can clearly see that most of the pulpulaks in Shengavit district tend to have low flow rates (around or below 1 liter per minute) since the histogram is clearly right skewed. Again, there are some outliers with high flow rates, however their frequency is quite low. So we can confidently say that most of the pulpulaks in Shengavit district maintain low flow rates.
+
+```{r, echo = FALSE, message = FALSE, warning = FALSE, fig.cap="Figure 16: Number of pulpulaks per given flow rate"}
+ggplot() + geom_histogram(data = updated_data[updated_data$District == districtNames[3],], aes(x = Flow.rate..L.min.), color = "white") +
+    labs(title = paste("Number of pulpulaks per given flow rate in", districtNames[3], "district"),
+         x = "Flow rate (liter per minute)", y = "Number of pulpulaks")
+```
+
+Based on the histogram for the pulpulak water flow rate in Kentron district, we can clearly see that in this district the flow rate of pulpulaks falls within a larger range than in the previous two. The highest frequencies are concentrated around 3 liters per minute and a little bit above 4 liters per minute. There are several outliers which mostly have low frequencies, except the one that falls within the range just a bit above 6 liters per minute.
+
+```{r, echo = FALSE, message = FALSE, warning = FALSE, fig.cap="Figure 17: Number of pulpulaks per given flow rate"}
+ggplot() + geom_histogram(data = updated_data[updated_data$District == districtNames[4],], aes(x = Flow.rate..L.min.), color = "white") +
+    labs(title = paste("Number of pulpulaks per given flow rate in", districtNames[4], "district"),
+         x = "Flow rate (liter per minute)", y = "Number of pulpulaks")
+```
+
+Even though Erebuni has the most number of pulpulaks among all the districts of Yerevan, we can clearly see that the histogram of the flow rates of pulpulaks in the district is right skewed, i.e. most of the flow rates of pulpulak water fall within small ranges, i.e. the pulpulaks in this district do not use too much of water.
+
+```{r, echo = FALSE, message = FALSE, warning = FALSE, fig.cap="Figure 18: Number of pulpulaks per given flow rate"}
+ggplot() + geom_histogram(data = updated_data[updated_data$District == districtNames[5],], aes(x = Flow.rate..L.min.), color = "white") +
+    labs(title = paste("Number of pulpulaks per given flow rate in", districtNames[5], "district"),
+         x = "Flow rate (liter per minute)", y = "Number of pulpulaks")
+```
+
+The flow rates of pulpulak water in Arabkir district, as the ones in Kentron district, are widespread within a broader range. And as in Kentron, so here, the most of the flow rates are concentrated around the neighborhood of 3 liters per minute, a bit more than 4 (4.5) liters per minute. The only difference from the Kentron district here would be the outliers: yes, there are outliers here as well, however, none of them have relatively high frequencies, meanwhile there was one outlier range of flow rate in Kentron, which had a relatively high frequency.
+
+```{r, echo = FALSE, message = FALSE, warning = FALSE, fig.cap="Figure 19: Number of pulpulaks per given flow rate"}
+ggplot() + geom_histogram(data = updated_data[updated_data$District == districtNames[6],], aes(x = Flow.rate..L.min.), color = "white") +
+    labs(title = paste("Number of pulpulaks per given flow rate in", districtNames[6], "district"),
+         x = "Flow rate (liter per minute)", y = "Number of pulpulaks")
+```
+
+The flow rates in Avan district are widespread across a bigger range as well. Most of the flow rates of pulpulaks fall within the range just a bit above 2 liters per minute, and above 3.5 liters per minute. However, other ranges also have relatively high frequencies, execpt the outlier range above 5 liter per minute. We could say that in this district, they do not really pay attention to or care about how much the water flow rate of a given pulpulak is.
+
+```{r, echo = FALSE, message = FALSE, warning = FALSE, fig.cap="Figure 20: Number of pulpulaks per given flow rate"}
+ggplot() + geom_histogram(data = updated_data[updated_data$District == districtNames[7],], aes(x = Flow.rate..L.min.), color = "white") +
+    labs(title = paste("Number of pulpulaks per given flow rate in", districtNames[7], "district"),
+         x = "Flow rate (liter per minute)", y = "Number of pulpulaks")
+```
+
+It can be clearly seen in the histogram its humps(or modes) have shifted more towards right, i.e. higher flow rates. This tells us that in Davtashen districts there are more pulpulaks with higher flow rates than in the previous districts (except maybe Kentron and Arabkir). There are outliers in the histogram, but they fall within either very low or very high ranges, and one of the outliers within the high ranges (a bit above 6 liters per minute) has relatively high frequency. We can confidently state that in Davtashen district, a lot more pulpulaks have higher flow rates than say in Shengavit, Avan and Erebuni.
+
+```{r, echo = FALSE, message = FALSE, warning = FALSE, fig.cap="Figure 21: Number of pulpulaks per given flow rate"}
+ggplot() + geom_histogram(data = updated_data[updated_data$District == districtNames[8],], aes(x = Flow.rate..L.min.), color = "white") +
+    labs(title = paste("Number of pulpulaks per given flow rate in", districtNames[8], "district"),
+         x = "Flow rate (liter per minute)", y = "Number of pulpulaks")
+```
+
+Most of the pulpulaks in Kanaker-Zeytun district have relatively low flow rates: the majority falls within the range of up to 3.75 liter per minute, even though there are couple of ranges above that threshold that have pretty high frequencies, like the one a bit above 3.75 liter per minute and right by and above 5 liters per minute. So, we can say, that the pulpulaks in this district have mosty low flow rates. 
+
+
+```{r, echo = FALSE, message = FALSE, warning = FALSE, fig.cap="Figure 22: Number of pulpulaks per given flow rate"}
+ggplot() + geom_histogram(data = updated_data[updated_data$District == districtNames[9],], aes(x = Flow.rate..L.min.), color = "white") +
+    labs(title = paste("Number of pulpulaks per given flow rate in", districtNames[9], "district"),
+         x = "Flow rate (liter per minute)", y = "Number of pulpulaks")
+```
+
+The pulpulak water flow rate distribution does not follow any certain patterns in Nork-Marash district. We have the highest frequencies within the neighborhood of 2.5 liters per minute, which is considered low, and within the neighborhood of 5 liters per minute, which is considered high.
+
+
+```{r, echo = FALSE, message = FALSE, warning = FALSE, fig.cap="Figure 23: Number of pulpulaks per given flow rate"}
+ggplot() + geom_histogram(data = updated_data[updated_data$District == districtNames[10],], aes(x = Flow.rate..L.min.), color = "white") +
+    labs(title = paste("Number of pulpulaks per given flow rate in", districtNames[10], "district"),
+         x = "Flow rate (liter per minute)", y = "Number of pulpulaks")
+
+```
+
+The histogram clearly indicates that the pulpulak water flow rates in Nor Nork district mostly fall within lower ranges and most of the pulpulaks in this district use less water.
+
+So we can conclude here that the following three district out of all considered districts of Yerevan have the most pulpulaks with higher flow rates (in the following order):
+
+1. Kentron
+2. Arabkir
+3. Davtashen
+
+<hr>
+
+In the section below, we will answer the following quantiative questions:
+
+1. Where does the water of pulpulaks come from?
+2. Who is responsible for checking the water quality and ensuring drinking water safety standards are respected for pulpulak waters?
+3. Who is responsible for maintaining and fixing the pulpulaks?
+4. How easy is it to build a new pulpulak? What is the process?
+
+<hr>
+
+<h2>Qualitative Questions</h2>
+
+<b>1. Where does the water of pulpulaks come from?</b>
+
+Armenia's drinking fountains, often called "pulpulaks," typically get their water from local sources. These sources can include natural springs, wells, or the municipal water supply. To be more specific, the water of the pulpulak comes from the internal networks of the main water supply system entering this residential complex. Water comes to Yerevan from the settlements of Aparan, Hrazdan, Gyumush (Karenis), Getamej, Lusakert, and Garni, as well as from the Azat River basin.
+
+<hr>
+
+<b>2. Who is responsible for checking the water quality and ensuring drinking water safety standards are respected for pulpulak waters?</b>
+
+Before the water reaches populated areas, it enters reservoirs where it is filtered and purified. Responsibility for water quality lies on the water supplier of a given area or city. “Veolia Jur” company is the main water supplier in Armenia, so it is mainly its responsibility to check the quality. 
+
+<hr>
+
+<b>3. Who is responsible for maintaining and fixing the pulpulaks?</b>
+
+If a fountain is damaged, it is repaired by the person who built it. Mostly, pulpulaks are built illegally by the local population, so they pay for the repairs. If the fountain was built by a municipality or other institution, then they are the ones who repair it. Naturally, there are also cases when the governing institution of a given area expresses its readiness to repair the pulpulaks, but this in no way shifts responsibility onto them.
+
+<hr>
+
+<b>4. How easy is it to build a new pulpulak? What is the process?</b>
+
+As was already mentioned, in most cases, pulpulaks are built illegally and no one is responsible for it. Especially in recent years, given the war situation and its consequences and the fact that most newly built fountains are dedicated to the memory of the fallen, neither the government nor the water supplier makes any demands on them. In the above case, people simply dig up the ground, find the nearest water pipe, and “rob” water from it. Otherwise, if everything is done legally, an application paper should be submitted to the local water supplier (as well as to the local government if there is a territorial problem), and only after getting permission should the necessary work be carried out. In this case, a meter is installed, and the person responsible for pulpulak pays money for the water consumed. If the fountain is established by a municipality or other government agency, the payer is that agency.
+
+<hr>
+
+```{r, echo = FALSE, message = FALSE, warning = FALSE}
+survey <- read.csv("survey.csv")
+
+survey <- survey[, c(-1)]
+
+for(i in 1:nrow(survey)) {
+  if(survey[i, 1] == "Normal / Միջին") {
+    survey[i, 1] <- "Normal"
+  } else if(survey[i, 1] == "Bad / Վատ") {
+    survey[i, 1] <- "Bad"
+  } else if(survey[i, 1] == "Good / Լավ") {
+    survey[i, 1] <- "Good"
+  } else if(survey[i, 1] == "Very good/ Շատ լավ" ){
+    survey[i, 1] <- "Very good"
+  } else if(survey[i, 1] == "Pulpulaks in kentron have disgusting water, elsewhere its great"){
+    survey[i, 1] <- "Kentron - bad, the rest - good"
+  }
+}
+
+for(i in 1:nrow(survey)) {
+  if(survey[i, 5] == "Reasonable / Խելամիտ") {
+    survey[i, 5] <- "Reasonable"
+  } else if(survey[i, 5] == "Expensive / Թանկ") {
+    survey[i, 5] <- "Expensive"
+  } else if(survey[i, 5] == "Cheap / Մատչելի") {
+    survey[i, 5] <- "Cheap"
+  }
+}
+
+colnames(survey) <- c("What is your opinion about pulpulaks' water quality?",
+                      "Armenian pulpulaks together lose 240 million cubic meters of water annually. What do you think about the quantity of water loss?",
+                      "Do you think there is a problem? If yes, what kind of challenges do you foresee and how to mitigate them?",
+                      "Which is the pulpulak in Yerevan that has the tastiest water?",
+                      "How do you think water in Armenia is priced?  (The cost for 1m^3 is about 200 AMD)")
+
+#colnames(survey) <- c("opinion", "loss", "taste", "price")
+
+```
+
+
+<b>What is your opinion about pulpulaks' water quality?</b>
+
+```{r, echo = FALSE, message = FALSE, warning = FALSE, fig.cap="Figure 24: What is your opinion about pulpulaks' water quality?"}
+
+ggplot(survey, aes(x=factor(1), fill=`What is your opinion about pulpulaks' water quality?`))+geom_bar() + coord_polar(theta="y",start=0) + labs(
+  title = "What is your opinion about pulpulaks' water quality?",
+  x = "",
+  y = ""
+) + theme(axis.text = element_blank(), axis.ticks = element_blank(), legend.title = element_blank())
+```
+
+<br>
+
+```{r, echo = FALSE, message = FALSE, warning = FALSE}
+paste("Bad: ", nrow(survey[survey$`What is your opinion about pulpulaks' water quality?` == "Bad",]))
+paste("Good: ", nrow(survey[survey$`What is your opinion about pulpulaks' water quality?` == "Good",]))
+paste("Kentron - bad, the rest - good: ", nrow(survey[survey$`What is your opinion about pulpulaks' water quality?` == "Kentron - bad, the rest - good",]))
+paste("Normal: ", nrow(survey[survey$`What is your opinion about pulpulaks' water quality?` == "Normal",]))
+paste("Very good: ", nrow(survey[survey$`What is your opinion about pulpulaks' water quality?` == "Very good",]))
+```
+As we can see from the diagram, 41.3% of people think that it is good, 26.1% think it is very good, 28.3% think it is something in the middle, 2.2% think it is bad, and one person thinks that the quality is bad only in Kenton region and elsewhere is great. Interestingly, we got no response that the water quality is very bad, which is nice.
+
+<hr>
+
+<b>Armenian pulpulaks together lose 240 million cubic meters of water annually. What do you think about the quantity of water loss?</b>
+
+<b>Do you think there is a problem? If yes, what kind of challenges do you foresee and how to mitigate them?</b>
+
+<b>Which is the pulpulak in Yerevan that has the tastiest water?</b>
+
+```{r, echo = FALSE, message = FALSE, warning = FALSE, fig.cap="Datatable 1: Answers to open ended questions from the survey"}
+datatable(survey[, 2:4])
+```
+
+The second question was: “Armenian pulpulaks together lose 240 million cubic meters of water annually. What do you think about the quantity of water loss?”. Most people gave very short responses, saying that the loss was too much or disappointing. However, there were people more worried about the situation. Here are some of their responses:
+-I think that the overall water loss rate in Armenia is too high, and pulpulaks have a huge impact on this phenomenon. The cause of it can be bad water control on pulpulaks because the vast majority of them do not have taps, and they just flow 24/7, which is unnecessary water waste. 
+-Given the problem of drinking water in the world today, I think it would be wise to find options on how we can use it.
+-THIS IS A HUGE LOSS; WE SHOULD NOT TREAT OUR WATER RESOURCES LIKE THAT
+-We need water treatment plants
+-The water loss is very high, that's why special valves should be installed to control the water flow
+-Even though water is not a scarce resource, it’s not normal to use the resource in such an irresponsible way
+-I think that this number is huge, and the problem is that Armenians do not use the water properly. I think if the pulpulaks had a valve, this loss would be less.
+
+In contrast, there were also people who thought there was no water waste, that the amount was small, or simply they didn’t care at all.
+
+The third question was: “Do you think there is a problem? If yes, what kind of challenges do you foresee and how to mitigate them?”.
+To this question, 8 people answered that there was no problem, and 3 gave no answer. Others answered that the water loss is waste and suggested putting valves on pulpulaks to reduce water loss. Among the problems were also the wrong management of the resources, freezing pipes during the winter and the overuse and lack of clean water. 
+
+The fourth question was: “Which pulpulak in Yerevan has the tastiest water?”.
+Answers to this question were diverse. However, comparably, more voices were given to the pulpulak in Republic Square (“7 Springs”). People who liked the pulpulak in their yard the most were in second place. Other responses are: “Ones in Nor Nork,” “The one near Megamall,” “All,” “Pulpulak in Northern Avenue,” “The one on the crossroad of Alek Manukyan and Sayat Nova streets,” “The one on Proshyan Street,” “Near the Pizza Di Roma, Republic Square,” “Avan,” “Idk honestly I saw a reel it said in Nubarashen,” “Basically they are all the same,” “Tsitsernakaberd”, “AUA park” to name but a few. 
+
+
+<hr>
+
+<b>How do you think water in Armenia is priced?  (The cost for 1m^3 is about 200 AMD)</b>
+
+```{r, echo = FALSE, message = FALSE, warning = FALSE, fig.cap="Figure 24: What is your opinion about pulpulaks' water quality?"}
+
+ggplot(survey, aes(x=factor(1), fill=`How do you think water in Armenia is priced?  (The cost for 1m^3 is about 200 AMD)`))+geom_bar() + coord_polar(theta="y",start=0) + labs(
+  title = "How do you think water in Armenia is priced?\n(The cost for 1m^3 is about 200 AMD)",
+  x = "",
+  y = "",
+  legend = ""
+) + theme(axis.text = element_blank(), axis.ticks = element_blank(), legend.title = element_blank())
+```
+
+<br>
+
+```{r, echo = FALSE, message = FALSE, warning = FALSE}
+paste("Cheap: ", nrow(survey[survey$`How do you think water in Armenia is priced?  (The cost for 1m^3 is about 200 AMD)` == "Cheap",]))
+paste("Expensive: ", nrow(survey[survey$`How do you think water in Armenia is priced?  (The cost for 1m^3 is about 200 AMD)` == "Expensive",]))
+paste("Reasonable: ", nrow(survey[survey$`How do you think water in Armenia is priced?  (The cost for 1m^3 is about 200 AMD)` == "Reasonable",]))
+```
+
+<hr>
+
+<b>What purpose do pulpulaks serve?</b>
+
+```{r, echo = FALSE, message = FALSE, warning = FALSE, fig.cap="Figure 25: What purpose do pulpulaks serve?"}
+ggplot() + geom_bar(data = clean_collected_data, aes(x = Secondary.purpose.)) +
+  labs(title = "Secondary purpose of pulpulaks in Yerevan",
+       x = "Secondary purpose category",
+       y = "Number of pulpulaks per secondary purpose category") + coord_flip()
+
+  
+```
+
+It is clearly seen from the barplot that most of the pulpulaks in Yerevan do not serve any secondary purpose, they are just there as sources of "free" drinking water.
+
+<hr>
+
+*Summary and discussion:*
+
+From the results above, we can clearly see that the water usage is not done in a very efficient and "water-conscious" manner: most of the pulpulaks have no valve, no secondary purpose, are built by anyone who wishes (with no proper approval process) and are built with no particular pattern related to any of the factors of city architecture, network, roads and other realms. So indeed, we can retain our hypothesis, which states that a combination of inadequate infrastructure, behavioral factors, and a lack of stringent conservation measures contributes to the substantial loss of water resources.
+
+<hr>
+
+*References*
+
+All the data has been collected by the authors of the paper and fellow classmates.
